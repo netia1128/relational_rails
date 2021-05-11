@@ -3360,3 +3360,1942 @@ Processing by FacilitiesController#index as HTML
 Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/facilities/new" for ::1 at 2021-05-11 14:33:36 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 14:36:32 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB3facilities (20210511204918)
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB3Facilities (20210511210133)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB3Facilities (20210511210133)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (16.5ms)[0m  [1m[35mCREATE TABLE "b3_facilities" ("id" bigserial primary key, "b3_street_number" integer, "b3_street_prefix" character varying, "b3_street_name" character varying, "b3_street_type" character varying, "b3_unit_info" character varying, "b3_city" character varying, "b3_state" character varying, "b3_zip" integer, "b3_has_co" boolean, "created_at" timestamp, "updated_at" timestamp)[0m
+  ↳ db/migrate/20210511210133_create_b3_facilities.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511210133"]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB1Permits (20210511210203)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "b1_permits" ("id" bigserial primary key, "b3_facilities_id" bigint, "b1_special_text" character varying, "b1_appl_status" character varying, "b1_per_sub_type" character varying, "b1_expiration" timestamp, "b1_extraction" boolean, "b1_plant_count" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_285ca18d54"
+FOREIGN KEY ("b3_facilities_id")
+  REFERENCES "b3_facilities" ("id")
+)[0m
+  ↳ db/migrate/20210511210203_create_b1_permits.rb:3
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_b1_permits_on_b3_facilities_id" ON "b1_permits"  ("b3_facilities_id")[0m
+  ↳ db/migrate/20210511210203_create_b1_permits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511210203"]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Started POST "/facilities" for ::1 at 2021-05-11 15:07:05 -0600
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"0WEUuc1SJW92Uough4C4txN6vqTCD6gMH5XDxYWXLYqUPqKVMuY1iF+frQMFyyqSy1URmcUwwy1LoDEu26Xy4A==", "facility"=>{"b3_street_number"=>"1311 ", "b3_street_name"=>"E 2TH", "b3_street_type"=>"AVE", "b3_unit_info"=>"", "b3_city"=>"DENVER", "b3_state"=>"Colorado", "b3_zip"=>"80205", "b3_has_co"=>"true"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (2.1ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["b3_street_number", 1311], ["b3_street_name", "E 2TH"], ["b3_street_type", "AVE"], ["b3_unit_info", ""], ["b3_city", "DENVER"], ["b3_state", "Colorado"], ["b3_zip", 80205], ["b3_has_co", true], ["created_at", "2021-05-11 21:07:05.417646"], ["updated_at", "2021-05-11 21:07:05.417647"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 43ms (ActiveRecord: 20.6ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:07:05 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 103.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 15:07:06 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 15:07:29 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 15:07:44 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/facilities" for ::1 at 2021-05-11 15:08:22 -0600
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"Ju5JkDvQOnnkMW8wUaz9/Nk9oV/t3CrjfIbhawxmEeuJa5S36WkvDDH9ttcqdUQ7xpXh0AnhWDMzelUVrXOFAg==", "facility"=>{"b3_street_number"=>"1311", "b3_street_prefix"=>"E", "b3_street_name"=>"27TH", "b3_street_type"=>"AVE", "b3_unit_info"=>"", "b3_city"=>"DENVER", "b3_state"=>"CO", "b3_zip"=>"80205", "b3_has_co"=>"true"}}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (2.1ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 1311], ["b3_street_prefix", "E"], ["b3_street_name", "27TH"], ["b3_street_type", "AVE"], ["b3_unit_info", ""], ["b3_city", "DENVER"], ["b3_state", "CO"], ["b3_zip", 80205], ["b3_has_co", true], ["created_at", "2021-05-11 21:08:22.824652"], ["updated_at", "2021-05-11 21:08:22.824654"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 11ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:08:22 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:12:53 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: </form>
+     6: 
+     7: 
+     8: <% @facilities.each do |facility| %>
+     9:   <%= facility.full_address %>
+    10: <% end %>%
+  
+app/views/facilities/index.html.erb:8:in `_app_views_facilities_index_html_erb__31406301281161015_15020'
+Started GET "/facilities" for ::1 at 2021-05-11 15:14:12 -0600
+  
+ActionController::RoutingError (uninitialized constant FacilitiesController):
+  
+activesupport (5.2.6) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.6) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.6) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.6) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.6) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.6) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.6) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.6) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/facilities" for ::1 at 2021-05-11 15:14:28 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: </form>
+     6: 
+     7: 
+     8: <% @b3_facilities.each do |facility| %>
+     9:   <%= facility.full_address %>
+    10: <% end %>%
+  
+app/views/facilities/index.html.erb:8:in `_app_views_facilities_index_html_erb__31406301281161015_18980'
+Started GET "/facilities" for ::1 at 2021-05-11 15:14:50 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: </form>
+     6: 
+     7: 
+     8: <% @b3_facilities.each do |facility| %>
+     9:   <%= facility.full_address %>
+    10: <% end %>%
+  
+app/views/facilities/index.html.erb:8:in `_app_views_facilities_index_html_erb__31406301281161015_19500'
+Started GET "/facilities" for ::1 at 2021-05-11 15:15:56 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:7
+Started POST "/facilities" for ::1 at 2021-05-11 15:20:31 -0600
+Started POST "/facilities" for ::1 at 2021-05-11 15:20:46 -0600
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"Ju5JkDvQOnnkMW8wUaz9/Nk9oV/t3CrjfIbhawxmEeuJa5S36WkvDDH9ttcqdUQ7xpXh0AnhWDMzelUVrXOFAg==", "facility"=>{"b3_street_number"=>"1311", "b3_street_prefix"=>"E", "b3_street_name"=>"27TH", "b3_street_type"=>"AVE", "b3_unit_info"=>"", "b3_city"=>"DENVER", "b3_state"=>"CO", "b3_zip"=>"80205", "b3_has_co"=>"true"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[36mB3Facility Create (2.0ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 1311], ["b3_street_prefix", "E"], ["b3_street_name", "27TH"], ["b3_street_type", "AVE"], ["b3_unit_info", ""], ["b3_city", "DENVER"], ["b3_state", "CO"], ["b3_zip", 80205], ["b3_has_co", true], ["created_at", "2021-05-11 21:21:13.016704"], ["updated_at", "2021-05-11 21:21:13.016707"]]
+  ↳ app/controllers/facilities_controller.rb:29
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:29
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 26855ms (ActiveRecord: 27.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:21:13 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:7
+  Rendered facilities/index.html.erb within layouts/application (13.8ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `address' for #<B3Facility:0x00007ff4f106c488>
+Did you mean?  full_address):
+    5: </form>
+    6: 
+    7: <% @b3facilities.each do |facility| %>
+    8:   <%= facility.full_address %>
+    9: <% end %>%
+  
+app/models/b3_facility.rb:17:in `block in full_address'
+app/models/b3_facility.rb:16:in `each'
+app/models/b3_facility.rb:16:in `find_all'
+app/models/b3_facility.rb:16:in `full_address'
+app/views/facilities/index.html.erb:8:in `block in _app_views_facilities_index_html_erb___4416220472235096860_12880'
+app/views/facilities/index.html.erb:7:in `_app_views_facilities_index_html_erb___4416220472235096860_12880'
+Started GET "/facilities" for ::1 at 2021-05-11 15:25:07 -0600
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.3ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:7
+  Rendered facilities/index.html.erb within layouts/application (31.4ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 14.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `address' for #<B3Facility:0x00007fdeb7bda518>
+Did you mean?  full_address):
+    5: </form>
+    6: 
+    7: <% @b3facilities.each do |facility| %>
+    8:   <%= facility.full_address %>
+    9: <% end %>%
+  
+app/models/b3_facility.rb:17:in `block in full_address'
+app/models/b3_facility.rb:16:in `each'
+app/models/b3_facility.rb:16:in `find_all'
+app/models/b3_facility.rb:16:in `full_address'
+app/views/facilities/index.html.erb:8:in `block in _app_views_facilities_index_html_erb__4015445272605571667_12620'
+app/views/facilities/index.html.erb:7:in `_app_views_facilities_index_html_erb__4015445272605571667_12620'
+Started GET "/facilities" for ::1 at 2021-05-11 15:25:27 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:7
+Started GET "/facilities" for ::1 at 2021-05-11 15:25:33 -0600
+Started GET "/" for ::1 at 2021-05-11 15:26:35 -0600
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:26:49 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:7
+  Rendered facilities/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 65ms (Views: 35.6ms | ActiveRecord: 18.5ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:27:13 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:7
+  Rendered facilities/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:27:38 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 15:27:42 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/facilities" for ::1 at 2021-05-11 15:28:10 -0600
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"f6W7VTnoZQp4VZCykdGsXGnZ+T3lCULrbLUO7n+XFqrQIGZy61Fwf62ZSVXqCBWbdnG5sgE0MDsjSbqQ3oKCQw==", "facility"=>{"b3_street_number"=>"201", "b3_street_prefix"=>"W", "b3_street_name"=>"Colfax", "b3_street_type"=>"Ave", "b3_unit_info"=>"", "b3_city"=>"Denver", "b3_state"=>"CO", "b3_zip"=>"80202", "b3_has_co"=>"false"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (1.4ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 201], ["b3_street_prefix", "W"], ["b3_street_name", "Colfax"], ["b3_street_type", "Ave"], ["b3_unit_info", ""], ["b3_city", "Denver"], ["b3_state", "CO"], ["b3_zip", 80202], ["b3_has_co", false], ["created_at", "2021-05-11 21:28:10.749548"], ["updated_at", "2021-05-11 21:28:10.749550"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 8ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:28:10 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:28:24 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:28:44 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 41ms (Views: 23.8ms | ActiveRecord: 13.3ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:30:14 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:30:26 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:30:27 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:30:31 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:30:38 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:8
+  Rendered facilities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:34:44 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 36ms (Views: 32.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:35:43 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:36:07 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:36:56 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:37:24 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:37:26 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/views/facilities/index.html.erb:19: syntax error, unexpected `ensure', expecting end-of-input
+          ensure
+          ^~~~~~
+):
+  
+app/views/facilities/index.html.erb:19: syntax error, unexpected `ensure', expecting end-of-input
+Started GET "/facilities" for ::1 at 2021-05-11 15:38:03 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:38:17 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 31ms (Views: 26.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:38:18 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:39:21 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:41:38 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:42:11 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:42:13 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:42:24 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:42:35 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.3ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:43:45 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 44ms (Views: 26.1ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:43:57 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 42ms (Views: 39.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:44:58 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:44:59 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.3ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:45:07 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:45:08 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:45:25 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 30ms (Views: 28.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:45:26 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 15:45:35 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/facilities" for ::1 at 2021-05-11 15:45:51 -0600
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"9QBB7gAZZVu3dWVd4Li/w7fW73zs1r939hHEEaM19hBahZzJ0qBwLmK5vLqbYQYEqH6v8wjrzae57XBvAiBi+Q==", "facility"=>{"b3_street_number"=>"2930", "b3_street_prefix"=>"E", "b3_street_name"=>"bruce randolph", "b3_street_type"=>"ave", "b3_unit_info"=>"", "b3_city"=>"Denver", "b3_state"=>"CO", "b3_zip"=>"80205", "b3_has_co"=>"false"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (2.1ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 2930], ["b3_street_prefix", "E"], ["b3_street_name", "bruce randolph"], ["b3_street_type", "ave"], ["b3_unit_info", ""], ["b3_city", "Denver"], ["b3_state", "CO"], ["b3_zip", 80205], ["b3_has_co", false], ["created_at", "2021-05-11 21:45:51.007670"], ["updated_at", "2021-05-11 21:45:51.007675"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 14ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:45:51 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:48:46 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:49:57 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:50:23 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:50:57 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:51:33 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/views/facilities/index.html.erb:39: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/views/facilities/index.html.erb:39: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/facilities" for ::1 at 2021-05-11 15:51:40 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/views/facilities/index.html.erb:39: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/views/facilities/index.html.erb:39: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/facilities" for ::1 at 2021-05-11 15:51:42 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  Rendered facilities/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/views/facilities/index.html.erb:39: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/views/facilities/index.html.erb:39: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/facilities" for ::1 at 2021-05-11 15:52:33 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:52:53 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:53:00 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:53:09 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:53:10 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 25.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:53:25 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:23
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:54:31 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:25
+  Rendered facilities/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:54:43 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:55:13 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:28
+  Rendered facilities/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:55:24 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:28
+  Rendered facilities/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:55:33 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:28
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:55:33 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:28
+  Rendered facilities/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:55:37 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:28
+  Rendered facilities/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:56:05 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:27
+  Rendered facilities/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:56:05 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:24
+  Rendered facilities/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:56:15 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:25
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:56:58 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:57:06 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:57:07 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 15:58:54 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:00:07 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 43ms (Views: 39.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:00:09 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:01:20 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:01:45 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:02:25 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:02:56 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:06:19 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 47ms (Views: 26.9ms | ActiveRecord: 16.1ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:06:21 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:06:34 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:06:35 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:07:44 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:07:45 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:07:47 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 18.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:07:56 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 23.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:08:14 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 28.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:26:09 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `full_address' for nil:NilClass):
+    1: <h1>Facility Details For:</h1>
+    2: <h2><%= @b3facility.full_address%>
+  
+app/views/facilities/see_details.html.erb:2:in `_app_views_facilities_see_details_html_erb__1792357144714905718_26060'
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:26:40 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 29ms (Views: 25.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:27:00 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 21.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:27:45 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:29:22 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 27ms (Views: 24.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:29:35 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:29:40 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:29:41 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:30:24 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:30:30 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:32:59 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 27.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:33:32 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:33:48 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:34:10 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `city' for #<B3Facility:0x00007f9420f87cb0>):
+    4: <p>Street Prefix: <%= @b3_facility.b3_street_prefix %></p>
+    5: <p>Street Name: <%= @b3_facility.b3_street_name %></p>
+    6: <p>Street Type: <%= @b3_facility.b3_street_type %></p>
+    7: <p>City: <%= @b3_facility.city %></p>
+  
+app/views/facilities/see_details.html.erb:7:in `_app_views_facilities_see_details_html_erb__1792357144714905718_27540'
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:34:23 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:35:11 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:36:51 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `has_co' for #<B3Facility:0x00007f9421ab09c0>):
+     8: <p>State: <%= @b3_facility.b3_state %></p>
+     9: <p>Zip Code: <%= @b3_facility.b3_zip %></p>
+    10: <p>Has a Certificate of Occupancy:
+    11:   <% if @b3_facility.has_co == true %>
+    12:   <%= 'Yes' %>
+    13:   <% else %>
+    14:   <%= 'No' %>
+  
+app/views/facilities/see_details.html.erb:11:in `_app_views_facilities_see_details_html_erb__1792357144714905718_28220'
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:37:12 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `has_co' for #<B3Facility:0x00007f9421c81178>):
+     8: <p>State: <%= @b3_facility.b3_state %></p>
+     9: <p>Zip Code: <%= @b3_facility.b3_zip %></p>
+    10: <p>Has a Certificate of Occupancy:
+    11:   <% if @b3_facility.has_co == true %>
+    12:   <%= 'Yes' %>
+    13:   <% else %>
+    14:   <%= 'No' %>
+  
+app/views/facilities/see_details.html.erb:11:in `_app_views_facilities_see_details_html_erb__1792357144714905718_28740'
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:37:20 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 16:37:38 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:37:40 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 16:37:45 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/facilities" for ::1 at 2021-05-11 16:38:19 -0600
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"ZqvGwN9mfoq4qt5t74QhnAd185mEhBrtgiZn0DcbXrfJLhvnDd9r/21mB4qUXZhbGN2zFmC5aD3N2tOulg7KXg==", "facility"=>{"b3_street_number"=>"6013", "b3_street_prefix"=>"S", "b3_street_name"=>"Owens", "b3_street_type"=>"Ct", "b3_unit_info"=>"", "b3_city"=>"Littleton", "b3_state"=>"CO", "b3_zip"=>"80127", "b3_has_co"=>"false"}}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (5.1ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 6013], ["b3_street_prefix", "S"], ["b3_street_name", "Owens"], ["b3_street_type", "Ct"], ["b3_unit_info", ""], ["b3_city", "Littleton"], ["b3_state", "CO"], ["b3_zip", 80127], ["b3_has_co", false], ["created_at", "2021-05-11 22:38:19.782455"], ["updated_at", "2021-05-11 22:38:19.782458"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 16ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:38:19 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:25 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:26 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:27 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.3ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 26ms (Views: 22.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:28 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:29 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:34 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:38:38 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 16:40:00 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mark" for ::1 at 2021-05-11 16:40:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/mark"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/facilities" for ::1 at 2021-05-11 16:40:12 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:45:00 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:45:01 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:45:26 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (36.6ms)
+Completed 200 OK in 48ms (Views: 18.1ms | ActiveRecord: 26.8ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:45:27 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:49:08 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 44ms (Views: 40.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:49:09 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:49:10 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:49:10 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:49:11 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:49:12 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/" for ::1 at 2021-05-11 16:51:05 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:51:06 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:51:07 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:34
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 13299ms (ActiveRecord: 1.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `has_co' for #<B3Facility:0x00007f9443ac41d8>):
+     8: <p>State: <%= @b3_facility.b3_state %></p>
+     9: <p>Zip Code: <%= @b3_facility.b3_zip %></p>
+    10: <p>Has a Certificate of Occupancy:
+    11:   <% if @b3_facility.has_co == true %>
+    12:   <%= 'Yes' %>
+    13:   <% else %>
+    14:   <%= 'No' %>
+  
+app/views/facilities/see_details.html.erb:11:in `_app_views_facilities_see_details_html_erb__1792357144714905718_33500'
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:51:25 -0600
+Started GET "/" for ::1 at 2021-05-11 16:53:24 -0600
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 150ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 16:53:24 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 16:53:26 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 54ms (Views: 31.7ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:53:27 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 25.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:54:01 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 17.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 16:54:33 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 31ms (Views: 22.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/6" for ::1 at 2021-05-11 16:56:04 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:03:47 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (2.3ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (38.4ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 2.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `b3_zip_code' for #<B3Facility:0x00007fe47fce0f70>
+Did you mean?  b3_zip):
+    25:   <tr><td>Unit Info:</td><td><%= @b3_facility.b3_unit_info %></td></tr>
+    26:   <tr><td>City:</td><td><%= @b3_facility.b3_city %></td></tr>
+    27:   <tr><td>State:</td><td><%= @b3_facility.b3_state %></td></tr>
+    28:   <tr><td>Zip Code:</td><td><%= @b3_facility.b3_zip_code %></td></tr>
+    29:   <tr><td>Has a Certificate of Occupancy:</td>
+    30:     <td>  <% if @b3_facility.b3_has_co == true %>
+    31:      <%= 'Yes' %>
+  
+app/views/facilities/see_details.html.erb:28:in `_app_views_facilities_see_details_html_erb___1239414029556386690_13760'
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:04:01 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:04:30 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 25ms (Views: 21.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:04:36 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 21.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:05:05 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:05:22 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (1.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/facilities/2" for ::1 at 2021-05-11 17:05:35 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:05:38 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.7ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to Createb3facilities (20210511230737)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to Createb3facilities (20210511230737)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (21.5ms)[0m  [1m[35mCREATE TABLE "b3_facilities" ("id" bigserial primary key, "b3_street_number" integer, "b3_street_prefix" character varying, "b3_street_name" character varying, "b3_street_type" character varying, "b3_unit_info" character varying, "b3_city" character varying, "b3_state" character varying, "b3_zip" integer, "b3_has_co" boolean, "created_at" timestamp, "updated_at" timestamp)[0m
+  ↳ db/migrate/20210511230737_createb3facilities.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511230737"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+Migrating to Createb1permits (20210511230750)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE TABLE "b1_permits" ("id" bigserial primary key, "b3_facilities_id" bigint, "b1_special_text" character varying, "b1_appl_status" character varying, "b1_per_sub_type" character varying, "b1_expiration" timestamp, "b1_extraction" boolean, "b1_plant_count" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_285ca18d54"
+FOREIGN KEY ("b3_facilities_id")
+  REFERENCES "b3_facilities" ("id")
+)[0m
+  ↳ db/migrate/20210511230750_createb1permits.rb:3
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_b1_permits_on_b3_facilities_id" ON "b1_permits"  ("b3_facilities_id")[0m
+  ↳ db/migrate/20210511230750_createb1permits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511230750"]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2021-05-11 17:12:58 -0600
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 144ms (Views: 143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:13:00 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 30ms (Views: 15.5ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 17:13:01 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 17:13:30 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/facilities" for ::1 at 2021-05-11 17:13:49 -0600
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"FYi0nSN8HQ3Il4HdIIjcp93V8Kxb7MYT5tJdKIdIPKy6DWm68cUIeB1bWDpbUWVgwn2wI7/RtMOpLulWJl2oRQ==", "facility"=>{"b3_street_number"=>"1311", "b3_street_prefix"=>"E", "b3_street_name"=>"27TH", "b3_street_type"=>"AVE", "b3_unit_info"=>"", "b3_city"=>"Denver", "b3_state"=>"CO", "b3_zip"=>"80205", "b3_has_co"=>"true"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (3.6ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 1311], ["b3_street_prefix", "E"], ["b3_street_name", "27TH"], ["b3_street_type", "AVE"], ["b3_unit_info", ""], ["b3_city", "Denver"], ["b3_state", "CO"], ["b3_zip", 80205], ["b3_has_co", true], ["created_at", "2021-05-11 23:13:49.471240"], ["updated_at", "2021-05-11 23:13:49.471243"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 32ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:13:49 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/facilities/1" for ::1 at 2021-05-11 17:13:51 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 30ms (Views: 23.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:13:55 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 17:16:50 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 17:16:58 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 17:17:16 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 17:17:27 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:17:39 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 34ms (Views: 29.8ms | ActiveRecord: 0.9ms)
+
+

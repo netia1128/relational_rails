@@ -1,4 +1,4 @@
-class CreateB1Permits < ActiveRecord::Migration[5.2]
+class Createb1permits < ActiveRecord::Migration[5.2]
   def change
     create_table :b1_permits do |t|
       t.references :b3_facilities, index: true, foreign_key: true

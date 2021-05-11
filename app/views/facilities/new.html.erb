@@ -2,21 +2,29 @@
   <h3>Facility Details</h3>
 <form action="/facilities" method="post">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-  <label>Street Number:</label>
+  <label for='facility[b3_street_number]'>Street Number:</label>
   <input type='text' name='facility[b3_street_number]' /><br><br>
-  <label>Street Name:</label>
+  <label for='facility[b3_street_prefix]'>Street Prefix:</label>
+  <select id='prefixes' name='facility[b3_street_prefix]'>
+    <option value='blank'> </option>
+    <option value='N'>N</option>
+    <option value='S'>S</option>
+    <option value='E'>E</option>
+    <option value='W'>W</option>
+  </select><br><br>
+  <label for='facility[b3_street_name]'>Street Name:</label>
   <input type='text' name='facility[b3_street_name]' /><br><br>
-  <label>Street Type:</label>
+  <label for='facility[b3_street_type]'>Street Type:</label>
   <input type='text' name='facility[b3_street_type]' /><br><br>
-  <label>Unit Info:</label>
+  <label for='facility[b3_unit_info]'>Unit Info:</label>
   <input type='text' name='facility[b3_unit_info]' /><br><br>
-  <label>City:</label>
+  <label for='facility[b3_city]'>City:</label>
   <input type='text' name='facility[b3_city]' value='Denver' /><br><br>
-  <label>State:</label>
+  <label for='facility[b3_state]'>State:</label>
   <input type='text' name='facility[b3_state]' value='CO' /><br><br>
-  <label>Zip Code:</label>
+  <label for='facility[b3_zip_code]'>Zip Code:</label>
   <input type='text' name='facility[b3_zip]' /><br><br>
-  <label>Has Certificate of Occupancy?</label><br>
+  <label for='facility[b3_has_co]'>Has Certificate of Occupancy?</label><br>
   <input type='radio' name='facility[b3_has_co]' value='true' > Yes
   <input type='radio' name='facility[b3_has_co]' value='false' > No
   <br><br>
