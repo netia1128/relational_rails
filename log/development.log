@@ -14,14 +14,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -94,14 +94,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -174,14 +174,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -254,14 +254,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 14ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -334,14 +334,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -414,14 +414,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 7ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -494,14 +494,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -570,9 +570,9 @@ puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
 Started GET "/index" for ::1 at 2021-05-10 17:08:35 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/index"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -608,9 +608,9 @@ Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/index" for ::1 at 2021-05-10 17:15:05 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/index"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -639,9 +639,9 @@ puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
 Started GET "/tasks" for ::1 at 2021-05-10 17:16:42 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/tasks"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -670,9 +670,9 @@ puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
 Started GET "/tasks" for ::1 at 2021-05-10 17:16:49 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/tasks"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -701,9 +701,9 @@ puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
 Started GET "/" for ::1 at 2021-05-10 17:16:59 -0600
-  
+
 ActionController::RoutingError (uninitialized constant WelomeController):
-  
+
 activesupport (5.2.6) lib/active_support/inflector/methods.rb:283:in `const_get'
 activesupport (5.2.6) lib/active_support/inflector/methods.rb:283:in `block in constantize'
 activesupport (5.2.6) lib/active_support/inflector/methods.rb:281:in `each'
@@ -758,9 +758,9 @@ puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
 Started GET "/welcome" for ::1 at 2021-05-10 17:18:11 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/welcome"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -793,14 +793,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 4ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -894,14 +894,14 @@ Processing by WelcomeController#index as HTML
 Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (WelcomeController#index is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
 actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
@@ -970,9 +970,9 @@ puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
 Started GET "/welcome" for ::1 at 2021-05-10 17:32:08 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/welcome"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -1029,9 +1029,9 @@ Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/netia" for ::1 at 2021-05-10 17:35:49 -0600
-  
+
 ActionController::RoutingError (No route matches [GET] "/netia"):
-  
+
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -1059,3 +1059,543 @@ puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
 puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Facilities (20210511004102)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Facilities (20210511004102)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Facilities (20210511004102)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (17.5ms)[0m  [1m[35mCREATE TABLE "b3_facilities" ("id" bigserial primary key, "b3_street_number" integer, "b3_street_name" character varying, "b3_street_type" character varying, "b3_unit_info" character varying, "b3_city" character varying, "b3_state" character varying, "b3_zip" integer, "b3_has_co" boolean, "created_at" timestamp, "updated_at" timestamp)[0m
+  ↳ db/migrate/20210511004102_create_b3_facilities.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511004102"]]
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB1Permit (20210511004543)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB1Permit (20210511004543)
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB1Permit (20210511004543)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB1Permit (20210511004543)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (25.4ms)[0m  [1m[35mCREATE TABLE "b1_permit" ("id" bigserial primary key, "b3_facilities_id" bigint, "b1_special_text" character varying, "b1_appl_status" character varying, "b1_per_sub_type" character varying, "b1_expiration" timestamp, "b1_extraction" boolean, "b1_plant_count" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_5c6e3af523"
+FOREIGN KEY ("b3_facilities_id")
+  REFERENCES "b3_facilities" ("id")
+)[0m
+  ↳ db/migrate/20210511004543_create_b1_permit.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX  "index_b1_permit_on_b3_facilities_id" ON "b1_permit"  ("b3_facilities_id")[0m
+  ↳ db/migrate/20210511004543_create_b1_permit.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511004543"]]
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511152833)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (17.0ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permit" ("id")
+)[0m
+  ↳ db/migrate/20210511152833_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511152833)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permit" ("id")
+)[0m
+  ↳ db/migrate/20210511152833_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511152833)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (12.5ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permit" ("id")
+)[0m
+  ↳ db/migrate/20210511152833_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511152833)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (12.5ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permit" ("id")
+)[0m
+  ↳ db/migrate/20210511152833_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (11.2ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permit" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (14.8ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permit" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (11.9ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (15.8ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permi_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_253d54a598"
+FOREIGN KEY ("b1_permi_id")
+  REFERENCES "b1_permis" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_0fefb128ed"
+FOREIGN KEY ("b1_id")
+  REFERENCES "b1s" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (14.6ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_ca3db7cc74"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (11.5ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permits_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_84286ba04e"
+FOREIGN KEY ("b1_permits_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contact (20210511160720)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permits_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_84286ba04e"
+FOREIGN KEY ("b1_permits_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511160720_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511160720)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511160720)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511160720)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511160720)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511160720)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511164050)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511164050)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (14.4ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permits_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_84286ba04e"
+FOREIGN KEY ("b1_permits_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511164050_create_b3_contacts.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511164230)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (14.8ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permits_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_84286ba04e"
+FOREIGN KEY ("b1_permits_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511164230_create_b3_contacts.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB3Contacts (20210511164230)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permits_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_84286ba04e"
+FOREIGN KEY ("b1_permits_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511164230_create_b3_contacts.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB1Permit (20210511165132)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (9.9ms)[0m  [1m[35mCREATE TABLE "b1_permit" ("id" bigserial primary key, "b3_facilities_id" bigint, "b1_special_text" character varying, "b1_appl_status" character varying, "b1_per_sub_type" character varying, "b1_expiration" timestamp, "b1_extraction" boolean, "b1_plant_count" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_5c6e3af523"
+FOREIGN KEY ("b3_facilities_id")
+  REFERENCES "b3_facilities" ("id")
+)[0m
+  ↳ db/migrate/20210511165132_create_b1_permit.rb:3
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_b1_permit_on_b3_facilities_id" ON "b1_permit"  ("b3_facilities_id")[0m
+  ↳ db/migrate/20210511165132_create_b1_permit.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511165132"]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB3Contact (20210511165254)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (14.4ms)[0m  [1m[35mCREATE TABLE "b3_contact" ("id" bigserial primary key, "b1_permit_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_2f4d39ec51"
+FOREIGN KEY ("b1_permit_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511165254_create_b3_contact.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB1Permits (20210511165911)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (7.5ms)[0m  [1m[35mCREATE TABLE "b1_permits" ("id" bigserial primary key, "b3_facilities_id" bigint, "b1_special_text" character varying, "b1_appl_status" character varying, "b1_per_sub_type" character varying, "b1_expiration" timestamp, "b1_extraction" boolean, "b1_plant_count" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_285ca18d54"
+FOREIGN KEY ("b3_facilities_id")
+  REFERENCES "b3_facilities" ("id")
+)[0m
+  ↳ db/migrate/20210511165911_create_b1_permits.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX  "index_b1_permits_on_b3_facilities_id" ON "b1_permits"  ("b3_facilities_id")[0m
+  ↳ db/migrate/20210511165911_create_b1_permits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511165911"]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+Migrating to CreateB3Contacts (20210511170044)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "b3_contacts" ("id" bigserial primary key, "b1_permits_id" bigint, "b3_primary_flag" boolean, "b3_contact_type" character varying, "b3_fname" character varying, "b3_lname" character varying, "b3_phone" integer, "b3_email" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_84286ba04e"
+FOREIGN KEY ("b1_permits_id")
+  REFERENCES "b1_permits" ("id")
+)[0m
+  ↳ db/migrate/20210511170044_create_b3_contacts.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX  "index_b3_contacts_on_b1_permits_id" ON "b3_contacts"  ("b1_permits_id")[0m
+  ↳ db/migrate/20210511170044_create_b3_contacts.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210511170044"]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/bin/rake:23
