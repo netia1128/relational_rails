@@ -1,6 +1,8 @@
 # app/models/facility.rb
 
 class B3Facility < ApplicationRecord
+    has_many :b1_permits, autosave: true
+
     def full_address
         arr = [
             b3_street_number,

@@ -5299,3 +5299,2108 @@ Processing by FacilitiesController#index as HTML
 Completed 200 OK in 34ms (Views: 29.8ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/licenses" for ::1 at 2021-05-11 17:32:02 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:16: syntax error, unexpected local variable or method, expecting '}'
+      b1_special_text: params[:b1permit][:b1_speci...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:17: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: params[:b1permit][:b1_expira...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+      b1_extraction: params[:b1permit][:b1_extrac...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:16: syntax error, unexpected local variable or method, expecting '}'
+app/controllers/licenses_controller.rb:17: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:21: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/licenses" for ::1 at 2021-05-11 17:32:57 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:16: syntax error, unexpected local variable or method, expecting '}'
+      b1_special_text: params[:b1permit][:b1_speci...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:17: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: params[:b1permit][:b1_expira...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+      b1_extraction: params[:b1permit][:b1_extrac...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:16: syntax error, unexpected local variable or method, expecting '}'
+app/controllers/licenses_controller.rb:17: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:21: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/licenses" for ::1 at 2021-05-11 17:32:58 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:16: syntax error, unexpected local variable or method, expecting '}'
+      b1_special_text: params[:b1permit][:b1_speci...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:17: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: params[:b1permit][:b1_expira...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+      b1_extraction: params[:b1permit][:b1_extrac...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:16: syntax error, unexpected local variable or method, expecting '}'
+app/controllers/licenses_controller.rb:17: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:21: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/licenses" for ::1 at 2021-05-11 17:33:36 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (2.8ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:28
+  Rendered licenses/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 29ms (Views: 12.7ms | ActiveRecord: 12.7ms)
+
+
+Started GET "/licenses/new" for ::1 at 2021-05-11 17:33:42 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/licenses/new"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-05-11 17:34:59 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:35:02 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 55ms (Views: 29.9ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 17:35:04 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (0.8ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:28
+  Rendered licenses/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 17:37:25 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (1.1ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:28
+  Rendered licenses/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/licenses/new" for ::1 at 2021-05-11 17:37:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/licenses/new"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/licenses/new" for ::1 at 2021-05-11 17:37:36 -0600
+Processing by LicensesController#new as HTML
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 17:44:38 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:45:21 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (2.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 64ms (Views: 33.3ms | ActiveRecord: 26.0ms)
+
+
+Started GET "/facilities/new" for ::1 at 2021-05-11 17:45:25 -0600
+Processing by FacilitiesController#new as HTML
+  Rendering facilities/new.html.erb within layouts/application
+  Rendered facilities/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/facilities" for ::1 at 2021-05-11 17:45:38 -0600
+Processing by FacilitiesController#create as HTML
+  Parameters: {"authenticity_token"=>"GsLvQGMPDKX6LowjjPy5yRX4gc/RB/+ctf6bflTtdBO1RzJnsbYZ0C/iVcT3JQAOClDBQDU6jUz6Ai8A9fjg+g==", "facility"=>{"b3_street_number"=>"201", "b3_street_prefix"=>"W", "b3_street_name"=>"colfax", "b3_street_type"=>"ave", "b3_unit_info"=>"", "b3_city"=>"Denver", "b3_state"=>"CO", "b3_zip"=>"80202", "b3_has_co"=>"true"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[36mB3Facility Create (1.4ms)[0m  [1m[32mINSERT INTO "b3_facilities" ("b3_street_number", "b3_street_prefix", "b3_street_name", "b3_street_type", "b3_unit_info", "b3_city", "b3_state", "b3_zip", "b3_has_co", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["b3_street_number", 201], ["b3_street_prefix", "W"], ["b3_street_name", "colfax"], ["b3_street_type", "ave"], ["b3_unit_info", ""], ["b3_city", "Denver"], ["b3_state", "CO"], ["b3_zip", 80202], ["b3_has_co", true], ["created_at", "2021-05-11 23:45:38.319476"], ["updated_at", "2021-05-11 23:45:38.319478"]]
+  ↳ app/controllers/facilities_controller.rb:28
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/facilities_controller.rb:28
+Redirected to http://localhost:3000/facilities
+Completed 302 Found in 9ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:45:38 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/1" for ::1 at 2021-05-11 17:45:44 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:45:49 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:26
+  Rendered facilities/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 17:45:57 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 17:45:59 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (2.1ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:28
+  Rendered licenses/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 39ms (Views: 16.5ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 17:48:08 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (0.7ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 17:48:08 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (0.8ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 17:48:39 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (0.8ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 17:48:42 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facilities/1" for ::1 at 2021-05-11 17:48:45 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+  Rendering facilities/see_details.html.erb within layouts/application
+  Rendered facilities/see_details.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 17:53:50 -0600
+Processing by FacilitiesController#see_details as HTML
+  Parameters: {"id"=>"licenses"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+Completed 404 Not Found in 25ms (ActiveRecord: 19.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find B3Facility with 'id'=licenses):
+  
+app/controllers/facilities_controller.rb:33:in `see_details'
+Started GET "/licenses" for ::1 at 2021-05-11 17:54:11 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (0.7ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 32ms (Views: 20.2ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/licenses/new" for ::1 at 2021-05-11 17:54:13 -0600
+Processing by LicensesController#new as HTML
+Started GET "/licenses" for ::1 at 2021-05-11 18:14:35 -0600
+Started GET "/facilities" for ::1 at 2021-05-11 18:14:49 -0600
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.4ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 161ms (Views: 140.7ms | ActiveRecord: 18.3ms)
+
+
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:14:51 -0600
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"licenses"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+Completed 404 Not Found in 5ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find B3Facility with 'id'=licenses):
+  
+app/controllers/facilities_controller.rb:33:in `show'
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:15:38 -0600
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"licenses"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+Completed 404 Not Found in 2ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find B3Facility with 'id'=licenses):
+  
+app/controllers/facilities_controller.rb:33:in `show'
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:17:34 -0600
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"licenses"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+Completed 404 Not Found in 3ms (ActiveRecord: 0.8ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find B3Facility with 'id'=licenses):
+  
+app/controllers/facilities_controller.rb:33:in `show'
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:17:36 -0600
+Processing by FacilitiesController#show as HTML
+  Parameters: {"id"=>"licenses"}
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_controller.rb:33
+Completed 404 Not Found in 3ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find B3Facility with 'id'=licenses):
+  
+app/controllers/facilities_controller.rb:33:in `show'
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:18:16 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"licenses"}
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (FacilitiesLicensesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.6) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.6) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.6) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.6) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.6) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:18:20 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"licenses"}
+Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (FacilitiesLicensesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.6) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.6) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.6) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.6) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.6) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:19:22 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"licenses"}
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/licenses" for ::1 at 2021-05-11 18:19:33 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"licenses"}
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 18:20:04 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 44ms (Views: 24.0ms | ActiveRecord: 16.5ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:20:05 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses/new" for ::1 at 2021-05-11 18:20:17 -0600
+Processing by LicensesController#new as HTML
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 62240ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:21:25 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 222817ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:25:14 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 399594ms (Views: 19.0ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:31:57 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29514ms (Views: 15.6ms | ActiveRecord: 16.3ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:32:37 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.2ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29996ms (Views: 29.9ms | ActiveRecord: 15.7ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:33:08 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.2ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+Started GET "/licenses/new" for ::1 at 2021-05-11 18:35:30 -0600
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 145182ms (Views: 19.5ms | ActiveRecord: 31.3ms)
+
+
+Processing by LicensesController#new as HTML
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 518131ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:44:19 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (18.1ms)
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 25.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `facility' for #<#<Class:0x00007f93e4866918>:0x00007f93e4864690>
+Did you mean?  @b3_facility):
+    2: 
+    3: <br>
+    4: 
+    5: <form action="/facility/<%= facility.id %>/licenses/new"method = get>
+    6:   <input type='submit' value='Add New License' /><br>
+    7: </form><br>
+    8: 
+  
+app/views/facilities_licenses/index.html.erb:5:in `_app_views_facilities_licenses_index_html_erb__3112306494091387364_36060'
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:44:23 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (23.6ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `facility' for #<#<Class:0x00007f93e4866918>:0x00007f93f56f6860>
+Did you mean?  @b3_facility):
+    2: 
+    3: <br>
+    4: 
+    5: <form action="/facility/<%= facility.id %>/licenses/new"method = get>
+    6:   <input type='submit' value='Add New License' /><br>
+    7: </form><br>
+    8: 
+  
+app/views/facilities_licenses/index.html.erb:5:in `_app_views_facilities_licenses_index_html_erb__3112306494091387364_36600'
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 18:45:26 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 18:45:28 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 698469ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 18:58:29 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 18:58:59 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 18:59:18 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:00:50 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:01:06 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:02:21 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 27ms (Views: 25.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:04:20 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/licenses"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/licenses" for ::1 at 2021-05-11 19:05:06 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/licenses"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/licenses" for ::1 at 2021-05-11 19:05:19 -0600
+  
+ActionController::RoutingError (No route matches [POST] "/licenses"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/licenses" for ::1 at 2021-05-11 19:08:13 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:17: syntax error, unexpected local variable or method, expecting '}'
+      b1_special_text: params[:b1permit][:b1_speci...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: 1.year.from_now
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting `end'
+      b1_extraction: params[:b1permit][:b1_extrac...
+                   ^
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:17: syntax error, unexpected local variable or method, expecting '}'
+app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting `end'
+app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started POST "/licenses" for ::1 at 2021-05-11 19:09:10 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"XDbRcVZ/IaMrIUHvzZmvcWHvq1Wdxg2l1iXGyn+TK4PzswxWhMY01v7tmAi2QBa2fkfr2nn7f3WZ2XK03oa/ag==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50"}}
+Started POST "/licenses" for ::1 at 2021-05-11 19:09:27 -0600
+Completed 500 Internal Server Error in 176846ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `b1_permit' for #<LicensesController:0x00007f93e2aa1568>):
+  
+app/controllers/licenses_controller.rb:27:in `create'
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"XDbRcVZ/IaMrIUHvzZmvcWHvq1Wdxg2l1iXGyn+TK4PzswxWhMY01v7tmAi2QBa2fkfr2nn7f3WZ2XK03oa/ag==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 2778ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:12:16 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26023ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:13:02 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"VroBqsCMQDygNehwQ9Q82OAz6PAqWeVjmlMA2fEztVz5P9yNEjVVSXX5MZc4DYUf/5uof85kl7PVr7SnUCYhtQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"params[:id]/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 31889ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:13:39 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"VroBqsCMQDygNehwQ9Q82OAz6PAqWeVjmlMA2fEztVz5P9yNEjVVSXX5MZc4DYUf/5uof85kl7PVr7SnUCYhtQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"params[:id]/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 25019ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:14:09 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"VroBqsCMQDygNehwQ9Q82OAz6PAqWeVjmlMA2fEztVz5P9yNEjVVSXX5MZc4DYUf/5uof85kl7PVr7SnUCYhtQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"params[:id]/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 20383ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:14:34 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    30:   <label for='b1permit[b1_plant_count]'>Plant Count:</label>
+    31:   <input type='text' name='b1permit[b1_plant_count]' /><br><br>
+    32:   <input type='submit' value='Add Facility'/><br>
+    33:   <input type='hidden' name='b1permit[b3_facility_id]' value=<% @b3facility.id %>/><br>
+    34: </form>
+  
+app/views/licenses/new.html.erb:33:in `_app_views_licenses_new_html_erb___3767785128306659962_55660'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:14:51 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:14:58 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"E/30r2tx9fMjcBB/bA7cBnOreC0cgAOCsbLYtATMgCS8eCmIucjghva8yZgX12XBbAM4ovi9cVL+TmzKpdkUzQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 142913ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:17:27 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:17:33 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"KH9S8B1bKI3ngaMxov3DIxHrQ2q2rGfgvDJ0Ae3E4HWH+o/Xz+I9+DJNetbZJHrkDkMD5VKRFTDzzsB/TNF0nA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 47392ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:18:23 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:18:57 -0600
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37886ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:19:15 -0600
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19774ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:20:51 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 2)):
+  
+app/controllers/licenses_controller.rb:11:in `tr'
+app/controllers/licenses_controller.rb:11:in `new'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:21:04 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:21:38 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22915ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:22:05 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:22:41 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"nexeMvg08nbB1/0kTWLEn1QKn4auvxuEmVxncN1VdaUyaYMVKo3nAxQbJMM2u31YS6LfCUqCaVTWoNMOfEDhTA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 66858ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:23:52 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"nexeMvg08nbB1/0kTWLEn1QKn4auvxuEmVxncN1VdaUyaYMVKo3nAxQbJMM2u31YS6LfCUqCaVTWoNMOfEDhTA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 58400ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:24:53 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"nexeMvg08nbB1/0kTWLEn1QKn4auvxuEmVxncN1VdaUyaYMVKo3nAxQbJMM2u31YS6LfCUqCaVTWoNMOfEDhTA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+No template found for LicensesController#create, rendering head :no_content
+Completed 204 No Content in 23241ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:25:37 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:17: syntax error, unexpected local variable or method, expecting '}'
+      b1_special_text: params[:b1permit][:b1_speci...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: 1.year.from_now
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting `end'
+      b1_extraction: params[:b1permit][:b1_extrac...
+                   ^
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:17: syntax error, unexpected local variable or method, expecting '}'
+app/controllers/licenses_controller.rb:18: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:19: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:20: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting `end'
+app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:25:59 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected local variable or method, expecting '}'
+      b1_extraction: params[:b1permit][:b1_extra...
+      ^~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:21: syntax error, unexpected local variable or method, expecting '}'
+app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:26:16 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:26:38 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:25: syntax error, unexpected '}', expecting ']'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:27:19 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:27:33 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:27:35 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:27:41 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:27:50 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:28:05 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:28:07 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 19:28:14 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.4ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 9.9ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:28:17 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:28:24 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"E7Q9sZUrnStcjPxbSti8cM4iT2Vrc0PwNLq0BidOw/28MeCWR5KIXolAJbwxAQW30YoP6o9OMSB7RgB4hltXFA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:27
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:27
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 61ms (ActiveRecord: 16.7ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 19:28:24 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (2.0ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 19:29:47 -0600
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 19:29:49 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 61ms (Views: 30.7ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 19:29:51 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 15.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:29:52 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:30:39 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"VbB57s2/YWkBwsoMxSWiLNaizkoC+fH+tpk9p+bcnYz6NaTJHwZ0HNQOE+u+/BvryQqOxebEgy75ZYnZR8kJZQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:27
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:27
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 30ms (ActiveRecord: 15.0ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 19:30:39 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (1.1ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 19:30:45 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 19:30:46 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 50ms (Views: 32.4ms | ActiveRecord: 14.4ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 19:30:48 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (1.0ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 20.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:31:56 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:32:02 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"7rEYwZTEPrVDhySYHJgWCJIbPE7fjlkY+IOmNRhjobFBNMXmRn0rwJZL/X9nQa/PjbN8wTuzK8i3fxJLuXY1WA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):2
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):2
+  [1m[36mB1Permit Load (0.9ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/controllers/licenses_controller.rb:26
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):6
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):6
+  [1m[36mB3Facility Load (0.9ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/controllers/licenses_controller.rb:26
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" ORDER BY "b3_facilities"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ (pry):8
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):9
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):9
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:27
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:27
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 569093ms (ActiveRecord: 37.7ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 19:41:31 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (1.0ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 26ms (Views: 14.5ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:41:38 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"7rEYwZTEPrVDhySYHJgWCJIbPE7fjlkY+IOmNRhjobFBNMXmRn0rwJZL/X9nQa/PjbN8wTuzK8i3fxJLuXY1WA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):12
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):12
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:27
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:27
+Completed 422 Unprocessable Entity in 19356ms (ActiveRecord: 11.4ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  
+app/controllers/licenses_controller.rb:27:in `create'
+Started POST "/licenses" for ::1 at 2021-05-11 19:43:24 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"7rEYwZTEPrVDhySYHJgWCJIbPE7fjlkY+IOmNRhjobFBNMXmRn0rwJZL/X9nQa/PjbN8wTuzK8i3fxJLuXY1WA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MMC", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:28
+Completed 422 Unprocessable Entity in 11347ms (ActiveRecord: 15.1ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  
+app/controllers/licenses_controller.rb:28:in `create'
+Started POST "/licenses" for ::1 at 2021-05-11 19:43:43 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"7rEYwZTEPrVDhySYHJgWCJIbPE7fjlkY+IOmNRhjobFBNMXmRn0rwJZL/X9nQa/PjbN8wTuzK8i3fxJLuXY1WA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"MTF", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:28
+Completed 422 Unprocessable Entity in 32651ms (ActiveRecord: 0.7ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  
+app/controllers/licenses_controller.rb:28:in `create'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:45:15 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15730ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:45:42 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"amzxy5Mowv2Omcl2d0SUkji1viyowAx6cuS/dBOiUMTF6SzsQZHXiFtVEJEMnS1VJx3+o0z9fqo9GAsKsrfELQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):18
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):18
+Started GET "/f" for ::1 at 2021-05-11 19:53:52 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/f"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-05-11 19:53:54 -0600
+Processing by WelcomeController#index as HTML
+Started GET "/" for ::1 at 2021-05-11 19:54:18 -0600
+Started GET "/" for ::1 at 2021-05-11 19:54:18 -0600
+  [1m[35m (26.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:29
+  [1m[35m (1.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:29
+Completed 422 Unprocessable Entity in 515969ms (ActiveRecord: 47.9ms)
+
+
+  
+  Rendering welcome/index.html.erb within layouts/application
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  
+app/controllers/licenses_controller.rb:29:in `create'
+Completed 200 OK in 48ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Processing by WelcomeController#index as HTML
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 19:54:26 -0600
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 19:54:34 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 54ms (Views: 26.3ms | ActiveRecord: 18.3ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 19:54:39 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (1.3ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 33ms (Views: 20.3ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 19:55:41 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 19:56:03 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.7ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 12.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 19:56:09 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (1.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 17.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 19:56:18 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 57722ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 19:57:25 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"lqqanvpizvN+n7eo1F5C7eaVYLW1uirHpENj89DW3tM5L0e5KNvbhqtTbk+vh/sq+T0gOlGHWBfrv9eNccNKOg==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):3
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):3
+  [1m[36mB3Facility Load (3.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/controllers/licenses_controller.rb:28
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):6
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):6
+  [1m[36mB3Facility Load (1.2ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ (pry):9
+  [1m[36mCACHE B3Facility Load (0.0ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ (pry):10
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ (pry):11
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ (pry):11
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:29
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:29
+Completed 422 Unprocessable Entity in 1677610ms (ActiveRecord: 18.8ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  
+app/controllers/licenses_controller.rb:29:in `create'
+Started GET "/facilities" for ::1 at 2021-05-11 20:26:56 -0600
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 180ms (Views: 156.5ms | ActiveRecord: 13.5ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 20:26:59 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 20:27:05 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 10.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:27:10 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3594ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:36:20 -0600
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"DJnF9g6bR5tk0APEb2s30K5o3jf2x5moIiEiKBfUHn+jHBjR3CJS7rEc2iMUso4XscCeuBL663ht3ZZWtsGKlg==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"false", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:28
+Started GET "/" for ::1 at 2021-05-11 20:36:23 -0600
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 37924ms (ActiveRecord: 20.1ms)
+
+
+Processing by WelcomeController#index as HTML
+Started GET "/" for ::1 at 2021-05-11 20:36:58 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 151ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 146ms (Views: 145.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 20:37:23 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (2.7ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 65ms (Views: 38.4ms | ActiveRecord: 24.9ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 20:37:24 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.5ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 16.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:37:26 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:37:31 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"/J3wnRfl1xDJm1EGcox4OecCFtk5PzU9djnKRHpejAlTGC26xVzCZRxXiOEJVcH++KpWVt0CR+05xX4620sY4A==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:28
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:28
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 22110ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 20:37:53 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (2.1ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 20:38:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 20:38:57 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 58ms (Views: 34.8ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 20:38:58 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 27ms (Views: 17.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:38:59 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:39:05 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"o7lKpPbYvhBwtK5sj/e7kKBjvZPvvyXJigIPjuNGw1EMPJeDJGGrZaV4d4v0LgJXv8v9HAuCVxnF/rvwQlNXuA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:18
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:18
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 43ms (ActiveRecord: 15.4ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 20:39:05 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (0.8ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 20:40:51 -0600
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 20:40:53 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.6ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (37.9ms)
+Completed 200 OK in 59ms (Views: 33.1ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 20:40:54 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.6ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 31ms (Views: 17.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:40:55 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:40:58 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"ZzfTUaKF/zg2X2kN+VUPdmgqKHfO4XfYJ15BpgREaxnIsg52cDzqTeOTsOqCjLaxd4Jo+CrcBQhoovXYpVH/8A==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:18
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:18
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 60ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 20:40:58 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (1.9ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 1.9ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateB1Permits (20210512024757)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (23.1ms)[0m  [1m[35mCREATE TABLE "b1_permits" ("id" bigserial primary key, "b3_facilities_id" bigint, "b1_special_text" character varying, "b1_appl_status" character varying, "b1_per_sub_type" character varying, "b1_expiration" timestamp, "b1_extraction" boolean, "b1_plant_count" integer, "created_at" timestamp, "updated_at" timestamp, CONSTRAINT "fk_rails_285ca18d54"
+FOREIGN KEY ("b3_facilities_id")
+  REFERENCES "b3_facilities" ("id")
+)[0m
+  ↳ db/migrate/20210512024757_create_b1_permits.rb:3
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_b1_permits_on_b3_facilities_id" ON "b1_permits"  ("b3_facilities_id")[0m
+  ↳ db/migrate/20210512024757_create_b1_permits.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210512024757"]]
+  ↳ bin/rails:4
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6619517006900186970)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Started GET "/" for ::1 at 2021-05-11 20:48:54 -0600
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/netia/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facilities" for ::1 at 2021-05-11 20:48:56 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (2.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 87ms (Views: 53.1ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 20:48:57 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 29ms (Views: 19.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:48:59 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:49:03 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"TIT0EneBMPgQswlu+GuO7/D841iU6E7MQ7ZV4hupOlnjASk1pTgljcV/0ImDsjco71Sj13DVPBwMSuGcuryusA==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:18
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:18
+Redirected to http://localhost:3000/licenses
+Completed 302 Found in 38ms (ActiveRecord: 13.7ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 20:49:03 -0600
+Processing by LicensesController#index as HTML
+  Rendering licenses/index.html.erb within layouts/application
+  [1m[36mB1Permit Load (2.6ms)[0m  [1m[34mSELECT "b1_permits".* FROM "b1_permits"[0m
+  ↳ app/views/licenses/index.html.erb:17
+  Rendered licenses/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 26ms (Views: 21.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for ::1 at 2021-05-11 20:50:18 -0600
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/licenses" for ::1 at 2021-05-11 20:50:19 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:26: syntax error, unexpected ')', expecting '}'
+    )
+    ^
+):
+  
+app/controllers/licenses_controller.rb:26: syntax error, unexpected ')', expecting '}'
+Started GET "/facilities" for ::1 at 2021-05-11 20:50:21 -0600
+Processing by FacilitiesController#index as HTML
+  Rendering facilities/index.html.erb within layouts/application
+  [1m[36mB3Facility Load (1.1ms)[0m  [1m[34mSELECT "b3_facilities".* FROM "b3_facilities"[0m
+  ↳ app/views/facilities/index.html.erb:15
+  Rendered facilities/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 47ms (Views: 24.5ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/facilities/1/licenses" for ::1 at 2021-05-11 20:50:23 -0600
+Processing by FacilitiesLicensesController#index as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mB3Facility Load (0.8ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" WHERE "b3_facilities"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/facilities_licenses_controller.rb:7
+  Rendering facilities_licenses/index.html.erb within layouts/application
+  Rendered facilities_licenses/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:50:24 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:26: syntax error, unexpected ')', expecting '}'
+    )
+    ^
+):
+  
+app/controllers/licenses_controller.rb:26: syntax error, unexpected ')', expecting '}'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:50:35 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:50:40 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"19uDlNniEH9Pl2sYbXaZCo1ie7/4JidOuGQck8W509x4Xl6zC1sFCppbsv8WryDNkso7MBwbVZ73mKjtZKxHNQ==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:28
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:28
+Completed 422 Unprocessable Entity in 45ms (ActiveRecord: 14.8ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  
+app/controllers/licenses_controller.rb:28:in `create'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:55:05 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting '}'
+      b1_special_text: params[:b1permit][:b1_specia...
+                     ^
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:24: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: 1.year.from_now,
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected tLABEL, expecting '='
+      b1_extraction: params[:b1permit][:b1_extrac...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:26: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:27: syntax error, unexpected '}', expecting `end'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting '}'
+app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:24: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:26: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:27: syntax error, unexpected '}', expecting `end'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:55:15 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting '}'
+      b1_special_text: params[:b1permit][:b1_specia...
+                     ^
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:24: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: 1.year.from_now,
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected tLABEL, expecting '='
+      b1_extraction: params[:b1permit][:b1_extrac...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:26: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:27: syntax error, unexpected '}', expecting `end'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting '}'
+app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:24: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:26: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:27: syntax error, unexpected '}', expecting `end'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:55:19 -0600
+  
+SyntaxError (/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting '}'
+      b1_special_text: params[:b1permit][:b1_specia...
+                     ^
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+      b1_appl_status: params[:b1permit][:b1_appl_s...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+      b1_per_sub_type: params[:b1permit][:b1_per_su...
+      ^~~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:24: syntax error, unexpected tLABEL, expecting '='
+      b1_expiration: 1.year.from_now,
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:25: syntax error, unexpected tLABEL, expecting '='
+      b1_extraction: params[:b1permit][:b1_extrac...
+      ^~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:26: syntax error, unexpected tLABEL, expecting '='
+      b1_plant_count: params[:b1permit][:b1_plant_...
+      ^~~~~~~~~~~~~~~
+/Users/netia/turing/2module/relational_rails/app/controllers/licenses_controller.rb:27: syntax error, unexpected '}', expecting `end'
+    })
+    ^
+):
+  
+app/controllers/licenses_controller.rb:21: syntax error, unexpected ':', expecting '}'
+app/controllers/licenses_controller.rb:22: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:23: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:24: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:25: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:26: syntax error, unexpected tLABEL, expecting '='
+app/controllers/licenses_controller.rb:27: syntax error, unexpected '}', expecting `end'
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:56:17 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:58:44 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:58:47 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/facility/1/licenses/new" for ::1 at 2021-05-11 20:58:54 -0600
+Processing by LicensesController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering licenses/new.html.erb within layouts/application
+  Rendered licenses/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/licenses" for ::1 at 2021-05-11 20:59:04 -0600
+Processing by LicensesController#create as HTML
+  Parameters: {"authenticity_token"=>"kawR4ntGoE1zFUKARpMNiYP0UopPJeYsiENajvkYgw0+KczFqf+1OKbZm2c9SrROnFwSBasYlPzHv+7wWA0X5A==", "b1permit"=>{"b1_special_text"=>"Livwell", "b1_per_sub_type"=>"Medical Marijuana Center", "b1_appl_status"=>"Active", "b1_extraction"=>"true", "b1_plant_count"=>"50", "b3_facility_id"=>"1/"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/licenses_controller.rb:29
+  [1m[35m (1.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/licenses_controller.rb:29
+Completed 422 Unprocessable Entity in 66ms (ActiveRecord: 17.0ms)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: B3 facility must exist):
+  
+app/controllers/licenses_controller.rb:29:in `create'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mB3Facility Load (1.3ms)[0m  [1m[34mSELECT  "b3_facilities".* FROM "b3_facilities" LIMIT $1[0m  [["LIMIT", 11]]

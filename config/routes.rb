@@ -5,5 +5,10 @@ Rails.application.routes.draw do
     get '/facilities', to: 'facilities#index'
     get '/facilities/new', to: 'facilities#new'
     post '/facilities', to: 'facilities#create'
-    get '/facilities/:id', to: 'facilities#see_details'
+    get '/facilities/:id', to: 'facilities#show'
+    get '/facilities/:id/licenses', to: 'facilities_licenses#index'
+    get '/licenses', to: 'licenses#index'
+    get '/facility/:id/licenses/new', to: 'licenses#new'
+    post '/facility/:id/licenses/new', to: 'licenses#create'
+    post '/licenses', to: 'licenses#create'
 end

@@ -1,14 +1,3 @@
-<style>
-  table, th {
-    text-align: left;
-    vertical-align: text-top;
-    border: 1px solid black;
-  }
-  td {
-    border: 1px dotted black;
-  }
-</style>
-
 <h1>Denver's Licensed Facilities</h1>
 
 <br>
@@ -27,7 +16,7 @@
       <tr>
       <td><%= facility.full_address %></td>
       <td><a href="/facilities/<%= facility.id %>">See Info</a>
-      <td><a href="/facilities/licenses">See Licenses</a></td>
+      <td><a href="/facilities/<%= facility.id %>/licenses">See Licenses</a></td>
       </tr>
       <% end %>
 

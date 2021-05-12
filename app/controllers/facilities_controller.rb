@@ -29,7 +29,7 @@ class FacilitiesController < ApplicationController
     redirect_to '/facilities'
   end
 
-  def see_details
+  def show
     @b3_facility = B3Facility.find(params[:id])
   end
 end
