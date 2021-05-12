@@ -5,7 +5,7 @@ class FacilitiesLicensesController < ApplicationController
 
   def index
     @b3_facility = B3Facility.find(params[:id])
-    @b1permits = @b3_facility.b1_permits
+    @b1permits = @b3_facility.B1Permits
   end
 
   def new

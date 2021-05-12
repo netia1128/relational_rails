@@ -1,4 +1,4 @@
-class Createb3facilities < ActiveRecord::Migration[5.2]
+class CreateB3Facilities < ActiveRecord::Migration[5.2]
   def change
     create_table :b3_facilities do |t|
       t.integer :b3_street_number
@@ -10,8 +10,7 @@ class Createb3facilities < ActiveRecord::Migration[5.2]
       t.string :b3_state
       t.integer :b3_zip
       t.boolean :b3_has_co
-      t.datetime :created_at
-      t.datetime :updated_at
+      t.timestamps
     end
   end
 end

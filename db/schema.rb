@@ -10,22 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_12_024757) do
+ActiveRecord::Schema.define(version: 2021_05_12_172248) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "b1_permits", force: :cascade do |t|
-    t.bigint "b3_facilities_id"
+    t.bigint "b3_facility_id"
     t.string "b1_special_text"
     t.string "b1_appl_status"
     t.string "b1_per_sub_type"
     t.datetime "b1_expiration"
     t.boolean "b1_extraction"
     t.integer "b1_plant_count"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["b3_facilities_id"], name: "index_b1_permits_on_b3_facilities_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["b3_facility_id"], name: "index_b1_permits_on_b3_facility_id"
   end
 
   create_table "b3_facilities", force: :cascade do |t|
@@ -38,9 +38,9 @@ ActiveRecord::Schema.define(version: 2021_05_12_024757) do
     t.string "b3_state"
     t.integer "b3_zip"
     t.boolean "b3_has_co"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "b1_permits", "b3_facilities", column: "b3_facilities_id"
+  add_foreign_key "b1_permits", "b3_facilities"
 end

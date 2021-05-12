@@ -1,6 +1,6 @@
   <h1>Add New License</h1>
   <h3>License Details</h3>
-<form action="/licenses" method="post">
+<form action="/facilities/<%= params[:id] %>/licenses/new" method="post">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label for='b1permit[b1_special_text]'>Business Name:</label>
   <input type='text' name='b1permit[b1_special_text]' /><br><br>
@@ -29,6 +29,5 @@
   <br><br>
   <label for='b1permit[b1_plant_count]'>Plant Count:</label>
   <input type='text' name='b1permit[b1_plant_count]' /><br><br>
-  <input type='hidden' name='b1permit[b3_facility_id]' value=<%= @b3_facility_id %>/><br>
   <input type='submit' value='Add License'/><br>
 </form>

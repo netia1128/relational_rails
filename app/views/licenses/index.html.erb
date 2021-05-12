@@ -17,6 +17,10 @@
     <% @b1permits.each do |license| %>
       <tr>
       <td><%= license.b1_special_text %></td>
+      <td>address here</td>
+      <td><%= license.b1_per_sub_type %></td>
+      <td><%= license.b1_appl_status %></td>
+      <td><%= license.b1_expiration %></td>
       <td><a href="/licenses/<%= license.id %>">See Info</a>
       </tr>
       <% end %>
