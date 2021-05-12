@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_05_11_170044) do
+ActiveRecord::Schema.define(version: 2021_05_12_042728) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -52,6 +52,29 @@ ActiveRecord::Schema.define(version: 2021_05_11_170044) do
     t.boolean "b3_has_co"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "franchisees", force: :cascade do |t|
+    t.integer "franchisor_id"
+    t.string "name"
+    t.string "city"
+    t.string "state"
+    t.boolean "independent"
+    t.float "sales"
+    t.float "initial_fee"
+    t.float "pct_fee_to_hq"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "franchisors", force: :cascade do |t|
+    t.string "name"
+    t.string "hq_city"
+    t.string "hq_state"
+    t.boolean "quick_service"
+    t.float "franchisee_cost"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "b1_permits", "b3_facilities", column: "b3_facilities_id"

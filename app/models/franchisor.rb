@@ -1,0 +1,3 @@
+class Franchisor <ApplicationRecord
+  
+end

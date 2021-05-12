@@ -1,0 +1,5 @@
+<h1>Franchisees</h1>
+
+<% @franchisees.each do |franchisee| %>
+  <p><%= franchisee.id %> <%= franchisee.franchisor_id %> <%= franchisee.name %> <%= franchisee.city %> <%= franchisee.independent %> <%= franchisee.sales %> <%= franchisee.initial_fee %> <%= franchisee.pct_fee_to_hq %> <%= franchisee.created_at %> <%= franchisee.updated_at %> </p> 
+<% end %>
