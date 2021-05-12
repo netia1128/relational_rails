@@ -1,0 +1,24 @@
+<h1>Denver's Licensed Facilities</h1>
+
+<br>
+
+<form action="/facilities/new" method = get>
+  <input type='submit' value='Add New Facility' /><br>
+</form><br>
+
+<table style='width:100%'>
+  <tr>
+    <th>Facility Address</th>
+    <th>Facility Information</th>
+    <th>Facility Licenses</th>
+  </tr>
+    <% @b3facilities.each do |facility| %>
+      <tr>
+      <td><%= facility.full_address %></td>
+      <td><a href="/facilities/<%= facility.id %>">See Info</a>
+      <td><a href="/facilities/<%= facility.id %>/licenses">See Licenses</a></td>
+      </tr>
+      <% end %>
+
+    <br><br>
+

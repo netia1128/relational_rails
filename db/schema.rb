@@ -16,33 +16,21 @@ ActiveRecord::Schema.define(version: 2021_05_12_042728) do
   enable_extension "plpgsql"
 
   create_table "b1_permits", force: :cascade do |t|
-    t.bigint "b3_facilities_id"
+    t.bigint "b3_facility_id"
     t.string "b1_special_text"
     t.string "b1_appl_status"
     t.string "b1_per_sub_type"
     t.datetime "b1_expiration"
     t.boolean "b1_extraction"
     t.integer "b1_plant_count"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["b3_facilities_id"], name: "index_b1_permits_on_b3_facilities_id"
-  end
-
-  create_table "b3_contacts", force: :cascade do |t|
-    t.bigint "b1_permits_id"
-    t.boolean "b3_primary_flag"
-    t.string "b3_contact_type"
-    t.string "b3_fname"
-    t.string "b3_lname"
-    t.integer "b3_phone"
-    t.integer "b3_email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["b1_permits_id"], name: "index_b3_contacts_on_b1_permits_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["b3_facility_id"], name: "index_b1_permits_on_b3_facility_id"
   end
 
   create_table "b3_facilities", force: :cascade do |t|
     t.integer "b3_street_number"
+    t.string "b3_street_prefix"
     t.string "b3_street_name"
     t.string "b3_street_type"
     t.string "b3_unit_info"
@@ -50,8 +38,8 @@ ActiveRecord::Schema.define(version: 2021_05_12_042728) do
     t.string "b3_state"
     t.integer "b3_zip"
     t.boolean "b3_has_co"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "franchisees", force: :cascade do |t|
@@ -79,4 +67,5 @@ ActiveRecord::Schema.define(version: 2021_05_12_042728) do
 
   add_foreign_key "b1_permits", "b3_facilities", column: "b3_facilities_id"
   add_foreign_key "b3_contacts", "b1_permits", column: "b1_permits_id"
+  add_foreign_key "b1_permits", "b3_facilities"
 end
