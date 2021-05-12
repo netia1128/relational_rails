@@ -1,0 +1,33 @@
+  <h1>Add New License</h1>
+  <h3>License Details</h3>
+<form action="/facilities/<%= params[:id] %>/licenses/new" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label for='b1permit[b1_special_text]'>Business Name:</label>
+  <input type='text' name='b1permit[b1_special_text]' /><br><br>
+  <label for='b1permit[b1_per_sub_type]'>License Type:</label>
+  <select id='License Type:' name='b1permit[b1_per_sub_type]'>
+    <option value='Medical Marijuana Center'>Medical Marijuana Center</option>
+    <option value='Medical Marijuana Cultivation'>Medical Marijuana Cultivation</option>
+    <option value='Medical Marijuana Infused Products Manufacturer'>Medical Marijuana Infused Products Manufacturer</option>
+    <option value='Medical Marijuana Testing Facility'>Medical Marijuana Testing Facility</option>
+    <option value='Retail Marijuana Center'>Retail Marijuana Center</option>
+    <option value='Retail Marijuana Cultivation'>Retail Marijuana Cultivation</option>
+    <option value='Retail Marijuana Infused Products Manufacturer'>Retail Marijuana Infused Products Manufacturer</option>
+    <option value='Retail Marijuana Testing Facility'>Retail Marijuana Testing Facility</option>
+  </select><br><br>
+  <label for='b1permit[b1_appl_status]'>License Status:</label>
+  <select id='License Status:' name='b1permit[b1_appl_status]'>
+    <option value='Active'>Active</option>
+    <option value='Administratively Closes'>Administratively Closed</option>
+    <option value='Expired'>Expired</option>
+    <option value='Pending'>Pending</option>
+    <option value='Revoked'>Revoked</option>
+  </select><br><br>
+  <label for='b1permit[b1_extraction]'>Does Extractions:</label>
+  <input type='radio' name='b1permit[b1_extraction]' value='true' > Yes
+  <input type='radio' name='b1permit[b1_extraction]' value='false' > No
+  <br><br>
+  <label for='b1permit[b1_plant_count]'>Plant Count:</label>
+  <input type='text' name='b1permit[b1_plant_count]' /><br><br>
+  <input type='submit' value='Add License'/><br>
+</form>
