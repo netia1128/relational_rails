@@ -53,6 +53,12 @@ RSpec.describe 'facilities licenses index page', type: :feature do
     expect(page).to have_content(@license1.b1_appl_status)
     expect(page).to_not have_content(@license2.b1_per_sub_type)
   end
+
+  it 'includes a count of the current number of licenses at the facility' do
+    visit "/facilities/#{@facility1.id}/licenses"
+
+    expect(page).to have_content('This facility currently has 1 license(s):')
+  end
 end
 
 
