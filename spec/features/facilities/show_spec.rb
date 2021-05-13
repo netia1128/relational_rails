@@ -32,7 +32,6 @@ RSpec.describe 'facilities show page', type: :feature do
   it 'shows you details for a specific facility' do
     visit "/facilities/#{@facility1.id}"
 
-
     expect(page).to have_content(@facility1.full_address)
     expect(page).to have_content('Facility ID:')
     expect(page).to have_content('Street Number:1311')
@@ -46,6 +45,13 @@ RSpec.describe 'facilities show page', type: :feature do
     expect(page).to have_content('Has a Certificate of Occupancy: Yes')
     expect(page).to have_content('Created At:')
     expect(page).to have_content('Updated At')
+  end
+
+  it 'has a link to a facilitys licenses page' do
+    visit "/facilities/#{@facility1.id}"
+
+    click_on 'See Associated Licenses'
+    expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
   end
 end
 

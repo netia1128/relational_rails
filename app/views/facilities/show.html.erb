@@ -25,6 +25,8 @@
     </td></tr>
   <tr><td>Created At:</td><td><%= @b3_facility.created_at.strftime("%m/%d/%Y") %></td></tr>
   <tr><td>Updated At:</td><td><%= @b3_facility.updated_at.strftime("%m/%d/%Y") %></td></tr>
-</table><br><br>
+</table><br>
+
+<h3><a href="/facilities/<%= @b3_facility.id %>/licenses">See Associated Licenses</a></h3>
 
 
