@@ -16,7 +16,7 @@ RSpec.describe B3Facility, type: :model do
       )
   end
 
-  it {should have_many :b1_permits}
+  it {should have_many :B1Permits}
 
   describe 'instance methods' do
     describe '#full address' do

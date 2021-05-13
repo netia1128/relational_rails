@@ -1,5 +1,5 @@
 require 'rails_helper'
 
-RSpec.describe Song, type: :model do
-  it {should belong_to :artist}
+RSpec.describe B1Permit, type: :model do
+  it {should belong_to :b3_facility}
 end
