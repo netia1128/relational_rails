@@ -6,6 +6,8 @@
   <input type='submit' value='Add New License' /><br>
 </form><br>
 
+<h3>This facility currently has <%= @b1permits.count%> license(s):</h3>
+
 <table style='width:100%'>
   <tr>
     <th>Business Name</th>
@@ -13,11 +15,19 @@
     <th>License Type</th>
     <th>License Status</th>
     <th>License Expiration</th>
+    <th>More Details</th>
   </tr>
   <% @b1permits.each do |permit| %>
     <tr><td><%= permit.b1_special_text %></td>
     <% b3facility = B3Facility.find(permit.b3_facility_id) %>
-    <td><%= b3facility.full_address %></td></tr>
+    <td><%= b3facility.full_address %></td>
+    <td><%= permit.b1_per_sub_type %></td>
+    <td><%= permit.b1_appl_status %></td>
+    <td><%= permit.b1_expiration.strftime("%m/%d/%Y") %></td>
+    <td><a href="/licenses/<%= permit.id %>">See More Info</a></tr>
   <% end %>
-    <br><br>
+  </table><br>
 
+
+
+<a href="\facilities">Return to Facility Index</a><br>

@@ -4,7 +4,7 @@ class FacilitiesController < ApplicationController
   protect_from_forgery with: :null_session
 
   def index
-    @b3facilities = B3Facility.all
+    @b3facilities = B3Facility.sort_by_id
   end
 
   def new
