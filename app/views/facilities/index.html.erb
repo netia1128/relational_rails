@@ -1,11 +1,11 @@
 <h1>Denver's Licensed Facilities</h1>
-
 <br>
 
 <form action="/facilities/new" method = get>
   <input type='submit' value='Add New Facility' /><br>
 </form><br>
 
+<h3>Denver currently has <%= @b3facilities.count%> facilities:</h3>
 <table style='width:100%'>
   <tr>
     <th>Facility ID</th>

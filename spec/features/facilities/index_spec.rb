@@ -29,7 +29,6 @@ RSpec.describe 'facilities index page', type: :feature do
 
   it 'can see all facility addresses' do
     visit '/facilities'
-    # save_and_open_page
 
     expect(page).to have_content(@facility1.full_address)
     expect(page).to have_content(@facility2.full_address)
@@ -37,8 +36,15 @@ RSpec.describe 'facilities index page', type: :feature do
 
   it 'displays the facilities in the order which they were created' do
     visit '/facilities'
-    # save_and_open_page
 
     expect(page).to have_content("Facility ID")
   end
+
+  it 'includes a count of the current number of facilities' do
+    visit '/facilities'
+
+    expect(page).to have_content('Denver currently has 2 facilities:')
+  end
 end
+
+    # save_and_open_page
