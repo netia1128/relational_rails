@@ -42,8 +42,8 @@ RSpec.describe B3Facility, type: :model do
     describe '#sort by id' do
       it 'sorts records by created by id' do
 
-        expect(B3Facility.sort_by_id.first).to eq(@facility1)
-        expect(B3Facility.sort_by_id.last).to eq(@facility2)
+        expect(B3Facility.sort_by_id.first).to eq(@facility2)
+        expect(B3Facility.sort_by_id.last).to eq(@facility1)
       end
     end
 

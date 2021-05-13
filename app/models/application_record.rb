@@ -6,7 +6,7 @@ class ApplicationRecord < ActiveRecord::Base
   end
 
   def self.sort_by_id
-    self.all.order(:id)
+    self.all.order(id: :desc)
   end
 
   def self.count
