@@ -20,6 +20,7 @@ class FacilitiesController < ApplicationController
       b3_city: params[:facility][:b3_city],
       b3_state: params[:facility][:b3_state],
       b3_zip: params[:facility][:b3_zip],
+      b3_square_footage: params[:facility][:b3_square_footage],
       b3_has_co: params[:facility][:b3_has_co],
       created_at: Time.now,
       updated_at: Time.now
