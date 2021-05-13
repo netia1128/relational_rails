@@ -11,20 +11,22 @@ RSpec.describe 'facilities show page', type: :feature do
                 b3_city: "Denver",
                 b3_state: "CO",
                 b3_zip: 80205,
+                b3_square_footage: 700,
                 b3_has_co: true
-    )
+          )
 
     @facility2 = B3Facility.create(
-      b3_street_number: 201,
-      b3_street_prefix: 'W',
-      b3_street_name: "ColFax",
-      b3_street_type: "Ave",
-      b3_unit_info: nil,
-      b3_city: "Denver",
-      b3_state: "CO",
-      b3_zip: 80202,
-      b3_has_co: false
-)
+                b3_street_number: 201,
+                b3_street_prefix: 'W',
+                b3_street_name: "ColFax",
+                b3_street_type: "Ave",
+                b3_unit_info: nil,
+                b3_city: "Denver",
+                b3_state: "CO",
+                b3_zip: 80202,
+                b3_square_footage: 225000,
+                b3_has_co: false
+          )
   end
 
   it 'shows you details for a specific facility' do
@@ -40,6 +42,7 @@ RSpec.describe 'facilities show page', type: :feature do
     expect(page).to have_content('Unit Info:')
     expect(page).to have_content('City:Denver')
     expect(page).to have_content('Zip Code:80205')
+    expect(page).to have_content('Square Footage:700')
     expect(page).to have_content('Has a Certificate of Occupancy: Yes')
     expect(page).to have_content('Created At:')
     expect(page).to have_content('Updated At')

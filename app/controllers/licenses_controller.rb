@@ -13,7 +13,7 @@ class LicensesController < ApplicationController
       b1_extraction: params[:b1permit][:b1_extraction],
       b1_plant_count: params[:b1permit][:b1_plant_count]
     )
-    redirect_to '/licenses'
+    redirect_to "/facilities/#{params[:id]}/licenses"
   end
 
   def index
