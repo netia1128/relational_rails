@@ -1,3 +1,3 @@
-class Franchisor <ApplicationRecord
-  
+class Franchisor < ApplicationRecord
+  has_many :franchisees
 end
