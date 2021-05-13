@@ -39,5 +39,7 @@ RSpec.describe 'facilities index page', type: :feature do
 
     expect(page).to have_content(@license1.b1_special_text)
     expect(page).to have_content(@license2.b1_special_text)
+    expect(page).to have_content(@license1.b1_appl_status)
+    expect(page).to have_content(@license2.b1_per_sub_type)
   end
 end
