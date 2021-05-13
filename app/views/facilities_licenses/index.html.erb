@@ -13,6 +13,7 @@
     <th>License Type</th>
     <th>License Status</th>
     <th>License Expiration</th>
+    <th>More Details</th>
   </tr>
   <% @b1permits.each do |permit| %>
     <tr><td><%= permit.b1_special_text %></td>
@@ -20,7 +21,8 @@
     <td><%= b3facility.full_address %></td>
     <td><%= permit.b1_per_sub_type %></td>
     <td><%= permit.b1_appl_status %></td>
-    <td><%= permit.b1_expiration.strftime("%m/%d/%Y") %></td></tr>
+    <td><%= permit.b1_expiration.strftime("%m/%d/%Y") %></td>
+    <td><a href="/licenses/<%= permit.id %>">See More Info</a></tr>
   <% end %>
   </table><br>
 

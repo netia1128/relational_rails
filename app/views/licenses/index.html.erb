@@ -1,13 +1,9 @@
 <h1>Denver's Marijuana Licenses</h1>
 
 <br>
-
-<form action="/licenses/new" method = get>
-  <input type='submit' value='Add New License' /><br>
-</form><br>
-
 <table style='width:100%'>
   <tr>
+    <th>License Number</th>
     <th>Business Name</th>
     <th>Facility Address</th>
     <th>License Type</th>
@@ -17,6 +13,7 @@
   </tr>
     <% @b1permits.each do |license| %>
       <tr>
+      <td><%= license.id %></td>
       <td><%= license.b1_special_text %></td>
       <td><%= B3Facility.find(license.b3_facility_id).full_address %></td>
       <td><%= license.b1_per_sub_type %></td>
