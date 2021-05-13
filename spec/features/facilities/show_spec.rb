@@ -28,19 +28,22 @@ RSpec.describe 'facilities show page', type: :feature do
   end
 
   it 'shows you details for a specific facility' do
-    visit "/facilities/#{@facility_1.id}"
-    # save_and_open_page
+    visit "/facilities/#{@facility1.id}"
+
 
     expect(page).to have_content(@facility1.full_address)
-    expect(page).to have_content()
+    expect(page).to have_content('Facility ID:')
+    expect(page).to have_content('Street Number:1311')
+    expect(page).to have_content('Street Prefix:E')
+    expect(page).to_not have_content('Street Prefix:N')
+    expect(page).to have_content('Street Type:AVE')
+    expect(page).to have_content('Unit Info:')
+    expect(page).to have_content('City:Denver')
+    expect(page).to have_content('Zip Code:80205')
+    expect(page).to have_content('Has a Certificate of Occupancy: Yes')
+    expect(page).to have_content('Created At:')
+    expect(page).to have_content('Updated At')
   end
 end
 
-[ ] done
-
-User Story 2, Parent Show (x2)
-
-As a visitor
-When I visit '/parents/:id'
-Then I see the parent with that id including the parent's attributes:
-- data from each column that is on the parent table
+    # save_and_open_page
