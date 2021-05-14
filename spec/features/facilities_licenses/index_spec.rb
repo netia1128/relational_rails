@@ -59,6 +59,11 @@ RSpec.describe 'facilities licenses index page', type: :feature do
 
     expect(page).to have_content('This facility currently has 1 license(s):')
   end
+
+  it 'allows me to add a new license' do
+    visit "/facilities/#{@facility1.id}/licenses"
+    click_on 'Add New License'
+
+    expect(current_path).to eq("/facilities/#{@facility1.id}/licenses/new")
+  end
 end
-
-

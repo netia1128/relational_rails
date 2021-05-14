@@ -25,3 +25,5 @@ Note - OK to list by ID per Brian's approval.
 
 GEM - orderly
 Swapr id for created at
+
+Facilities_licenses#new - cant figure out how to select a radio button
