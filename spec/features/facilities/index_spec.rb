@@ -45,6 +45,13 @@ RSpec.describe 'facilities index page', type: :feature do
 
     expect(page).to have_content('Denver currently has 2 facilities:')
   end
+
+  it 'allows me to add a new facility' do
+    visit '/facilities'
+    click_on 'Add New Facility'
+
+    expect(current_path).to eq("/facilities/new")
+  end
 end
 
     # save_and_open_page
