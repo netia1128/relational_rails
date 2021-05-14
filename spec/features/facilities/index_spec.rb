@@ -15,16 +15,16 @@ RSpec.describe 'facilities index page', type: :feature do
     )
 
     @facility2 = B3Facility.create(
-      b3_street_number: 201,
-      b3_street_prefix: 'W',
-      b3_street_name: "ColFax",
-      b3_street_type: "Ave",
-      b3_unit_info: nil,
-      b3_city: "Denver",
-      b3_state: "CO",
-      b3_zip: 80202,
-      b3_has_co: false
-)
+                b3_street_number: 201,
+                b3_street_prefix: 'W',
+                b3_street_name: "ColFax",
+                b3_street_type: "Ave",
+                b3_unit_info: nil,
+                b3_city: "Denver",
+                b3_state: "CO",
+                b3_zip: 80202,
+                b3_has_co: false
+    )
   end
 
   it 'can see all facility addresses' do

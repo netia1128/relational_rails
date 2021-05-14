@@ -8,7 +8,7 @@ class LicensesController < ApplicationController
   end
 
   def index
-    @b1permits = B1Permit.all
+    @b1permits = B1Permit.b1_permits_that_extract
   end
 
   def show
