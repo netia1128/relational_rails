@@ -19,4 +19,12 @@ RSpec.describe 'Franchisors name page' do
     expect(page).to have_content(@cfa.name)
     expect(page).to have_content(@cfa.quick_services)
   end
+
+  it 'sorts by the most recently created' do
+    @garbanzo = Franchisor.create!(name: "Garbanzo", hq_city: "Centennial", hq_state: "Colorado", quick_service: true, franchisee_cost: 25000.0)
+    visit ("/franchisors")
+
+    expect(@garbanzo.name).to appear_before(@cfa.name)
+    expect(@garbanzo.name).to appear_before(@applebees.name)
+  end
 end
