@@ -1,8 +1,9 @@
 <h1><%= @b3_facility.full_address%></h1>
 <h3 style="text-decoration: underline;">Facility Details</h3>
 
-<form action="/facilities/<% @b3_facility.id %>" method="post">
+<form action="/facilities/<%= @b3_facility.id %>" method="post">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="PATCH" />
   <label for='facility[b3_street_number]'>Street Number:</label>
   <input type='text' name='facility[b3_street_number]' value=<%= @b3_facility.b3_street_number %>><br><br>
   <label for='facility[b3_street_prefix]'>Street Prefix:</label>

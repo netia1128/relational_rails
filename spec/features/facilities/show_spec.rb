@@ -58,7 +58,7 @@ RSpec.describe 'facilities show page', type: :feature do
     visit "/facilities/#{@facility1.id}"
 
     click_on 'Edit Facility Details'
-    expect(current_path).to eq("/facilities/#{@facility1.id}/update")
+    expect(current_path).to eq("/facilities/#{@facility1.id}/edit")
   end
 end
 

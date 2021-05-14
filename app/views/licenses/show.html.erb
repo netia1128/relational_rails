@@ -22,3 +22,7 @@
   <tr><td>Created At:</td><td><%= @b1_permit.created_at.strftime("%m/%d/%Y") %></td></tr>
   <tr><td>Updated At:</td><td><%= @b1_permit.updated_at.strftime("%m/%d/%Y") %></td></tr>
 </table><br><br>
+
+<form action="/licenses/<%= @b1_permit.id %>/edit" method=get>
+  <input type='submit' value='Edit License Details' /><br>
+</form>

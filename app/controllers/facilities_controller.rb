@@ -3,17 +3,6 @@
 class FacilitiesController < ApplicationController
   protect_from_forgery with: :null_session
 
-  def edit
-    @b3_facility = B3Facility.find(params[:id])
-  end
-
-  def index
-    @b3facilities = B3Facility.sort_by_id
-  end
-
-  def new
-  end
-
   def create
     b3_facility = B3Facility.new({
       b3_street_number: params[:facility][:b3_street_number],
@@ -32,12 +21,24 @@ class FacilitiesController < ApplicationController
     redirect_to '/facilities'
   end
 
+  def edit
+    @b3_facility = B3Facility.find(params[:id])
+  end
+
+  def index
+    @b3facilities = B3Facility.sort_by_id
+  end
+
+  def new
+  end
+
   def show
     @b3_facility = B3Facility.find(params[:id])
   end
 
   def update
-    @b3_facility.update({
+    b3_facility = B3Facility.find(params[:id])
+    b3_facility.update({
       b3_street_number: params[:facility][:b3_street_number],
       b3_street_prefix: params[:facility][:b3_street_prefix],
       b3_street_name: params[:facility][:b3_street_name],
@@ -49,7 +50,7 @@ class FacilitiesController < ApplicationController
       b3_square_footage: params[:facility][:b3_square_footage],
       b3_has_co: params[:facility][:b3_has_co]
     })
-    @b3_facility.save
+    b3_facility.save
     redirect_to "/facilities/#{params[:id]}"
   end
 end

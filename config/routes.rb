@@ -17,6 +17,8 @@ Rails.application.routes.draw do
 
     get '/licenses', to: 'licenses#index'
     get '/licenses/:id', to: 'licenses#show'
+    get '/licenses/:id/edit', to: 'licenses#edit'
+    patch '/licenses/:id', to: 'licenses#update'
 
     get '/facilities/:id/licenses', to: 'facilities_licenses#index'
 
