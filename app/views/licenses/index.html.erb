@@ -1,29 +1,27 @@
 <h1>Denver's Marijuana Licenses</h1>
 
 <br>
-
-<form action="/licenses/new" method = get>
-  <input type='submit' value='Add New License' /><br>
-</form><br>
-
 <table style='width:100%'>
   <tr>
+    <th>License Number</th>
     <th>Business Name</th>
     <th>Facility Address</th>
     <th>License Type</th>
     <th>License Status</th>
     <th>License Expiration</th>
+    <th>More Details</th>
   </tr>
     <% @b1permits.each do |license| %>
       <tr>
+      <td><%= license.id %></td>
       <td><%= license.b1_special_text %></td>
-      <td>address here</td>
+      <td><%= B3Facility.find(license.b3_facility_id).full_address %></td>
       <td><%= license.b1_per_sub_type %></td>
       <td><%= license.b1_appl_status %></td>
-      <td><%= license.b1_expiration %></td>
-      <td><a href="/licenses/<%= license.id %>">See Info</a>
+      <td><%= license.b1_expiration.strftime("%m/%d/%Y") %></td>
+      <td><a href="/licenses/<%= license.id %>">See More Info</a>
       </tr>
       <% end %>
-
+</table>
     <br><br>
 
