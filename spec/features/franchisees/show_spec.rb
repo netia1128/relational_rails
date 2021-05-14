@@ -29,4 +29,21 @@ RSpec.describe 'Franchisees show page' do
     expect(page).to have_content(@cfa_littleton.created_at.strftime('%Y-%m-%d'))
     expect(page).to have_content(@cfa_littleton.updated_at.strftime('%Y-%m-%d'))
   end
+
+  it 'shows another specific franchisee and its attributes' do
+    visit "/franchisees/#{@applebees_steamboat.id}"
+
+    expect(page).to have_content(@applebees_steamboat.id)
+    expect(page).to have_content(@applebees_steamboat.name)
+    expect(page).to have_content(@applebees_steamboat.city)
+    expect(page).to have_content(@applebees_steamboat.state)
+    expect(page).to have_content(@applebees_steamboat.independent)
+    expect(page).to have_content(@applebees_steamboat.annual_sales)
+    expect(page).to have_content(@applebees_steamboat.initial_fee)
+    expect(page).to have_content(@applebees_steamboat.pct_fee * 100)
+    expect(page).to have_content(@applebees_steamboat.franchisor_id)
+    expect(page).to have_content(@applebees_steamboat.franchisor.name)
+    expect(page).to have_content(@applebees_steamboat.created_at.strftime('%Y-%m-%d'))
+    expect(page).to have_content(@applebees_steamboat.updated_at.strftime('%Y-%m-%d'))
+  end
 end
