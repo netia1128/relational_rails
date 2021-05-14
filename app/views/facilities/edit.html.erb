@@ -1,0 +1,42 @@
+<h1><%= @b3_facility.full_address%></h1>
+<h3 style="text-decoration: underline;">Facility Details</h3>
+
+<form action="/facilities/<% @b3_facility.id %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label for='facility[b3_street_number]'>Street Number:</label>
+  <input type='text' name='facility[b3_street_number]' value=<%= @b3_facility.b3_street_number %>><br><br>
+  <label for='facility[b3_street_prefix]'>Street Prefix:</label>
+  <select id='prefixes' name='facility[b3_street_prefix]'>
+    <option value="<%= @b3_facility.b3_street_prefix %>" selected><%= @b3_facility.b3_street_prefix %></option>
+    <option value=''> </option>
+    <option value='N'>N</option>
+    <option value='S'>S</option>
+    <option value='E'>E</option>
+    <option value='W'>W</option>
+  </select><br><br>
+  <label for='facility[b3_street_name]'>Street Name:</label>
+  <input type='text' name='facility[b3_street_name]' value=<%= @b3_facility.b3_street_name%>><br><br>
+  <label for='facility[b3_street_type]'>Street Type:</label>
+  <input type='text' name='facility[b3_street_type]' value=<%= @b3_facility.b3_street_type%>><br><br>
+  <label for='facility[b3_unit_info]'>Unit Info:</label>
+  <input type='text' name='facility[b3_unit_info]' value=<%= @b3_facility.b3_unit_info%>><br><br>
+  <label for='facility[b3_city]'>City:</label>
+  <input type='text' name='facility[b3_city]' value=<%= @b3_facility.b3_city%>><br><br>
+  <label for='facility[b3_state]'>State:</label>
+  <input type='text' name='facility[b3_state]' value=<%= @b3_facility.b3_state%>><br><br>
+  <label for='facility[b3_zip_code]'>Zip Code:</label>
+  <input type='text' name='facility[b3_zip]' value=<%= @b3_facility.b3_zip%>><br><br>
+  <label for='facility[b3_square_footage]'>Square Footage:</label>
+  <input type='text' name='facility[b3_square_footage]' value=<%= @b3_facility.b3_square_footage%>><br><br>
+  <label for='facility[b3_has_co]'>Has Certificate of Occupancy?</label><br>
+  <% if @b3_facility.b3_has_co == true %>
+  <input type='radio' name='facility[b3_has_co]' value='true' checked> Yes
+  <input type='radio' name='facility[b3_has_co]' value='false' > No
+  <% else %>
+  <input type='radio' name='facility[b3_has_co]' value='true' > Yes
+  <input type='radio' name='facility[b3_has_co]' value='false' checked> No
+  <% end %>
+  <br><br>
+  <input type='submit' value='Submit Edits'/><br>
+</form>
+

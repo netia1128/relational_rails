@@ -53,6 +53,13 @@ RSpec.describe 'facilities show page', type: :feature do
     click_on 'See Associated Licenses'
     expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
   end
+
+  it 'has a button that allows you to update the record' do
+    visit "/facilities/#{@facility1.id}"
+
+    click_on 'Edit Facility Details'
+    expect(current_path).to eq("/facilities/#{@facility1.id}/update")
+  end
 end
 
     # save_and_open_page
