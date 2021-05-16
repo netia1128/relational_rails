@@ -19,6 +19,9 @@
       <td><%= license.b1_appl_status %></td>
       <td><%= license.b1_expiration.strftime("%m/%d/%Y") %></td>
       <td><a href="/licenses/<%= license.id %>">See More Info</a>
+      /
+      <a href="/licenses/<%= license.id %>/edit">Edit Info </a></td>
+      /
       </tr>
       <% end %>
 </table>

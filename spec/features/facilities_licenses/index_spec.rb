@@ -66,4 +66,14 @@ RSpec.describe 'facilities licenses index page', type: :feature do
 
     expect(current_path).to eq("/facilities/#{@facility1.id}/licenses/new")
   end
+
+  it 'has links to edit each license' do
+    visit "/facilities/#{@facility1.id}/licenses"
+
+    expect(page).to have_content("Edit Info")
+
+    click_link('Edit Info', match: :first)
+
+    expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+  end
 end

@@ -71,4 +71,14 @@ RSpec.describe 'facilities index page', type: :feature do
     expect(page).to have_content(@license1.b1_appl_status)
     expect(page).to_not have_content(@license3.b1_per_sub_type)
   end
+
+  it 'has links to edit each license' do
+    visit "/licenses"
+
+    expect(page).to have_content("Edit Info")
+
+    click_link('Edit Info', match: :first)
+
+    expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+  end
 end
