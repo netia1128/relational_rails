@@ -3,7 +3,7 @@
 <h1>Franchisors</h1>
 
 <div><% @franchisors.each do |franchisor| %></div>
-  <p><%= franchisor.name %></p>
+  <p><%= franchisor.name %> <%= franchisor.created_at %></p>
 <div><% end %></div>
 <br>
 
