@@ -3,13 +3,6 @@
 class LicensesController < ApplicationController
   protect_from_forgery with: :null_session
 
-  def index
-    @b1permits = B1Permit.all
-  end
-
-  def new
-  end
-
   def create
     B1Permit.create(
       b3_facility_id: params[:id],
@@ -20,10 +13,18 @@ class LicensesController < ApplicationController
       b1_extraction: params[:b1permit][:b1_extraction],
       b1_plant_count: params[:b1permit][:b1_plant_count]
     )
-    redirect_to '/licenses'
+    redirect_to "/facilities/#{params[:id]}/licenses"
   end
 
-  def see_details
-    @b1_permit = B1Permitfind(params[:id])
+  def index
+    @b1permits = B1Permit.all
+  end
+
+  def new
+  end
+
+  def show
+    @b1_permit = B1Permit.find(params[:id])
+    @b3_facility = B3Facility.find(@b1_permit.b3_facility_id)
   end
 end
