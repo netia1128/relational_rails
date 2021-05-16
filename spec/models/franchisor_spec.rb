@@ -11,7 +11,7 @@ RSpec.describe Franchisor, type: :model do
 
     describe '#sort_by_created_desc' do
       it 'sorts by the most recently created' do
-        expect(@applebees.created_at > @cfa.created_at).to eq(true)
+        expect(Franchisor.sort_by_created_desc.first).to eq(@applebees)
       end
     end
   #   describe '#count_franchisees' do
