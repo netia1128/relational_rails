@@ -52,6 +52,16 @@ RSpec.describe 'facilities index page', type: :feature do
 
     expect(current_path).to eq("/facilities/new")
   end
+
+  it 'has links to edit each facility' do
+    visit '/facilities'
+
+    expect(page).to have_content("Edit Info")
+
+    click_link('Edit Info', match: :first)
+
+    expect(current_path).to eq("/facilities/#{@facility2.id}/edit")
+  end
 end
 
     # save_and_open_page
