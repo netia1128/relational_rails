@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <style>
-  table, th {
-    text-align: left;
-    vertical-align: text-top;
-    border: 1px solid black;
-  }
-  td {
-    border: 1px dotted black;
-  }
-  </style>
     <title>RelationalRails</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -20,6 +10,16 @@
   </head>
 
   <body>
+
+    <div class="topnav">
+     <%= image_tag('data_explorer.png', id: 'main-logo') %>
+      <span style="text-align: right">
+      <a class="active" href="/">Home</a>
+      <a class="active" href="/facilities">Facilities</a>
+      <a class="active" href="/licenses">Licenses</a>
+      </span>
+    </div>
+
     <%= yield %>
   </body>
 </html>

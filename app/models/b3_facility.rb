@@ -16,7 +16,7 @@ class B3Facility < ApplicationRecord
         ]
 
         arr_to_join = arr.find_all do |address_piece|
-            address_piece != ''
+            address_piece != '' && address_piece != nil
         end.join(' ').upcase
     end
 end
