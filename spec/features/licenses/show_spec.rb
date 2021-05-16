@@ -46,6 +46,13 @@ RSpec.describe 'licenses show page', type: :feature do
     expect(page).to have_content('Does Extractions?: No')
     expect(page).to have_content('Plant Count:')
   end
+
+  it 'has a button that allows you to update the record' do
+    visit "/licenses/#{@license1.id}"
+
+    click_on 'Edit License Details'
+    expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+  end
 end
 
     # save_and_open_page

@@ -59,11 +59,21 @@ RSpec.describe 'facilities licenses index page', type: :feature do
 
     expect(page).to have_content('This facility currently has 1 license(s):')
   end
+
+  it 'allows me to add a new license' do
+    visit "/facilities/#{@facility1.id}/licenses"
+    click_on 'Add New License'
+
+    expect(current_path).to eq("/facilities/#{@facility1.id}/licenses/new")
+  end
+
+  it 'has links to edit each license' do
+    visit "/facilities/#{@facility1.id}/licenses"
+
+    expect(page).to have_content("Edit Info")
+
+    click_link('Edit Info', match: :first)
+
+    expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+  end
 end
-
-
-# User Story 5, Parent Children Index (x2)
-
-# As a visitor
-# When I visit '/parents/:parent_id/child_table_name'
-# Then I see each Child that is associated with that Parent with each Child's attributes:

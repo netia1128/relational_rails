@@ -12,17 +12,25 @@ Rails.application.routes.draw do
     get '/franchisees/:id', to: 'franchisees#show'
 
     get '/facilities', to: 'facilities#index'
-    get '/facilities/new', to: 'facilities#new'
     post '/facilities', to: 'facilities#create'
+
+    #does not work if show is here with rails form
+    # get '/facilities/:id', to: 'facilities#show'
+    get '/facilities/:id/edit', to: 'facilities#edit'
+    patch '/facilities/:id', to: 'facilities#update'
+
+    get '/facilities/new', to: 'facilities#new'
+    #does work if show is here with rails form
     get '/facilities/:id', to: 'facilities#show'
 
     get '/licenses', to: 'licenses#index'
     get '/licenses/:id', to: 'licenses#show'
+    get '/licenses/:id/edit', to: 'licenses#edit'
+    patch '/licenses/:id', to: 'licenses#update'
 
     get '/facilities/:id/licenses', to: 'facilities_licenses#index'
-    get '/facilities/:id/licenses/new', to: 'licenses#new'
-   #strike one of these
-    post '/facilities/:id/licenses/new', to: 'licenses#create'
-  #strike one of these
-    post '/facilities/:id/licenses', to: 'licenses#create'
+
+    get '/facilities/:id/licenses/new', to: 'facilities_licenses#new'
+    post '/facilities/:id/licenses/new', to: 'facilities_licenses#create'
+
 end

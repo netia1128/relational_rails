@@ -1,8 +1,40 @@
+  <%# Ruby Forms Version %>
+
   <h1>Add New Facility</h1>
   <h3>Facility Details</h3>
+
+  <%= form_with url: '/facilities/', method: :post, local: true do |form| %>
+    <%= form.label :b3_street_number, 'Street Number:' %>
+    <%= form.text_field :b3_street_number %><br><br>
+    <%= form.label :b3_street_prefix, 'Street Prefix:' %>
+    <%= form.select :b3_street_prefix, [' ', 'E', 'W', 'N', 'S'] %><br><br>
+    <%= form.label :b3_street_name, 'Street Name:' %>
+    <%= form.text_field :b3_street_name %><br><br>
+    <%= form.label :b3_street_type, 'Street Type:' %>
+    <%= form.text_field :b3_street_type %><br><br>
+    <%= form.label :b3_unit_info, 'Unit Info:' %>
+    <%= form.text_field :b3_unit_info %><br><br>
+    <%= form.label :b3_city, 'City:' %>
+    <%= form.text_field :b3_city %><br><br>
+    <%= form.label :b3_state, 'State:' %>
+    <%= form.text_field :b3_state %><br><br>
+    <%= form.label :b3_zip, 'Zip Code:' %>
+    <%= form.text_field :b3_zip %><br><br>
+    <%= form.label :b3_square_footage, 'Square Footage:' %>
+    <%= form.text_field :b3_square_footage %><br><br>
+    <%= form.label :b3_has_co, 'Has Certificate of Occupancy:' %><br>
+    <%= form.radio_button :b3_has_co, true %>Yes
+    <%= form.radio_button :b3_has_co, false %>No<br><br>
+    <%= form.submit 'Add Facility' %>
+  <% end %>
+
+<%# HTML VERSION %>
+  <%# <h1>Add New Facility</h1>
+  <h3>Facility Details</h3>
+
 <form action="/facilities" method="post">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-  <label for='facility[b3_street_number]'>Street Number:</label>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>
+  <%# <label for='facility[b3_street_number]'>Street Number:</label>
   <input type='text' name='facility[b3_street_number]' /><br><br>
   <label for='facility[b3_street_prefix]'>Street Prefix:</label>
   <select id='prefixes' name='facility[b3_street_prefix]'>
@@ -31,4 +63,4 @@
   <input type='radio' name='facility[b3_has_co]' value='false' > No
   <br><br>
   <input type='submit' value='Add Facility'/><br>
-</form>
+</form> %>
