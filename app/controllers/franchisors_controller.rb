@@ -1,6 +1,6 @@
 class FranchisorsController < ApplicationController
   def index
-    @franchisors = Franchisor.all.order(created_at: :desc)
+    @franchisors = Franchisor.sort_by_created_desc
   end
 
   def show
