@@ -15,7 +15,7 @@ RSpec.describe B1Permit, type: :model do
     )
 
     @license1 = @facility1.B1Permits.create(
-        b1_special_text: "Netia's Weed House",
+        b1_special_text: "ZNetia's Weed House",
         b1_appl_status: "Active",
         b1_per_sub_type: "Retail Marijuana Store",
         b1_expiration: 1.year.from_now,
@@ -31,6 +31,15 @@ RSpec.describe B1Permit, type: :model do
         b1_extraction: false,
         b1_plant_count: nil
     )
+
+    @license3 = @facility1.B1Permits.create(
+      b1_special_text: "Brian's Bong Bazaar",
+      b1_appl_status: "Pending",
+      b1_per_sub_type: "Medical Marijuana Center",
+      b1_expiration: 1.year.from_now,
+      b1_extraction: true,
+      b1_plant_count: nil
+  )
   end
 
   it {should belong_to :b3_facility}
@@ -39,7 +48,17 @@ RSpec.describe B1Permit, type: :model do
     describe '#b1_permits_that_extract' do
       it 'returns all B1Permit objects that do extractions' do
 
-        expect(B1Permit.b1_permits_that_extract).to eq([@license1])
+        expect(B1Permit.b1_permits_that_extract).to eq([@license1, @license3])
+      end
+      it 'returns permits in id order by default' do
+
+        expect(B1Permit.b1_permits_that_extract.first).to eq(@license1)
+        expect(B1Permit.b1_permits_that_extract.last).to eq(@license3)
+      end
+      it 'takes an optional argument to order by a different value' do
+
+        expect(B1Permit.b1_permits_that_extract("b1_special_text").first).to eq(@license3)
+        expect(B1Permit.b1_permits_that_extract("b1_special_text").last).to eq(@license1)
       end
     end
   end

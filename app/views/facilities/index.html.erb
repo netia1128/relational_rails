@@ -1,9 +1,10 @@
 <h1>Denver's Licensed Marijuana Facilities</h1>
 <br>
 
-<form action="/facilities/new" method = get>
+<%= button_to "Add New Facility", "/facilities/new", method: :get %>
+<%# <form action="/facilities/new" method = get>
   <input type='submit' value='Add New Facility' /><br>
-</form><br>
+</form><br> %>
 
 <h3>Denver currently has <%= @b3facilities.count%> facilities:</h3>
 <table style='width:100%'>

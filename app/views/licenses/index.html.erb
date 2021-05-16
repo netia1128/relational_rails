@@ -1,5 +1,4 @@
 <h1>Denver's Marijuana Licenses</h1>
-
 <br>
 <table style='width:100%'>
   <tr>
@@ -24,4 +23,8 @@
       <% end %>
 </table>
     <br><br>
+
+  <h3>Sort Preference:</h3>
+  <%= link_to "By ID", licenses_path(:order_by => "id") %><br>
+  <%= link_to "By Business Name", licenses_path(:order_by => "b1_special_text")%>
 

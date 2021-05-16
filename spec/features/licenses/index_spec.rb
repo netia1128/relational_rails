@@ -54,7 +54,16 @@ RSpec.describe 'facilities index page', type: :feature do
 
   it 'only shows records where the boolean value is true' do
     visit '/licenses'
-    # save_and_open_page
+
+    expect(page).to have_content(@license1.b1_special_text)
+    expect(page).to have_content(@license2.b1_special_text)
+    expect(page).to_not have_content(@license3.b1_special_text)
+    expect(page).to have_content(@license1.b1_appl_status)
+    expect(page).to_not have_content(@license3.b1_per_sub_type)
+  end
+
+  it 'allows you to sort by ID or business name' do
+    visit '/licenses'
 
     expect(page).to have_content(@license1.b1_special_text)
     expect(page).to have_content(@license2.b1_special_text)

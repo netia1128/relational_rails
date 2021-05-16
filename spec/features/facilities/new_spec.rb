@@ -23,7 +23,7 @@ RSpec.describe 'facilities new page', type: :feature do
     page.fill_in 'facility[b3_street_type]', with: 'Ave'
     page.fill_in 'facility[b3_zip]', with: '80205'
     page.fill_in 'facility[b3_square_footage]', with: 700
-    click_on 'Add Facility'
+    click_button 'Add Facility'
 
     expect(current_path).to eq("/facilities")
     expect(page).to have_content("27TH AVE DENVER CO 80205")
