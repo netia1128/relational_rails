@@ -3,10 +3,13 @@ Rails.application.routes.draw do
 
     get '/', to: 'welcome#index'
     get '/franchisors', to: 'franchisors#index'
+    get '/franchisors/new', to: 'franchisors#new'
+    post '/franchisors', to: 'franchisors#create'
     get '/franchisors/:id', to: 'franchisors#show'
+    get '/franchisors/:id/franchisees', to: 'franchisor_franchisees#index'
+
     get '/franchisees', to: 'franchisees#index'
     get '/franchisees/:id', to: 'franchisees#show'
-    get '/franchisors/:id/franchisees', to: 'franchisor_franchisees#index'
 
     get '/facilities', to: 'facilities#index'
     get '/facilities/new', to: 'facilities#new'
