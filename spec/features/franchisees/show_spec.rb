@@ -46,4 +46,11 @@ RSpec.describe 'Franchisees show page' do
     expect(page).to have_content(@applebees_steamboat.created_at.strftime('%Y-%m-%d'))
     expect(page).to have_content(@applebees_steamboat.updated_at.strftime('%Y-%m-%d'))
   end
+
+  it 'links to franchisees index page' do
+    visit "/franchisees/#{@cfa_littleton.id}"
+    click_on "Franchisees Index"
+
+    expect(current_path).to eq("/franchisees")
+  end
 end
