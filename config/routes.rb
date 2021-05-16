@@ -6,7 +6,7 @@ Rails.application.routes.draw do
     get '/franchisors/:id', to: 'franchisors#show'
     get '/franchisees', to: 'franchisees#index'
     get '/franchisees/:id', to: 'franchisees#show'
-    get '/franchisors/:franchisor_id/franchisees', to: 'franchisor_franchisees#index'
+    get '/franchisors/:id/franchisees', to: 'franchisor_franchisees#index'
 
     get '/facilities', to: 'facilities#index'
     get '/facilities/new', to: 'facilities#new'

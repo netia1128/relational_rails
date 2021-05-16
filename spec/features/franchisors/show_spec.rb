@@ -43,4 +43,11 @@ RSpec.describe 'Franchisors show page' do
 
     expect(current_path).to eq("/franchisors")
   end
+
+  it 'links to franchisor franchisees page' do
+    visit "/franchisors/#{@cfa.id}"
+    click_on "List of Franchisees"
+
+    expect(current_path).to eq("/franchisors/#{@cfa.id}/franchisees")
+  end
 end
