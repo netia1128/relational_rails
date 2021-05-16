@@ -1,11 +1,11 @@
 <h1><%= @franchisor.name %></h1>
 
 <div>
-  <p>ID:                          <%= @franchisor.id %> </p>
   <p>HQ City:                     <%= @franchisor.hq_city %> </p>
   <p>HQ State:                    <%= @franchisor.hq_state %> </p>
   <p>Quick Service Restaurant?    <%= @franchisor.quick_service %> </p>
   <p>Franchisee Cost:             <%= @franchisor.franchisee_cost %> </p>
+  <p>Number of Franchisees:       <%= @franchisor.franchisees.count %> </p>
   <p>Date Created at in Database: <%= @franchisor.created_at.strftime('%Y-%m-%d') %> </p>
   <p>Date Updated at in Database: <%= @franchisor.updated_at.strftime('%Y-%m-%d') %> </p>
 </div>
