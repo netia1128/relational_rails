@@ -2,6 +2,9 @@
 
 <h1>Franchisors</h1>
 
-<% @franchisors.each do |franchisor| %>
-  <p><%= franchisor.name %></p>
-<% end %>
+<div><% @franchisors.each do |franchisor| %></div>
+  <p><%= franchisor.name %> <%= franchisor.created_at %></p>
+<div><% end %></div>
+<br>
+
+<div><%= link_to "New Franchisor", '/franchisors/new' %></div>
