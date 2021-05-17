@@ -13,6 +13,7 @@
     <th>Facility Address</th>
     <th>Facility Information</th>
     <th>Facility Licenses</th>
+    <th>Delete Facility</th>
   </tr>
     <% @b3facilities.each do |facility| %>
       <tr>
@@ -22,6 +23,7 @@
          /
       <a href="/facilities/<%= facility.id %>/edit">Edit Info </a></td>
       <td><a href="/facilities/<%= facility.id %>/licenses">See Licenses</a></td>
+      <td><%= link_to "Delete Facility", "/facilities/#{facility.id}", method: :delete %>
       </tr>
       <% end %>
 

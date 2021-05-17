@@ -8,6 +8,12 @@ class FacilitiesController < ApplicationController
     redirect_to '/facilities'
   end
 
+  def destroy
+    b3_facility = B3Facility.find(params[:id])
+    b3_facility.destroy
+    redirect_to '/facilities'
+  end
+
   def edit
     @b3_facility = B3Facility.find(params[:id])
   end
