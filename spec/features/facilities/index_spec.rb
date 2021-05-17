@@ -62,6 +62,17 @@ RSpec.describe 'facilities index page', type: :feature do
 
     expect(current_path).to eq("/facilities/#{@facility2.id}/edit")
   end
+
+  it 'has links to delete each facility' do
+    visit '/facilities'
+
+    expect(page).to have_content("Delete Facility")
+
+    click_link('Delete Facility', match: :first)
+
+    expect(current_path).to eq('/facilities')
+    expect(page).to_not have_content('201')
+  end
 end
 
     # save_and_open_page

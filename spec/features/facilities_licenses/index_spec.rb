@@ -24,7 +24,7 @@ RSpec.describe 'facilities licenses index page', type: :feature do
       b3_state: "CO",
       b3_zip: 80202,
       b3_has_co: false
-)
+    )
 
     @license1 = @facility1.B1Permits.create(
                 b1_special_text: "Netia's Weed House",
@@ -32,7 +32,7 @@ RSpec.describe 'facilities licenses index page', type: :feature do
                 b1_per_sub_type: "Retail Marijuana Store",
                 b1_expiration: 1.year.from_now,
                 b1_extraction: false,
-                b1_plant_count: nil
+                b1_plant_count: 700
     )
 
     @license2 = @facility2.B1Permits.create(
@@ -75,5 +75,21 @@ RSpec.describe 'facilities licenses index page', type: :feature do
     click_link('Edit Info', match: :first)
 
     expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+  end
+
+  it 'allows you to filter licenses by plant count' do
+    visit "/facilities/#{@facility1.id}/licenses"
+
+    expect(page).to have_content("Filter by plant count greater than")
+
+    page.fill_in 'plant_count_filter', with: 699
+    click_button('Filter')
+
+    expect(page).to have_content("Netia's Weed House")
+
+    page.fill_in 'plant_count_filter', with: 700
+    click_button('Filter')
+
+    expect(page).to_not have_content("Netia's Weed House")
   end
 end

@@ -9,6 +9,7 @@
     <th>License Status</th>
     <th>License Expiration</th>
     <th>More Details</th>
+    <th>Delete License</th>
   </tr>
     <% @b1permits.each do |license| %>
       <tr>
@@ -21,13 +22,20 @@
       <td><a href="/licenses/<%= license.id %>">See More Info</a>
       /
       <a href="/licenses/<%= license.id %>/edit">Edit Info </a></td>
-      /
+      <td><%= link_to "Delete License", "/licenses/#{license.id}", method: :delete %>
       </tr>
       <% end %>
 </table>
     <br><br>
 
   <h3>Sort Preference:</h3>
-  <%= link_to "By ID", licenses_path(:order_by => "id") %><br>
-  <%= link_to "By Business Name", licenses_path(:order_by => "b1_special_text")%>
+  <%= link_to "Sort By ID", licenses_path(:order_by => "id") %><br>
+  <%# You can also achieve this with a query parameter which is something like this%>
+  <%# <%= link_to "Sort By ID", /licenses?order_by=id) %>
+  <%= link_to "By Business Name", licenses_path(:order_by => "b1_special_text")%><br>
+  <%# To default the value, use the value: shown below
+  <%= form.text_field :plant_count_filter,  value: "50" %>
+  <%# To do a query parameter
+   <%= button_to 'Filter', "/facilities?limit=5", method: :get %>
+
 

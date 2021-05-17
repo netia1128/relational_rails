@@ -29,7 +29,9 @@
 
 <form action="/facilities/<%= @b3_facility.id %>/edit" method=get>
   <input type='submit' value='Edit Facility Details' /><br>
-</form>
+</form><br>
+
+<%= button_to 'Delete Facility',  "/facilities/#{@b3_facility.id}", method: :delete%>
 
 <h3><a href="/facilities/<%= @b3_facility.id %>/licenses">See Associated Licenses</a></h3>
 
