@@ -14,13 +14,19 @@ RSpec.describe 'Franchisors show page' do
     visit "/franchisors/#{@cfa.id}"
 
     expect(page).to have_content(@cfa.name)
+    expect(page).to have_content(@cfa.hq_city)
+    expect(page).to have_content(@cfa.hq_state)
     expect(page).to have_content(@cfa.quick_service)
+    expect(page).to have_content(@cfa.franchisee_cost)
   end
 
   it 'shows a specific franchisor and its attributes' do
     visit "/franchisors/#{@applebees.id}"
 
     expect(page).to have_content(@applebees.name)
+    expect(page).to have_content(@applebees.hq_city)
+    expect(page).to have_content(@applebees.hq_state)
+    expect(page).to have_content(@applebees.quick_service)
     expect(page).to have_content(@applebees.franchisee_cost)
   end
 
