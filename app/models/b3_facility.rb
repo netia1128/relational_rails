@@ -19,4 +19,11 @@ class B3Facility < ApplicationRecord
             address_piece != '' && address_piece != nil
         end.join(' ').upcase
     end
+
+    def related_b1_permits(b3_facility)
+        b1permits = B1Permit.all
+        b1permits.find_all do |b1permit|
+          b1permit.b3_facility_id == b3_facility.id
+        end
+      end
 end

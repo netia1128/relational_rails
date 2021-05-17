@@ -27,6 +27,15 @@ RSpec.describe 'facilities show page', type: :feature do
                 b3_square_footage: 225000,
                 b3_has_co: false
           )
+
+    @license1 = @facility1.B1Permits.create(
+                b1_special_text: "Netia's Weed House",
+                b1_appl_status: "Active",
+                b1_per_sub_type: "Retail Marijuana Store",
+                b1_expiration: 1.year.from_now,
+                b1_extraction: false,
+                b1_plant_count: nil
+          )
   end
 
   it 'shows you details for a specific facility' do
@@ -59,6 +68,19 @@ RSpec.describe 'facilities show page', type: :feature do
 
     click_on 'Edit Facility Details'
     expect(current_path).to eq("/facilities/#{@facility1.id}/edit")
+  end
+
+  it 'has a button to delete each facility' do
+    visit "/facilities/#{@facility1.id}"
+
+    click_on 'Delete Facility'
+
+    expect(current_path).to eq('/facilities')
+    expect(page).to_not have_content('1311')
+
+    visit "/licenses"
+
+    expect(page).to_not have_content('Netia')
   end
 end
 

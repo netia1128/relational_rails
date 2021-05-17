@@ -24,7 +24,16 @@ RSpec.describe B3Facility, type: :model do
         b3_state: "CO",
         b3_zip: 80202,
         b3_has_co: true
-)
+      )
+
+      @license1 = @facility1.B1Permits.create(
+        b1_special_text: "ZNetia's Weed House",
+        b1_appl_status: "Active",
+        b1_per_sub_type: "Retail Marijuana Store",
+        b1_expiration: 1.year.from_now,
+        b1_extraction: true,
+        b1_plant_count: nil
+      )
   end
 
   it {should have_many :B1Permits}
@@ -34,6 +43,13 @@ RSpec.describe B3Facility, type: :model do
       it 'concatanates all the address pieces into a single full address' do
 
         expect(@facility1.full_address).to eq("1311 E 27TH AVE DENVER CO 80205")
+      end
+    end
+
+    describe '#related_b1_permits' do
+      it 'finds all B1Permit records inside a facility' do
+
+        expect(@facility1.related_b1_permits(@facility1)).to eq([@license1])
       end
     end
   end

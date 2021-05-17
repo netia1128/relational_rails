@@ -10,6 +10,10 @@ class FacilitiesController < ApplicationController
 
   def destroy
     b3_facility = B3Facility.find(params[:id])
+    related_b1_permits = b3_facility.related_b1_permits(b3_facility)
+    related_b1_permits.each do |b1permit|
+      b1permit.destroy
+    end
     b3_facility.destroy
     redirect_to '/facilities'
   end

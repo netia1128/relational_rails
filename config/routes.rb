@@ -14,14 +14,14 @@ Rails.application.routes.draw do
     get '/facilities', to: 'facilities#index'
     post '/facilities', to: 'facilities#create'
 
-    #does not work if show is here with rails form
+    # #does not work if show is here with rails form
     # get '/facilities/:id', to: 'facilities#show'
     get '/facilities/:id/edit', to: 'facilities#edit'
     patch '/facilities/:id', to: 'facilities#update'
     delete '/facilities/:id', to: 'facilities#destroy'
 
     get '/facilities/new', to: 'facilities#new'
-    #does work if show is here with rails form
+    # #does work if show is here with rails form
     get '/facilities/:id', to: 'facilities#show'
 
     get '/licenses', to: 'licenses#index'
