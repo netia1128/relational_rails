@@ -6,10 +6,13 @@ Rails.application.routes.draw do
     get '/franchisors/new', to: 'franchisors#new'
     post '/franchisors', to: 'franchisors#create'
     get '/franchisors/:id', to: 'franchisors#show'
-    get '/franchisors/:id/franchisees', to: 'franchisor_franchisees#index'
     get '/franchisors/:id/edit', to: 'franchisors#edit'
     patch '/franchisors/:id', to: 'franchisors#update'
     delete '/franchisors/:id', to: 'franchisors#destroy'
+
+    get '/franchisors/:franchisor_id/franchisees', to: 'franchisor_franchisees#index'
+    get '/franchisors/:franchisor_id/franchisees/new', to: 'franchisor_franchisees#new'
+    post '/franchisors/:franchisor_id/franchisees', to: 'franchisor_franchisees#create'
 
     get '/franchisees', to: 'franchisees#index'
     get '/franchisees/:id', to: 'franchisees#show'
