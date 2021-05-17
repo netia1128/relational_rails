@@ -31,7 +31,7 @@ Rails.application.routes.draw do
     delete '/licenses/:id', to: 'licenses#destroy'
 
     get '/facilities/:id/licenses', to: 'facilities_licenses#index'
-
+    # post '/facilities/:id/licenses', to: 'facilities_licenses#index'
     get '/facilities/:id/licenses/new', to: 'facilities_licenses#new'
     post '/facilities/:id/licenses/new', to: 'facilities_licenses#create'
 

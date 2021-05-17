@@ -24,10 +24,7 @@ User Story 6
 Note - OK to list by ID per Brian's approval.
 
 GEM - orderly
-Swapr id for created at
 
 Facilities_licenses#new - cant figure out how to select a radio button
 
-Does it matter if I use buttons or links per the specs? And can I have functionality not outlined in the spec (i.e. delete on facilities index)
-
-How do you want us to handle the error where we cannot delete a parent because there is a linked child?
+Does it matter if I use buttons or links per the 

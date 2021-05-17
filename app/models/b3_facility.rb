@@ -1,7 +1,7 @@
 # app/models/facility.rb
 
 class B3Facility < ApplicationRecord
-    has_many :B1Permits
+    has_many :B1Permits, dependent: :destroy
 
     def full_address
         arr = [
@@ -20,10 +20,12 @@ class B3Facility < ApplicationRecord
         end.join(' ').upcase
     end
 
-    def related_b1_permits(b3_facility)
-        b1permits = B1Permit.all
-        b1permits.find_all do |b1permit|
-          b1permit.b3_facility_id == b3_facility.id
+    def filtered_b1_permits(b3_facility, plant_count_filter)
+        if plant_count_filter.nil?
+            plant_count_filter = 0
         end
-      end
+        b3_facility.B1Permits.find_all do |b1permit|
+            b1permit.b1_plant_count > plant_count_filter.to_i
+        end
+    end
 end

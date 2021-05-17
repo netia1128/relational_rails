@@ -29,3 +29,11 @@
     </tr>
   <% end %>
   </table><br>
+
+  <h3>Filter Preference:</h3>
+  <%= form_with url: "/facilities/#{params[:id]}/licenses/", method: :get, local: true do |form| %>
+  <%= form.label :plant_count_filter, 'Filter by plant count greater than:' %>
+  <%= form.text_field :plant_count_filter %>
+  <%= form.submit 'Filter' %>
+  <% end %>
+
