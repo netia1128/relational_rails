@@ -3,7 +3,9 @@
 <h1>Franchisors</h1>
 
 <div><% @franchisors.each do |franchisor| %></div>
-  <p><%= franchisor.name %> <%= franchisor.created_at %></p>
+  <p><%= franchisor.name %>
+    <%= franchisor.created_at %>
+    <%= button_to "Edit #{franchisor.name}", "/franchisors/#{franchisor.id}/edit", method: :get %></p>
 <div><% end %></div>
 <br>
 
