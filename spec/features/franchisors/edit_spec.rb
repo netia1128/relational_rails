@@ -8,41 +8,30 @@ RSpec.describe 'The Franchisor Edit' do
   end
 
   it 'links to the edit page' do
-    visit '/franchisors'
+    visit "/franchisors/#{@applebees.id}"
     click_button("Edit #{@applebees.name}")
 
     expect(current_path).to eq("/franchisors/#{@applebees.id}/edit")
   end
 
-  it 'can edit the franchisor name' do
-    visit "/franchisors"
-    expect(page).to have_content("Applebees")
-
-    click_button('Edit Applebees')
-    fill_in('Name', with: 'Applebees1')
-    click_button('Update Franchisor')
-
-    expect(current_path).to eq("/franchisors")
-    expect(page).to have_content('Applebees1')
-  end
-
-  it 'can edit the franchisor attributes' do
+  it 'can edit the franchisor name and attributes' do
     visit "/franchisors/#{@applebees.id}"
+    expect(page).to have_content("Applebees")
     expect(page).to have_content("Glendale")
     expect(page).to have_content("California")
     expect(page).to have_content("Quick Service Restaurant? false")
     expect(page).to have_content(30000.0)
 
-    visit "/franchisors"
-
-    click_button('Edit Applebees')
-    fill_in('HQ City', with: 'Denver')
-    fill_in('HQ State', with: 'Colorado')
+    click_button("Edit #{@applebees.name}")
+    fill_in('Name', with: 'Applebees1')
+    fill_in('HQ City:', with: 'Denver')
+    fill_in('HQ State:', with: 'Colorado')
     page.check('Quick Service Restaurant?')
-    fill_in('Franchisee Cost', with: 27000.0)
-    click_button('Update Franchisor')
+    fill_in('Franchisee Cost:', with: 27000.0)
+    click_button("Update #{@applebees.name}")
 
-    visit "/franchisors/#{@applebees.id}"
+    expect(current_path).to eq("/franchisors/#{@applebees.id}")
+    expect(page).to have_content('Applebees1')
     expect(page).to have_content('Denver')
     expect(page).to have_content('Colorado')
     expect(page).to have_content('Quick Service Restaurant? true')

@@ -1,24 +1,31 @@
-<h1>Denver's Licensed Facilities</h1>
-
+<h1>Denver's Licensed Marijuana Facilities</h1>
 <br>
 
-<form action="/facilities/new" method = get>
+<%= button_to "Add New Facility", "/facilities/new", method: :get %>
+<%# <form action="/facilities/new" method = get>
   <input type='submit' value='Add New Facility' /><br>
-</form><br>
+</form><br> %>
 
+<h3>Denver currently has <%= @b3facilities.count%> facilities:</h3>
 <table style='width:100%'>
   <tr>
+    <th>Facility ID</th>
     <th>Facility Address</th>
     <th>Facility Information</th>
     <th>Facility Licenses</th>
   </tr>
     <% @b3facilities.each do |facility| %>
       <tr>
+      <td><%= facility.id %></td>
       <td><%= facility.full_address %></td>
-      <td><a href="/facilities/<%= facility.id %>">See Info</a>
+      <td><a href="/facilities/<%= facility.id %>">See Info </a>
+         /
+      <a href="/facilities/<%= facility.id %>/edit">Edit Info </a></td>
       <td><a href="/facilities/<%= facility.id %>/licenses">See Licenses</a></td>
       </tr>
       <% end %>
 
+</table>
     <br><br>
+
 

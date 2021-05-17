@@ -1,0 +1,28 @@
+<h1>License Number: <%= @b1_permit.id%></h1>
+<h3 style="text-decoration: underline;">License Details</h3>
+
+<table style='width:50%'>
+  <tr>
+    <th>Detail</th>
+    <th>Value</th>
+  </tr>
+  <tr><td>Facility Address:</td><td><%= @b3_facility.full_address %></td></tr>
+  <tr><td>Business Name:</td><td><%= @b1_permit.b1_special_text %></td></tr>
+  <tr><td>License Type:</td><td><%= @b1_permit.b1_per_sub_type %></td></tr>
+  <tr><td>License Status:</td><td><%= @b1_permit.b1_appl_status %></td></tr>
+  <tr><td>Expiration Date:</td><td><%= @b1_permit.b1_expiration.strftime("%m/%d/%Y") %></td></tr>
+  <tr><td>Does Extractions?:</td>
+    <td>  <% if @b1_permit.b1_extraction == true %>
+     <%= 'Yes' %>
+     <% else %>
+     <%= 'No' %>
+     <% end %></td></tr>
+    </td></tr>
+  <tr><td>Plant Count:</td><td><%= @b1_permit.b1_plant_count %></td></tr>
+  <tr><td>Created At:</td><td><%= @b1_permit.created_at.strftime("%m/%d/%Y") %></td></tr>
+  <tr><td>Updated At:</td><td><%= @b1_permit.updated_at.strftime("%m/%d/%Y") %></td></tr>
+</table><br><br>
+
+<form action="/licenses/<%= @b1_permit.id %>/edit" method=get>
+  <input type='submit' value='Edit License Details' /><br>
+</form>
