@@ -5,6 +5,7 @@
 <div><% @franchisors.each do |franchisor| %></div>
   <p><%= franchisor.name %>
     <%= franchisor.created_at %>
+    <%= button_to "Edit #{franchisor.name}", "/franchisors/#{franchisor.id}/edit", method: :get %>
     <%= button_to "Delete #{franchisor.name}", "/franchisors/#{franchisor.id}", method: :delete %></p>
 <div><% end %></div>
 <br>
