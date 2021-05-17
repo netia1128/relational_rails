@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     get '/franchisors/:id/franchisees', to: 'franchisor_franchisees#index'
     get '/franchisors/:id/edit', to: 'franchisors#edit'
     patch '/franchisors/:id', to: 'franchisors#update'
+    delete '/franchisors/:id', to: 'franchisors#destroy'
 
     get '/franchisees', to: 'franchisees#index'
     get '/franchisees/:id', to: 'franchisees#show'
