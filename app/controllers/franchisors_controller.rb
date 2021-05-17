@@ -15,6 +15,16 @@ class FranchisorsController < ApplicationController
     redirect_to "/franchisors"
   end
 
+  def edit
+    @franchisor = Franchisor.find(params[:id])
+  end
+
+  def update
+    franchisor = Franchisor.find(params[:id])
+    franchisor.update(franchisor_params)
+    redirect_to '/franchisors'
+  end
+
   private
 
   def franchisor_params
