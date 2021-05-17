@@ -1,0 +1,12 @@
+<h1>Enter in New Franchisee</h1>
+
+<%= form_with url: "/franchisors/#{@franchisor.id}/franchisees", method: :post, local: true do |form| %>
+  <div><%= form.label :name, "Name" %> <%= form.text_field :name %></div><br>
+  <div><%= form.label :city, "City" %> <%= form.text_field :city %></div><br>
+  <div><%= form.label :state, "State" %> <%= form.text_field :state %></div><br>
+  <div><%= form.label :independent, "Independent?" %> <%= form.check_box :independent %></div><br>
+  <div><%= form.label :annual_sales, "Annual Sales" %> <%= form.number_field :annual_sales %></div><br>
+  <div><%= form.label :initial_fee, "Initial Fee to HQ" %> <%= form.number_field :initial_fee %></div><br>
+  <div><%= form.label :pct_fee, "Annual Percent Fee to HQ" %> <%= form.number_field :pct_fee %></div><br>
+  <%= form.submit "Create Franchisee" %>
+<% end %>
