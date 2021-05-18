@@ -9,7 +9,7 @@
   <p>State:                             <%= @franchisee.state %> </p>
   <p>Independent?                       <%= @franchisee.independent %> </p>
   <p>Annual Sales:                     $<%= @franchisee.annual_sales %> </p>
-  <p>Initial Fee to Franchisor:       $<%= @franchisee.initial_fee %> </p>
+  <p>Initial Fee to Franchisor:        $<%= @franchisee.initial_fee %> </p>
   <p>Annual Percent Fee to Franchisor:  <%= @franchisee.pct_fee * 100 %>% </p>
   <p>Franchisor Name:                   <%= @franchisee.franchisor.name %> </p>
   <p>Date Created at in Database:       <%= @franchisee.created_at.strftime('%Y-%m-%d') %> </p>
@@ -17,3 +17,4 @@
 </div>
 <br>
 <div><%= button_to "Update #{@franchisee.name}", "/franchisees/#{@franchisee.id}/edit", method: :get %></div>
+<div><%= button_to "Delete #{@franchisee.name}", "/franchisees/#{@franchisee.id}", method: :delete %></div>
