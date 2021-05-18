@@ -1,7 +1,11 @@
 class FranchisorFranchiseesController < ApplicationController
   def index
     @franchisor = Franchisor.find(params[:franchisor_id])
-    @franchisees = @franchisor.franchisees
+    if params[:sort_alphabetical] == "true"
+      @franchisees = @franchisor.franchisees.sort_alphabetically
+    else
+      @franchisees = @franchisor.franchisees
+    end
   end
 
   def new

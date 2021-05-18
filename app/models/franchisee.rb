@@ -6,4 +6,8 @@ class Franchisee < ApplicationRecord
       franchisee.independent == true
     end
   end
+
+  def self.sort_alphabetically
+    self.order(:name)
+  end
 end
