@@ -1,0 +1,8 @@
+Look at Facilities_licenses_controller#create - how do i handle expiration?
+And also look at licenses_controller. Do I do a strong params and just pass in the four I am wanting to be updateable?
+
+Look at View formatting
+
+Dynamic autofill for facilities#edit view - b3_street_prefix
+
+Look at project in general. Where are areas of opportunity for refactoring?

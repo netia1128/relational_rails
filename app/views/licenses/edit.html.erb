@@ -1,0 +1,34 @@
+<h1>License Number: <%= @b1_permit.id %></h1>
+<h3 style="text-decoration: underline;">License Details</h3>
+
+<form action="/licenses/<%= @b1_permit.id %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="PATCH" />
+
+  <label for='b1permit[b1_special_text]'>Business Name:</label>
+  <input type='text' name='b1permit[b1_special_text]' value=<%= @b1_permit.b1_special_text %>><br><br>
+
+  <label for='b1permit[b1_appl_status]'>License Status:</label>
+
+
+  <select id='License Status:' name='b1permit[b1_appl_status]' value=<%= @b1_permit.b1_appl_status %>>
+    <option value='Active'>Active</option>
+    <option value='Administratively Closed'>Administratively Closed</option>
+    <option value='Expired'>Expired</option>
+    <option value='Pending'>Pending</option>
+    <option value='Revoked'>Revoked</option>
+  </select><br><br>
+
+  <label for='b1permit[b1_extraction]'>Does Extractions:</label>
+  <% if @b1_permit.b1_extraction == true %>
+  <input type='radio' name='b1permit[b1_extraction]' value='true' checked> Yes
+  <input type='radio' name='b1permit[b1_extraction]' value='false' > No
+  <% else %>
+  <input type='radio' name='b1permit[b1_extraction]' value='true' > Yes
+  <input type='radio' name='b1permit[b1_extraction]' value='false' checked> No
+  <% end %>
+  <br><br>
+  <label for='b1permit[b1_plant_count]'>Plant Count:</label>
+  <input type='text' name='b1permit[b1_plant_count]' value=<%= @b1_permit.b1_plant_count %>><br><br>
+  <input type='submit' value='Submit Edits'/><br>
+</form>
