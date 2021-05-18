@@ -17,8 +17,21 @@ RSpec.describe 'Destroy Franchisor' do
 
   it 'can delete the franchisor from index page' do
     visit '/franchisors'
+  end
+
+  it 'can delete the franchisor from show page' do
+    visit "/franchisors/#{@garbanzo.id}"
     click_button "Delete #{@garbanzo.name}"
+
     expect(current_path).to eq('/franchisors')
     expect(page).to_not have_content('Garbanzo')
   end
+
+  # it 'can delete the franchisor from index page' do
+  #   @garbanzo = Franchisor.create!(name: "Garbanzo", hq_city: "Centennial", hq_state: "Colorado", quick_service: true, franchisee_cost: 25000.0)
+  #   visit '/franchisors'
+  #   click_button "Delete #{@garbanzo.name}"
+  #   expect(current_path).to eq('/franchisors')
+  #   expect(page).to_not have_content('Garbanzo')
+  # end
 end
