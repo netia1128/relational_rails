@@ -5,15 +5,15 @@
 <h1><%= @franchisee.name %></h1>
 
 <div>
-  <p>ID:                          <%= @franchisee.id %> </p>
-  <p>City:                        <%= @franchisee.city %> </p>
-  <p>State:                       <%= @franchisee.state %> </p>
-  <p>Independent?                 <%= @franchisee.independent %> </p>
-  <p>Annual Sales:               $<%= @franchisee.annual_sales %> </p>
-  <p>Initial Cost to Franchisor: $<%= @franchisee.initial_fee %> </p>
-  <p>Percent Fee to Franchisor:   <%= @franchisee.pct_fee * 100 %>% </p>
-  <p>Franchisor ID:               <%= @franchisee.franchisor_id %> </p>
-  <p>Franchisor Name:             <%= @franchisee.franchisor.name %> </p>
-  <p>Date Created at in Database: <%= @franchisee.created_at.strftime('%Y-%m-%d') %> </p>
-  <p>Date Updated at in Database: <%= @franchisee.updated_at.strftime('%Y-%m-%d') %> </p>
+  <p>City:                              <%= @franchisee.city %> </p>
+  <p>State:                             <%= @franchisee.state %> </p>
+  <p>Independent?                       <%= @franchisee.independent %> </p>
+  <p>Annual Sales:                     $<%= @franchisee.annual_sales %> </p>
+  <p>Initial Fee to Franchisor:       $<%= @franchisee.initial_fee %> </p>
+  <p>Annual Percent Fee to Franchisor:  <%= @franchisee.pct_fee * 100 %>% </p>
+  <p>Franchisor Name:                   <%= @franchisee.franchisor.name %> </p>
+  <p>Date Created at in Database:       <%= @franchisee.created_at.strftime('%Y-%m-%d') %> </p>
+  <p>Date Updated at in Database:       <%= @franchisee.updated_at.strftime('%Y-%m-%d') %> </p>
 </div>
+<br>
+<div><%= button_to "Update #{@franchisee.name}", "/franchisees/#{@franchisee.id}/edit", method: :get %></div>

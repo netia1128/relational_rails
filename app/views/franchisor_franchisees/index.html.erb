@@ -2,7 +2,9 @@
 <br>
 <div style="text-align:right"><%= link_to "Franchisees Index", "/franchisees"%></div>
 
-<h1> <%= @franchisor.name %> </h1>
+<h1><%= @franchisor.name %></h1>
+
+<div><%= link_to "Create Franchisee", "/franchisors/#{@franchisor.id}/franchisees/new" %></div>
 
 <p>   Name                      City                      State                       Independent                     Annual Sales                      Initial Fee                     Percent Fee to HQ           Franchisor ID                     Date Created:                                       Date Updated: </p>
 <% @franchisees.each do |franchisee| %>
