@@ -16,14 +16,12 @@ RSpec.describe 'Franchisees list page' do
   it 'shows list of franchisees' do
     visit "/franchisees"
 
-    expect(page).to have_content(@applebees_lakewood.id)
     expect(page).to have_content(@applebees_lakewood.name)
     expect(page).to have_content(@applebees_lakewood.city)
     expect(page).to have_content(@applebees_lakewood.state)
     expect(page).to have_content(@applebees_lakewood.independent)
     expect(page).to have_content(@applebees_lakewood.annual_sales)
     expect(page).to have_content(@applebees_lakewood.initial_fee)
-    expect(page).to have_content(@applebees_lakewood.franchisor_id)
     expect(page).to have_content(@applebees_lakewood.created_at.strftime('%Y-%m-%d'))
     expect(page).to have_content(@applebees_lakewood.updated_at.strftime('%Y-%m-%d'))
   end
