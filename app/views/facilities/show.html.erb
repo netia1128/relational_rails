@@ -6,15 +6,16 @@
     <th>Detail</th>
     <th>Value</th>
   </tr>
+  <tr><td>Facility ID:</td><td><%= @b3_facility.id %></td></tr>
   <tr><td>Street Number:</td><td><%= @b3_facility.b3_street_number %></td></tr>
   <tr><td>Street Prefix:</td><td><%= @b3_facility.b3_street_prefix %></td></tr>
   <tr><td>Street Name:</td><td><%= @b3_facility.b3_street_name %></td></tr>
-  <tr><td>Street Number:</td><td><%= @b3_facility.b3_street_number %></td></tr>
   <tr><td>Street Type:</td><td><%= @b3_facility.b3_street_type %></td></tr>
   <tr><td>Unit Info:</td><td><%= @b3_facility.b3_unit_info %></td></tr>
   <tr><td>City:</td><td><%= @b3_facility.b3_city %></td></tr>
   <tr><td>State:</td><td><%= @b3_facility.b3_state %></td></tr>
   <tr><td>Zip Code:</td><td><%= @b3_facility.b3_zip %></td></tr>
+  <tr><td>Square Footage:</td><td><%= @b3_facility.b3_square_footage %></td></tr>
   <tr><td>Has a Certificate of Occupancy:</td>
     <td>  <% if @b3_facility.b3_has_co == true %>
      <%= 'Yes' %>
@@ -22,10 +23,20 @@
      <%= 'No' %>
      <% end %></td></tr>
     </td></tr>
-  <tr><td>Created At:</td><td><%= @b3_facility.created_at %></td></tr>
-  <tr><td>Updated At:</td><td><%= @b3_facility.updated_at %></td></tr>
-</table><br><br>
+  <tr><td>Created At:</td><td><%= @b3_facility.created_at.strftime("%m/%d/%Y") %></td></tr>
+  <tr><td>Updated At:</td><td><%= @b3_facility.updated_at.strftime("%m/%d/%Y") %></td></tr>
+</table><br>
 
-<a href="\facilities">Return to Facility Index</a>
+<%= button_to "Edit Facility Details", "/facilities/#{@b3_facility.id}/edit", method: :get %><br>
+<%# Same button as above in HTML %>
+<%# <form action="/facilities/<%= @b3_facility.id %><%# /edit" method=get> %>
+  <%# <input type='submit' value='Edit Facility Details' /><br>
+</form><br> %>
+
+<%= button_to 'Delete Facility',  "/facilities/#{@b3_facility.id}", method: :delete%>
+
+<h3><%= link_to "See #{@related_b1_permit_count} Associated Licenses", "/facilities/#{@b3_facility.id}/licenses" %>
+<%# HTML Version of the link above %>
+<%# <h3><a href="/facilities/<%= @b3_facility.id %><%# /licenses">See <%= @related_b1_permit_count =%><%# Associated Licenses</a></h3> %>
 
 
