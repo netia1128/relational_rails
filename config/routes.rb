@@ -18,6 +18,7 @@ Rails.application.routes.draw do
     get '/franchisees/:id', to: 'franchisees#show'
     get '/franchisees/:id/edit', to: 'franchisees#edit'
     patch '/franchisees/:id', to: 'franchisees#update'
+    delete '/franchisees/:id', to: 'franchisees#destroy'
 
     get '/facilities', to: 'facilities#index'
     get '/facilities/new', to: 'facilities#new'
