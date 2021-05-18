@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_05_13_044609) do
     t.string "b3_state"
     t.integer "b3_zip"
     t.boolean "b3_has_co"
+    t.integer "b3_square_footage"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

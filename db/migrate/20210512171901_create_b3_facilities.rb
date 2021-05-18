@@ -10,6 +10,7 @@ class CreateB3Facilities < ActiveRecord::Migration[5.2]
       t.string :b3_state
       t.integer :b3_zip
       t.boolean :b3_has_co
+      t.integer :b3_square_footage
       t.timestamps
     end
   end
