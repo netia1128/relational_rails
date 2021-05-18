@@ -33,35 +33,37 @@ RSpec.describe 'licenses show page', type: :feature do
 )
   end
 
-  it 'shows you details for a specific license' do
-    visit "/licenses/#{@license2.id}"
+  describe 'page appearance' do
+    it 'shows you details for a specific license' do
+      visit "/licenses/#{@license2.id}"
 
 
-    expect(page).to have_content(@facility1.full_address)
-    expect(page).to have_content('License Number:')
-    expect(page).to have_content("Business Name:Panda's Pot Palace")
-    expect(page).to have_content('License Type:Medical Marijuana Center')
-    expect(page).to_not have_content('License Type:Retail Marijuana Store')
-    expect(page).to have_content('Expiration Date:')
-    expect(page).to have_content('Does Extractions?: No')
-    expect(page).to have_content('Plant Count:')
+      expect(page).to have_content(@facility1.full_address)
+      expect(page).to have_content('License Number:')
+      expect(page).to have_content("Business Name:Panda's Pot Palace")
+      expect(page).to have_content('License Type:Medical Marijuana Center')
+      expect(page).to_not have_content('License Type:Retail Marijuana Store')
+      expect(page).to have_content('Expiration Date:')
+      expect(page).to have_content('Does Extractions?: No')
+      expect(page).to have_content('Plant Count:')
+    end
   end
+  describe 'page functionality' do
+    it 'has a button that allows you to update the record' do
+      visit "/licenses/#{@license1.id}"
 
-  it 'has a button that allows you to update the record' do
-    visit "/licenses/#{@license1.id}"
+      click_on 'Edit License Details'
+      expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+    end
+    it 'has a button to delete each license' do
+      visit "/licenses/#{@license1.id}"
 
-    click_on 'Edit License Details'
-    expect(current_path).to eq("/licenses/#{@license1.id}/edit")
-  end
+      click_on 'Delete License'
 
-  it 'has a button to delete each license' do
-    visit "/licenses/#{@license1.id}"
-
-    click_on 'Delete License'
-
-    expect(current_path).to eq('/licenses')
-    expect(page).to_not have_content('Netia')
+      expect(current_path).to eq('/licenses')
+      expect(page).to_not have_content('Netia')
+    end
   end
 end
 
-    # save_and_open_page
+# save_and_open_page

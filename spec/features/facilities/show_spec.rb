@@ -38,63 +38,75 @@ RSpec.describe 'facilities show page', type: :feature do
           )
   end
 
-  it 'contains the nav bar' do
-    visit "/facilities/#{@facility1.id}"
+  describe '#show page appearance' do
+    it 'contains the nav bar' do
+      visit "/facilities/#{@facility1.id}"
 
-    expect(page).to have_content("Facilities")
-    expect(page).to have_content("Licenses")
-    expect(page).to have_content("Home")
+      expect(page).to have_content("Facilities")
+      expect(page).to have_content("Licenses")
+      expect(page).to have_content("Home")
+    end
+    it 'shows you details for a specific facility' do
+      visit "/facilities/#{@facility1.id}"
+
+      expect(page).to have_content(@facility1.full_address)
+      expect(page).to have_content('Facility ID:')
+      expect(page).to have_content('Street Number:1311')
+      expect(page).to have_content('Street Prefix:E')
+      expect(page).to_not have_content('Street Prefix:N')
+      expect(page).to have_content('Street Type:AVE')
+      expect(page).to have_content('Unit Info:')
+      expect(page).to have_content('City:Denver')
+      expect(page).to have_content('Zip Code:80205')
+      expect(page).to have_content('Square Footage:700')
+      expect(page).to have_content('Has a Certificate of Occupancy: Yes')
+      expect(page).to have_content('Created At:')
+      expect(page).to have_content('Updated At')
+    end
+    it 'shows a count of licenses related to the facility' do
+      visit "/facilities/#{@facility1.id}"
+
+      expect(page).to have_content("See 1 Associated Licenses")
+    end
   end
+  describe '#show page functionality' do
+    it 'allows you to enter details to add a new facility' do
+      visit "/facilities/new"
 
-  it 'shows you details for a specific facility' do
-    visit "/facilities/#{@facility1.id}"
+      expect(page).to have_content('Street Number:')
+      expect(page).to have_content('Street Prefix:')
+      expect(page).to have_content('Street Name:')
+      expect(page).to have_content('Street Type:')
+      expect(page).to have_content('Unit Info:')
+      expect(page).to have_content('City:')
+      expect(page).to have_content('Zip Code:')
+      expect(page).to have_content('Square Footage:')
+      expect(page).to have_content('Has Certificate of Occupancy:')
+    end
+    it 'has a link to a facilitys licenses page' do
+      visit "/facilities/#{@facility1.id}"
 
-    expect(page).to have_content(@facility1.full_address)
-    expect(page).to have_content('Facility ID:')
-    expect(page).to have_content('Street Number:1311')
-    expect(page).to have_content('Street Prefix:E')
-    expect(page).to_not have_content('Street Prefix:N')
-    expect(page).to have_content('Street Type:AVE')
-    expect(page).to have_content('Unit Info:')
-    expect(page).to have_content('City:Denver')
-    expect(page).to have_content('Zip Code:80205')
-    expect(page).to have_content('Square Footage:700')
-    expect(page).to have_content('Has a Certificate of Occupancy: Yes')
-    expect(page).to have_content('Created At:')
-    expect(page).to have_content('Updated At')
-  end
+      click_on 'See 1 Associated Licenses'
+      expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
+    end
+    it 'has a button that allows you to update the record' do
+      visit "/facilities/#{@facility1.id}"
 
-  it 'has a link to a facilitys licenses page' do
-    visit "/facilities/#{@facility1.id}"
+      click_on 'Edit Facility Details'
+      expect(current_path).to eq("/facilities/#{@facility1.id}/edit")
+    end
+    it 'has a button to delete each facility' do
+      visit "/facilities/#{@facility1.id}"
 
-    click_on 'See 1 Associated Licenses'
-    expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
-  end
+      click_on 'Delete Facility'
 
-  it 'shows a count of licenses related to the facility' do
-    visit "/facilities/#{@facility1.id}"
+      expect(current_path).to eq('/facilities')
+      expect(page).to_not have_content('1311')
 
-    expect(page).to have_content("See 1 Associated Licenses")
-  end
+      visit "/licenses"
 
-  it 'has a button that allows you to update the record' do
-    visit "/facilities/#{@facility1.id}"
-
-    click_on 'Edit Facility Details'
-    expect(current_path).to eq("/facilities/#{@facility1.id}/edit")
-  end
-
-  it 'has a button to delete each facility' do
-    visit "/facilities/#{@facility1.id}"
-
-    click_on 'Delete Facility'
-
-    expect(current_path).to eq('/facilities')
-    expect(page).to_not have_content('1311')
-
-    visit "/licenses"
-
-    expect(page).to_not have_content('Netia')
+      expect(page).to_not have_content('Netia')
+    end
   end
 end
 

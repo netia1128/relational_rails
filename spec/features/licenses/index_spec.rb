@@ -42,44 +42,44 @@ RSpec.describe 'facilities index page', type: :feature do
     )
   end
 
-  it 'can see all license names' do
-    visit '/licenses'
-    # save_and_open_page
+  describe 'page appearance' do
+    it 'can see all license names' do
+      visit '/licenses'
 
-    expect(page).to have_content(@license1.b1_special_text)
-    expect(page).to have_content(@license2.b1_special_text)
-    expect(page).to have_content(@license1.b1_appl_status)
-    expect(page).to have_content(@license2.b1_per_sub_type)
+      expect(page).to have_content(@license1.b1_special_text)
+      expect(page).to have_content(@license2.b1_special_text)
+      expect(page).to have_content(@license1.b1_appl_status)
+      expect(page).to have_content(@license2.b1_per_sub_type)
+    end
+    it 'only shows records where the boolean value is true' do
+      visit '/licenses'
+
+      expect(page).to have_content(@license1.b1_special_text)
+      expect(page).to have_content(@license2.b1_special_text)
+      expect(page).to_not have_content(@license3.b1_special_text)
+      expect(page).to have_content(@license1.b1_appl_status)
+      expect(page).to_not have_content(@license3.b1_per_sub_type)
+    end
   end
+  describe 'page functionality' do
+    it 'has links to edit each license' do
+      visit "/licenses"
 
-  it 'only shows records where the boolean value is true' do
-    visit '/licenses'
+      expect(page).to have_content("Edit Info")
 
-    expect(page).to have_content(@license1.b1_special_text)
-    expect(page).to have_content(@license2.b1_special_text)
-    expect(page).to_not have_content(@license3.b1_special_text)
-    expect(page).to have_content(@license1.b1_appl_status)
-    expect(page).to_not have_content(@license3.b1_per_sub_type)
-  end
+      click_link('Edit Info', match: :first)
 
-  it 'has links to edit each license' do
-    visit "/licenses"
+      expect(current_path).to eq("/licenses/#{@license1.id}/edit")
+    end
+    it 'has links to delete each license' do
+      visit '/licenses'
 
-    expect(page).to have_content("Edit Info")
+      expect(page).to have_content("Delete License")
 
-    click_link('Edit Info', match: :first)
+      click_link('Delete License', match: :first)
 
-    expect(current_path).to eq("/licenses/#{@license1.id}/edit")
-  end
-
-  it 'has links to delete each license' do
-    visit '/licenses'
-
-    expect(page).to have_content("Delete License")
-
-    click_link('Delete License', match: :first)
-
-    expect(current_path).to eq('/licenses')
-    expect(page).to_not have_content('201')
+      expect(current_path).to eq('/licenses')
+      expect(page).to_not have_content('201')
+    end
   end
 end
