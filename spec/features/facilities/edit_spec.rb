@@ -26,21 +26,21 @@ RSpec.describe 'facilities edit page', type: :feature do
     expect(page).to have_content('City:')
     expect(page).to have_content('Zip Code:')
     expect(page).to have_content('Square Footage:')
-    expect(page).to have_content('Has Certificate of Occupancy?')
+    expect(page).to have_content('Has Certificate of Occupancy:')
   end
 
   it 'allows me to edit the editable fields submit changes and then reidrects to facilities#show' do
     visit "/facilities/#{@facility1.id}/edit"
 
-    page.fill_in 'facility[b3_street_number]', with: '2930'
-    page.fill_in 'facility[b3_street_name]', with: 'Bruce Randolph'
-    page.fill_in 'facility[b3_street_type]', with: 'Ave'
-    page.fill_in 'facility[b3_zip]', with: '80205'
-    page.fill_in 'facility[b3_square_footage]', with: 1300
+    page.fill_in 'b3_street_number', with: '2930'
+    page.fill_in 'b3_street_name', with: 'Bruce Randolph'
+    page.fill_in 'b3_street_type', with: 'Ave'
+    page.fill_in 'b3_zip', with: '80205'
+    page.fill_in 'b3_square_footage', with: 1300
     click_on 'Submit Edits'
 
     expect(current_path).to eq("/facilities/#{@facility1.id}")
-    expect(page).to have_content("2930 E BRUCE RANDOLPH AVE DENVER CO 80205")
+    expect(page).to have_content("2930 BRUCE RANDOLPH AVE DENVER CO 80205")
   end
 end
 

@@ -27,12 +27,16 @@
   <tr><td>Updated At:</td><td><%= @b3_facility.updated_at.strftime("%m/%d/%Y") %></td></tr>
 </table><br>
 
-<form action="/facilities/<%= @b3_facility.id %>/edit" method=get>
-  <input type='submit' value='Edit Facility Details' /><br>
-</form><br>
+<%= button_to "Edit Facility Details", "/facilities/#{@b3_facility.id}/edit", method: :get %><br>
+<%# Same button as above in HTML %>
+<%# <form action="/facilities/<%= @b3_facility.id %><%# /edit" method=get> %>
+  <%# <input type='submit' value='Edit Facility Details' /><br>
+</form><br> %>
 
 <%= button_to 'Delete Facility',  "/facilities/#{@b3_facility.id}", method: :delete%>
 
-<h3><a href="/facilities/<%= @b3_facility.id %>/licenses">See <%= @related_b1_permit_count =%> Associated Licenses</a></h3>
+<h3><%= link_to "See #{@related_b1_permit_count} Associated Licenses", "/facilities/#{@b3_facility.id}/licenses" %>
+<%# HTML Version of the link above %>
+<%# <h3><a href="/facilities/<%= @b3_facility.id %><%# /licenses">See <%= @related_b1_permit_count =%><%# Associated Licenses</a></h3> %>
 
 

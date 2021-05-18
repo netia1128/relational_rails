@@ -6,12 +6,12 @@ class FacilitiesLicensesController < ApplicationController
   def create
     B1Permit.create(
       b3_facility_id: params[:id],
-      b1_special_text: params[:b1permit][:b1_special_text],
-      b1_appl_status: params[:b1permit][:b1_appl_status],
-      b1_per_sub_type: params[:b1permit][:b1_per_sub_type],
+      b1_special_text: b1permit_params[:b1_special_text],
+      b1_appl_status: b1permit_params[:b1_appl_status],
+      b1_per_sub_type: b1permit_params[:b1_per_sub_type],
       b1_expiration: 1.year.from_now,
-      b1_extraction: params[:b1permit][:b1_extraction],
-      b1_plant_count: params[:b1permit][:b1_plant_count]
+      b1_extraction: b1permit_params[:b1_extraction],
+      b1_plant_count: b1permit_params[:b1_plant_count]
     )
     redirect_to "/facilities/#{params[:id]}/licenses"
   end
@@ -26,16 +26,11 @@ class FacilitiesLicensesController < ApplicationController
 
   private
 
-  def b3facility_params
-    params.permit(:b3_street_number,
-      :b3_street_prefix,
-      :b3_street_name,
-      :b3_street_type,
-      :b3_unit_info,
-      :b3_city,
-      :b3_state,
-      :b3_zip,
-      :b3_square_footage,
-      :b3_has_co)
+  def b1permit_params
+    params.require(:b1permit).permit(:b1_special_text,
+      :b1_appl_status,
+      :b1_per_sub_type,
+      :b1_extraction,
+      :b1_plant_count)
   end
 end
