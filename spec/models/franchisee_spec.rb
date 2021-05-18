@@ -22,5 +22,12 @@ RSpec.describe Franchisee, type: :model do
         expect(Franchisee.find_independent).to eq([@applebees_lakewood, @applebees_nashville])
       end
     end
+
+    describe '#sort_alphabetically' do
+      it 'alphabetizes the franchisor franchisees' do
+        expect(@cfa.franchisees).to eq([@cfa_littleton, @cfa_lakewood, @cfa_tacoma])
+        expect(@cfa.franchisees.sort_alphabetically).to eq([@cfa_lakewood, @cfa_littleton, @cfa_tacoma])
+      end
+    end
   end
 end
