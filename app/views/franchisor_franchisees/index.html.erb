@@ -8,7 +8,8 @@
 <br>
 <div> <%= link_to "Sort Alphabetical", "/franchisors/#{@franchisor.id}/franchisees?sort_alphabetical=true" %></div>
 <br>
-<p>   Name                      City                      State                       Independent                     Annual Sales                      Initial Fee                     Percent Fee to HQ           Franchisor ID                     Date Created:                                       Date Updated: </p>
+<p>   Name                      City                      State                       Independent                     Annual Sales                      Initial Fee                     Percent Fee to HQ           Date Created:                                       Date Updated: </p>
 <% @franchisees.each do |franchisee| %>
-  <p> <%= franchisee.name %>    <%= franchisee.city %>    <%= franchisee.state %>     <%= franchisee.independent %>   <%= franchisee.annual_sales %>    <%= franchisee.initial_fee %>   <%= franchisee.pct_fee %>   <%= franchisee.franchisor_id %>   <%= franchisee.created_at.strftime('%Y-%m-%d') %>   <%= franchisee.updated_at.strftime('%Y-%m-%d') %> </p>
+  <p> <%= franchisee.name %>    <%= franchisee.city %>    <%= franchisee.state %>     <%= franchisee.independent %>   <%= franchisee.annual_sales %>    <%= franchisee.initial_fee %>   <%= franchisee.pct_fee %>   <%= franchisee.created_at.strftime('%Y-%m-%d') %>   <%= franchisee.updated_at.strftime('%Y-%m-%d') %>
+  <%= button_to "Update #{franchisee.name}", "/franchisees/#{franchisee.id}/edit", method: :get %></p>
 <% end %>

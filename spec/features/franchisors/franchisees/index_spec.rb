@@ -42,4 +42,11 @@ RSpec.describe 'Franchisor franchisees index' do
     click_on "Sort Alphabetical"
     expect(@cfa_lakewood.name).to appear_before(@cfa_littleton.name)
   end
+
+  it 'links to franchisee edit page' do
+    visit "/franchisors/#{@cfa.id}/franchisees"
+    click_on "Update #{@cfa_lakewood.name}"
+
+    expect(current_path).to eq("/franchisees/#{@cfa_lakewood.id}/edit")
+  end
 end
