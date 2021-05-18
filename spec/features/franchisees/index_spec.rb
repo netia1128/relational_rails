@@ -32,4 +32,11 @@ RSpec.describe 'Franchisees list page' do
 
     expect(current_path).to eq("/franchisors")
   end
+
+  it 'links to franchisee edit page' do
+    visit "/franchisees"
+    click_on "Update #{@applebees_lakewood.name}"
+
+    expect(current_path).to eq("/franchisees/#{@applebees_lakewood.id}/edit")
+  end
 end
