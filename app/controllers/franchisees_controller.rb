@@ -1,6 +1,6 @@
 class FranchiseesController < ApplicationController
   def index
-    @franchisees = Franchisee.all
+    @franchisees = Franchisee.find_independent
   end
 
   def show
