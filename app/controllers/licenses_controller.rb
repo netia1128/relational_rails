@@ -14,7 +14,7 @@ class LicensesController < ApplicationController
   end
 
   def index
-    @b1permits = B1Permit.b1_permits_that_extract(params[:order_by])
+    @b1permits = B1Permit.b1_permits_that_extract
   end
 
   def show
@@ -24,13 +24,18 @@ class LicensesController < ApplicationController
 
   def update
     b1_permit = B1Permit.find(params[:id])
-    b1_permit.update({
-      b1_special_text: params[:b1permit][:b1_special_text],
-      b1_appl_status: params[:b1permit][:b1_appl_status],
-      b1_extraction: params[:b1permit][:b1_extraction],
-      b1_plant_count: params[:b1permit][:b1_plant_count]
-    })
+    b1_permit.update(b1permit_params)
     b1_permit.save
     redirect_to "/licenses/#{params[:id]}"
+  end
+
+  private
+
+  def b1permit_params
+    params.require(:b1permit).permit(:b1_special_text,
+      :b1_appl_status,
+      :b1_per_sub_type,
+      :b1_extraction,
+      :b1_plant_count)
   end
 end

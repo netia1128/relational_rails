@@ -16,28 +16,31 @@ RSpec.describe 'facilities_licenses#new page', type: :feature do
     )
   end
 
-  it 'allows you to enter details to add a new license' do
-    visit "/facilities/#{@facility1.id}/licenses/new"
+  describe 'page appearance' do
+    it 'allows you to enter details to add a new license' do
+      visit "/facilities/#{@facility1.id}/licenses/new"
 
-    expect(page).to have_content("Business Name:")
-    expect(page).to have_content('License Type:')
-    expect(page).to have_content('License Status:')
-    expect(page).to have_content('Does Extractions:')
-    expect(page).to have_content('Plant Count:')
+      expect(page).to have_content("Business Name:")
+      expect(page).to have_content('License Type:')
+      expect(page).to have_content('License Status:')
+      expect(page).to have_content('Does Extractions:')
+      expect(page).to have_content('Plant Count:')
+    end
   end
+  describe 'page functionality' do
+    it 'redirects you to the facilities_Licenses#index page after creating a new record and displays new record' do
+      visit "/facilities/#{@facility1.id}/licenses/new"
+      page.fill_in 'b1permit[b1_special_text]', with: "Netia's Pot Place"
+      page.select 'Retail Marijuana Store', from: 'b1permit[b1_per_sub_type]'
+      page.select 'Active', from: 'b1permit[b1_appl_status]'
+      page.fill_in 'b1permit[b1_plant_count]', with: 700
+      click_on 'Add License'
 
-  it 'redirects you to the facilities_Licenses#index page after creating a new record and displays new record' do
-    visit "/facilities/#{@facility1.id}/licenses/new"
-    page.fill_in 'b1permit[b1_special_text]', with: "Netia's Pot Place"
-    page.select 'Retail Marijuana Store', from: 'b1permit[b1_per_sub_type]'
-    page.select 'Active', from: 'b1permit[b1_appl_status]'
-    page.fill_in 'b1permit[b1_plant_count]', with: 700
-    click_on 'Add License'
-
-    expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
-    expect(page).to have_content("Netia's Pot Place")
-    expect(page).to have_content("Retail Marijuana Store")
-    expect(page).to have_content("Active")
+      expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
+      expect(page).to have_content("Netia's Pot Place")
+      expect(page).to have_content("Retail Marijuana Store")
+      expect(page).to have_content("Active")
+    end
   end
 end
 

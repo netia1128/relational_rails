@@ -23,26 +23,29 @@ RSpec.describe 'licenses edit page', type: :feature do
     )
   end
 
-  it 'shows me all the editable fields for a record' do
-    visit "/licenses/#{@license1.id}/edit"
+  describe 'page appearance' do
+    it 'shows me all the editable fields for a record' do
+      visit "/licenses/#{@license1.id}/edit"
 
-    expect(page).to have_content('Business Name:')
-    expect(page).to have_content('License Status:')
-    expect(page).to have_content('Does Extractions:')
-    expect(page).to have_content('Plant Count:')
+      expect(page).to have_content('Business Name:')
+      expect(page).to have_content('License Status:')
+      expect(page).to have_content('Does Extractions:')
+      expect(page).to have_content('Plant Count:')
+    end
   end
+  describe 'page functionality' do
+    it 'allows me to edit the editable fields submit changes and then reidrects to licenses#show' do
+      visit "/licenses/#{@license1.id}/edit"
 
-  it 'allows me to edit the editable fields submit changes and then reidrects to licenses#show' do
-    visit "/licenses/#{@license1.id}/edit"
+      page.fill_in 'b1permit[b1_special_text]', with: "Jamison's Cookie Factory"
+      page.select 'Revoked', from: 'b1permit[b1_appl_status]'
+      page.fill_in 'b1permit[b1_plant_count]', with: nil
+      click_on 'Submit Edits'
 
-    page.fill_in 'b1permit[b1_special_text]', with: "Jamison's Cookie Factory"
-    page.select 'Revoked', from: 'b1permit[b1_appl_status]'
-    page.fill_in 'b1permit[b1_plant_count]', with: nil
-    click_on 'Submit Edits'
-
-    expect(current_path).to eq("/licenses/#{@license1.id}")
-    expect(page).to have_content("Jamison's Cookie Factory")
-    expect(page).to have_content("Revoked")
-    expect(page).to have_content("Retail Marijuana Store")
+      expect(current_path).to eq("/licenses/#{@license1.id}")
+      expect(page).to have_content("Jamison's Cookie Factory")
+      expect(page).to have_content("Revoked")
+      expect(page).to have_content("Retail Marijuana Store")
+    end
   end
 end

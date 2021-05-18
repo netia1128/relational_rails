@@ -1,30 +1,8 @@
-User Stories 2 & 3 & 5
-Do I need to show ALL the attributes for the records on the index page? Because I don't want to...
+Look at Facilities_licenses_controller#create - how do i handle expiration?
+And also look at licenses_controller. Do I do a strong params and just pass in the four I am wanting to be updateable?
 
-      User Story 2, Parent Show (x2)
+Look at View formatting
 
-          As a visitor
-          When I visit '/parents/:id'
-          Then I see the parent with that id including the parent's attributes:
-          - data from each column that is on the parent table
+Dynamic autofill for facilities#edit view - b3_street_prefix
 
-      User Story 3, Child Index (x2)
-
-          As a visitor
-          When I visit '/child_table_name'
-          Then I see each Child in the system including the Child's attributes:
-
-      User Story 5, Parent Children Index (x2)
-
-          As a visitor
-          When I visit '/parents/:parent_id/child_table_name'
-          Then I see each Child that is associated with that Parent with each Child's attributes:
-
-User Story 6
-Note - OK to list by ID per Brian's approval.
-
-GEM - orderly
-
-Facilities_licenses#new - cant figure out how to select a radio button
-
-Does it matter if I use buttons or links per the 
+Look at project in general. Where are areas of opportunity for refactoring?

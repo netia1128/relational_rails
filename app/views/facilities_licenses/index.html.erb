@@ -2,9 +2,7 @@
 
 <br>
 
-<form action="/facilities/<%= params[:id] %>/licenses/new"method='get'>
-  <input type='submit' value='Add New License' /><br>
-</form><br>
+<%= button_to "Add New License", "/facilities/#{params[:id]}/licenses/new", method: :get %>
 
 <h3>This facility currently has <%= @b1permits.count%> license(s):</h3>
 
@@ -25,10 +23,17 @@
     <td><%= permit.b1_expiration.strftime("%m/%d/%Y") %></td>
     <td><a href="/licenses/<%= permit.id %>">See More Info</a>
     /
-    <a href="/licenses/<%= permit.id %>/edit">Edit Info </a></td>
+    <%= link_to "Edit Info", "/licenses/#{permit.id}/edit" %>
     </tr>
   <% end %>
   </table><br>
+
+  <h3>Sort Preference:</h3>
+  <%= link_to "Sort By ID", faclic_path(:order_by => "id") %><br>
+  <%# You can also achieve this with a query parameter which is something like this%>
+  <%# <%= link_to "Sort By ID", /licenses?order_by=id) %>
+  <%= link_to "Sort By Business Name", faclic_path(:order_by => "b1_special_text")%><br>
+
 
   <h3>Filter Preference:</h3>
   <%= form_with url: "/facilities/#{params[:id]}/licenses/", method: :get, local: true do |form| %>

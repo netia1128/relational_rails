@@ -50,15 +50,11 @@ RSpec.describe B1Permit, type: :model do
 
         expect(B1Permit.b1_permits_that_extract).to eq([@license1, @license3])
       end
+      
       it 'returns permits in id order by default' do
 
         expect(B1Permit.b1_permits_that_extract.first).to eq(@license1)
         expect(B1Permit.b1_permits_that_extract.last).to eq(@license3)
-      end
-      it 'takes an optional argument to order by a different value' do
-
-        expect(B1Permit.b1_permits_that_extract("b1_special_text").first).to eq(@license3)
-        expect(B1Permit.b1_permits_that_extract("b1_special_text").last).to eq(@license1)
       end
     end
   end
