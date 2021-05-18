@@ -27,6 +27,7 @@ class FacilitiesController < ApplicationController
 
   def show
     @b3_facility = B3Facility.find(params[:id])
+    @related_b1_permit_count = @b3_facility.related_b1_permit_count
   end
 
   def update

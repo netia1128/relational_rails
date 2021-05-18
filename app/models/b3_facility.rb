@@ -20,12 +20,14 @@ class B3Facility < ApplicationRecord
         end.join(' ').upcase
     end
 
-    def filtered_b1_permits(b3_facility, plant_count_filter)
+    def filtered_b1_permits(plant_count_filter, order_by = "id")
         if plant_count_filter.nil?
-            plant_count_filter = 0
+            plant_count_filter = -1
         end
-        b3_facility.B1Permits.find_all do |b1permit|
-            b1permit.b1_plant_count > plant_count_filter.to_i
-        end
+        self.B1Permits.where("b1_plant_count > ?", plant_count_filter.to_i).order(order_by.to_s)
+    end
+
+    def related_b1_permit_count
+        self.B1Permits.count
     end
 end

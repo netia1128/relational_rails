@@ -29,7 +29,7 @@ RSpec.describe 'facilities edit page', type: :feature do
     expect(page).to have_content('Has Certificate of Occupancy?')
   end
 
-  it 'allows me to edit the editable fields submit changes and then reidrects to facilities#index' do
+  it 'allows me to edit the editable fields submit changes and then reidrects to facilities#show' do
     visit "/facilities/#{@facility1.id}/edit"
 
     page.fill_in 'facility[b3_street_number]', with: '2930'
@@ -39,7 +39,7 @@ RSpec.describe 'facilities edit page', type: :feature do
     page.fill_in 'facility[b3_square_footage]', with: 1300
     click_on 'Submit Edits'
 
-    expect(current_path).to eq("/facilities")
+    expect(current_path).to eq("/facilities/#{@facility1.id}")
     expect(page).to have_content("2930 E BRUCE RANDOLPH AVE DENVER CO 80205")
   end
 end

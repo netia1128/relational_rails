@@ -38,6 +38,14 @@ RSpec.describe 'facilities show page', type: :feature do
           )
   end
 
+  it 'contains the nav bar' do
+    visit "/facilities/#{@facility1.id}"
+
+    expect(page).to have_content("Facilities")
+    expect(page).to have_content("Licenses")
+    expect(page).to have_content("Home")
+  end
+
   it 'shows you details for a specific facility' do
     visit "/facilities/#{@facility1.id}"
 
@@ -59,8 +67,14 @@ RSpec.describe 'facilities show page', type: :feature do
   it 'has a link to a facilitys licenses page' do
     visit "/facilities/#{@facility1.id}"
 
-    click_on 'See Associated Licenses'
+    click_on 'See 1 Associated Licenses'
     expect(current_path).to eq("/facilities/#{@facility1.id}/licenses")
+  end
+
+  it 'shows a count of licenses related to the facility' do
+    visit "/facilities/#{@facility1.id}"
+
+    expect(page).to have_content("See 1 Associated Licenses")
   end
 
   it 'has a button that allows you to update the record' do

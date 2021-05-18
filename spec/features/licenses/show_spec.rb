@@ -53,6 +53,15 @@ RSpec.describe 'licenses show page', type: :feature do
     click_on 'Edit License Details'
     expect(current_path).to eq("/licenses/#{@license1.id}/edit")
   end
+
+  it 'has a button to delete each license' do
+    visit "/licenses/#{@license1.id}"
+
+    click_on 'Delete License'
+
+    expect(current_path).to eq('/licenses')
+    expect(page).to_not have_content('Netia')
+  end
 end
 
     # save_and_open_page

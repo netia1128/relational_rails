@@ -33,6 +33,6 @@
 
 <%= button_to 'Delete Facility',  "/facilities/#{@b3_facility.id}", method: :delete%>
 
-<h3><a href="/facilities/<%= @b3_facility.id %>/licenses">See Associated Licenses</a></h3>
+<h3><a href="/facilities/<%= @b3_facility.id %>/licenses">See <%= @related_b1_permit_count =%> Associated Licenses</a></h3>
 
 

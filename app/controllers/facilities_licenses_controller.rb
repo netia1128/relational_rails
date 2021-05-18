@@ -18,7 +18,7 @@ class FacilitiesLicensesController < ApplicationController
 
   def index
     @b3_facility = B3Facility.find(params[:id])
-    @b1permits = @b3_facility.filtered_b1_permits(@b3_facility, params[:plant_count_filter])
+    @b1permits = @b3_facility.filtered_b1_permits(params[:plant_count_filter], params[:order_by])
   end
 
   def new

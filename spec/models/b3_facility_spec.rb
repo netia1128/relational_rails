@@ -49,8 +49,15 @@ RSpec.describe B3Facility, type: :model do
     describe '#filtered_b1_permits' do
       it 'filters by a plant count, if applicable' do
 
-        expect(@facility1.filtered_b1_permits(@facility1, 25)).to eq([])
-        expect(@facility1.filtered_b1_permits(@facility1, 20)).to eq([@license1])
+        expect(@facility1.filtered_b1_permits(25)).to eq([])
+        expect(@facility1.filtered_b1_permits(20)).to eq([@license1])
+      end
+    end
+
+    describe '#related_b1_permit_count' do
+      it 'returns a count of related licenses' do
+
+        expect(@facility1.related_b1_permit_count).to eq(1)
       end
     end
   end

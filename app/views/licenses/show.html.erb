@@ -25,4 +25,5 @@
 
 <form action="/licenses/<%= @b1_permit.id %>/edit" method=get>
   <input type='submit' value='Edit License Details' /><br>
-</form>
+</form><br>
+<%= button_to 'Delete License',  "/licenses/#{@b1_permit.id}", method: :delete%>

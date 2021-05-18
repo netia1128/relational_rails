@@ -42,7 +42,16 @@ RSpec.describe 'facilities licenses index page', type: :feature do
       b1_expiration: 1.year.from_now,
       b1_extraction: false,
       b1_plant_count: nil
-)
+    )
+
+    @license3 = @facility1.B1Permits.create(
+      b1_special_text: "Brian's Bong Bazaar",
+      b1_appl_status: "Revoked",
+      b1_per_sub_type: "Retail Marijuana Cultivation",
+      b1_expiration: 1.year.from_now,
+      b1_extraction: false,
+      b1_plant_count: 50
+    )
   end
 
   it 'can see all licenses for a specific facility' do
@@ -57,7 +66,7 @@ RSpec.describe 'facilities licenses index page', type: :feature do
   it 'includes a count of the current number of licenses at the facility' do
     visit "/facilities/#{@facility1.id}/licenses"
 
-    expect(page).to have_content('This facility currently has 1 license(s):')
+    expect(page).to have_content('This facility currently has 2 license(s):')
   end
 
   it 'allows me to add a new license' do
@@ -65,6 +74,13 @@ RSpec.describe 'facilities licenses index page', type: :feature do
     click_on 'Add New License'
 
     expect(current_path).to eq("/facilities/#{@facility1.id}/licenses/new")
+  end
+
+  it 'allows you to sort by ID or business name' do
+    visit "/facilities/#{@facility1.id}/licenses"
+
+    expect(page).to have_content(@license1.b1_special_text)
+    expect(page).to have_content(@license3.b1_special_text)
   end
 
   it 'has links to edit each license' do

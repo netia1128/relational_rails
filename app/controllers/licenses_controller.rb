@@ -14,7 +14,7 @@ class LicensesController < ApplicationController
   end
 
   def index
-    @b1permits = B1Permit.b1_permits_that_extract(params[:order_by])
+    @b1permits = B1Permit.b1_permits_that_extract
   end
 
   def show
