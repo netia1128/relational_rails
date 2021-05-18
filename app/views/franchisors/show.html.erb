@@ -16,4 +16,6 @@
   <p>Date Updated at in Database: <%= @franchisor.updated_at.strftime('%Y-%m-%d') %> </p>
 </div>
 <br>
-<div><%= button_to "Edit #{@franchisor.name}", "/franchisors/#{@franchisor.id}/edit", method: :get %></div>
+<div><%= button_to "Edit #{@franchisor.name}", "/franchisors/#{@franchisor.id}/edit", method: :get %>
+  <%= button_to "Delete #{@franchisor.name}", "/franchisors/#{@franchisor.id}", method: :delete %>
+</div>
