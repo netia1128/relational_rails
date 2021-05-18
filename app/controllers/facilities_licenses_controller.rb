@@ -23,4 +23,19 @@ class FacilitiesLicensesController < ApplicationController
 
   def new
   end
+
+  private
+
+  def b3facility_params
+    params.permit(:b3_street_number,
+      :b3_street_prefix,
+      :b3_street_name,
+      :b3_street_type,
+      :b3_unit_info,
+      :b3_city,
+      :b3_state,
+      :b3_zip,
+      :b3_square_footage,
+      :b3_has_co)
+  end
 end
