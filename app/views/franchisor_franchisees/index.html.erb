@@ -1,22 +1,22 @@
 <html>
 <head>
-<div style="text-align:right; font-size:large"><%= link_to "Franchisors Index", "/franchisors"%></div><br>
+  <div style="text-align:right; font-size:large"><%= link_to "Franchisors Index", "/franchisors"%></div><br>
 <div style="text-align:right; font-size:large"><%= link_to "Franchisees Index", "/franchisees"%></div>
 
-<h1><%= @franchisor.name %></h1>
+  <h1><%= @franchisor.name %></h1>
 </head>
 
-<body>
-<div style="font-size:large"><%= link_to "Create Franchisee", "/franchisors/#{@franchisor.id}/franchisees/new" %></div><br>
-<div style="font-size:large"> <%= link_to "Sort Alphabetical", "/franchisors/#{@franchisor.id}/franchisees?sort_alphabetical=true" %></div><br>
+<body style="font-size:20px">
+  <div style="font-size:large"><%= link_to "Create Franchisee", "/franchisors/#{@franchisor.id}/franchisees/new" %></div><br>
+  <div style="font-size:large"> <%= link_to "Sort Alphabetical", "/franchisors/#{@franchisor.id}/franchisees?sort_alphabetical=true" %></div><br>
 
-<div style="font-size:large">
-  <%= form_with url: "/franchisors/#{@franchisor.id}/franchisees", method: :get, local: true do |form| %>
-    <%= form.label :annual_sales_filter, "Filter by annual sales higher than:" %>
-    <%= form.number_field :annual_sales_filter %>
-    <%= form.submit "Filter" %>
-  <% end %>
-</div><br>
+  <div style="font-size:large">
+    <%= form_with url: "/franchisors/#{@franchisor.id}/franchisees", method: :get, local: true do |form| %>
+      <%= form.label :annual_sales_filter, "Filter by annual sales higher than:" %>
+      <%= form.number_field :annual_sales_filter %>
+      <%= form.submit "Filter" %>
+    <% end %>
+  </div><br>
 
 <table>
   <tr>
