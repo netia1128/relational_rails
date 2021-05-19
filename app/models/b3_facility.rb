@@ -26,7 +26,8 @@ class B3Facility < ApplicationRecord
         elsif !params[:partial_address_filter].nil? && params[:partial_address_filter] != ''
             filter_by_partial_address(params[:partial_address_filter])
         else
-            B3Facility.all.order(id: :desc)
+            # B3Facility.all.order(id: :desc)
+            order(id: :desc)
         end
     end
 
