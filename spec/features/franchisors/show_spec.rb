@@ -18,6 +18,9 @@ RSpec.describe 'Franchisors show page' do
     expect(page).to have_content(@cfa.hq_state)
     expect(page).to have_content(@cfa.quick_service)
     expect(page).to have_content(@cfa.franchisee_cost)
+    expect(page).to have_content(@cfa.count_franchisees)
+    expect(page).to have_content(@cfa.created_at.strftime('%Y-%m-%d'))
+    expect(page).to have_content(@cfa.updated_at.strftime('%Y-%m-%d'))
   end
 
   it 'shows a specific franchisor and its attributes' do
@@ -28,12 +31,9 @@ RSpec.describe 'Franchisors show page' do
     expect(page).to have_content(@applebees.hq_state)
     expect(page).to have_content(@applebees.quick_service)
     expect(page).to have_content(@applebees.franchisee_cost)
-  end
-
-  it 'shows the number of franchisees of the franchisor' do
-    visit "/franchisors/#{@cfa.id}"
-
-    expect(page).to have_content(@cfa.franchisees.count)
+    expect(page).to have_content(@applebees.count_franchisees)
+    expect(page).to have_content(@applebees.created_at.strftime('%Y-%m-%d'))
+    expect(page).to have_content(@applebees.updated_at.strftime('%Y-%m-%d'))
   end
 
   it 'links to franchisees index page' do
