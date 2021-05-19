@@ -26,9 +26,9 @@
       <td><%= franchisee.city %></td>
       <td><%= franchisee.state %></td>
       <td><%= franchisee.independent %></td>
-      <td><%= franchisee.annual_sales %></td>
-      <td><%= franchisee.initial_fee %></td>
-      <td><%= franchisee.pct_fee %></td>
+      <td>$<%= franchisee.annual_sales %></td>
+      <td>$<%= franchisee.initial_fee %></td>
+      <td><%= (franchisee.convert_number).round(2) %>%</td>
       <td><%= franchisee.created_at.strftime('%Y-%m-%d') %></td>
       <td><%= franchisee.updated_at.strftime('%Y-%m-%d') %></td>
       <td><%= button_to "Update #{franchisee.name}", "/franchisees/#{franchisee.id}/edit", method: :get %></td>

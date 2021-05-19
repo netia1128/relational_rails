@@ -34,13 +34,13 @@
   </tr>
   <% @franchisees.each do |franchisee| %>
   <tr>
-    <td><%= franchisee.name %></td>
+    <td><%= link_to franchisee.name, "/franchisees/#{franchisee.id}" %></td>
     <td><%= franchisee.city %></td>
     <td><%= franchisee.state %></td>
     <td><%= franchisee.independent %></td>
-    <td><%= franchisee.annual_sales %></td>
-    <td><%= franchisee.initial_fee %></td>
-    <td><%= franchisee.pct_fee %></td>
+    <td>$<%= franchisee.annual_sales %></td>
+    <td>$<%= franchisee.initial_fee %></td>
+    <td><%= (franchisee.convert_number).round(2) %>%</td>
     <td><%= franchisee.created_at.strftime('%Y-%m-%d') %></td>
     <td><%= franchisee.updated_at.strftime('%Y-%m-%d') %></td>
     <td><%= link_to "Update #{franchisee.name}", "/franchisees/#{franchisee.id}/edit", method: :get, id: "update_#{franchisee.id}" %></td>
