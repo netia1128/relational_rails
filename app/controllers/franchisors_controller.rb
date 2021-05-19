@@ -7,11 +7,6 @@ class FranchisorsController < ApplicationController
     @franchisor = Franchisor.find(params[:id])
   end
 
-  def number_of_franchisees
-    @franchisor = Franchisor.find(params[:id])
-    @franchisor.count_franchisees
-  end
-
   def new
   end
 
