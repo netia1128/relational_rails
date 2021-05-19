@@ -15,9 +15,19 @@ class B3Facility < ApplicationRecord
             b3_zip
         ]
 
-        arr_to_join = arr.find_all do |address_piece|
-            address_piece != '' && address_piece != nil
+        arr.find_all do |address_piece|
+            address_piece != '' && address_piece != nil && address_piece != ' '
         end.join(' ').upcase
+    end
+
+    def self.filter_and_sort(params)
+        if !params[:exact_address_filter].nil? && params[:exact_address_filter] != ''
+            filter_by_exact_address(params[:exact_address_filter])
+        elsif !params[:partial_address_filter].nil? && params[:partial_address_filter] != ''
+            filter_by_partial_address(params[:partial_address_filter])
+        else
+            B3Facility.all.order(id: :desc)
+        end
     end
 
     def filtered_b1_permits(plant_count_filter, order_by = "id")
@@ -29,5 +39,23 @@ class B3Facility < ApplicationRecord
 
     def related_b1_permit_count
         self.B1Permits.count
+    end
+
+    private
+
+    def self.filter_by_exact_address(exact_address_filter)
+    #because full_address is a method, how can i do this in AR with where?
+      b3facilities = B3Facility.all
+      b3facilities.find_all do |facility|
+        facility.full_address == exact_address_filter.upcase
+      end
+    end
+
+    def self.filter_by_partial_address(partial_address_filter)
+    #because full_address is a method, how can i do this in AR with where?
+      b3facilities = B3Facility.all
+      b3facilities.find_all do |facility|
+        facility.full_address.include? partial_address_filter.upcase
+      end
     end
 end

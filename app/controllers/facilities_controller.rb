@@ -19,7 +19,10 @@ class FacilitiesController < ApplicationController
   end
 
   def index
-    @b3facilities = B3Facility.sort_by_id
+    @b3facilities = B3Facility.filter_and_sort(params)
+    # @b3facilities = B3Facility.sort_by_id
+    # @b3facilities = @b3_facilities.filtered_by_partial_address(params[:partial_address_filter], params[:order_by])
+    # @b3facilities = @b3_facilities.filtered_by_exact_address(params[:exact_address_filter], params[:order_by])
   end
 
   def new
@@ -27,7 +30,6 @@ class FacilitiesController < ApplicationController
 
   def show
     @b3_facility = B3Facility.find(params[:id])
-    @related_b1_permit_count = @b3_facility.related_b1_permit_count
   end
 
   def update

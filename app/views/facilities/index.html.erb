@@ -7,7 +7,7 @@
   <input type='submit' value='Add New Facility' /><br>
 </form><br> %>
 
-<h3>Denver currently has <%= @b3facilities.count%> facilities:</h3>
+<h3>Showing <%= @b3facilities.count%> facilities:</h3>
 <table style='width:100%'>
   <tr>
     <th>Facility ID</th>
@@ -16,18 +16,23 @@
     <th>Facility Licenses</th>
     <th>Delete Facility</th>
   </tr>
-    <% @b3facilities.each do |facility| %>
-      <tr>
+  <% @b3facilities.each do |facility| %>
+    <tr>
       <td><%= facility.id %></td>
       <td><%= facility.full_address %></td>
-      <td><%= link_to "See Info", "/facilities/#{facility.id}" %>
-         /
-      <%= link_to "Edit Info", "/facilities/#{facility.id}/edit" %>
+      <td><%= link_to "See Info", "/facilities/#{facility.id}" %> / <%= link_to "Edit Info", "/facilities/#{facility.id}/edit" %></td>
       <td><%= link_to "See Licenses", "/facilities/#{facility.id}/licenses" %></td>
       <td><%= link_to "Delete Facility", "/facilities/#{facility.id}", method: :delete %>
-      </tr>
-      <% end %>
-
+    </tr>
+  <% end %>
 </table>
 
-
+<h3>Filter Preference:</h3>
+<%= form_with url: "/facilities", method: :get, local: true do |form| %>
+  <%= form.label :exact_address_filter, 'Filter by exact address:' %>
+  <%= form.text_field :exact_address_filter %>
+  <%= form.submit 'Filter' %><br><br>
+  <%= form.label :partial_address_filter, 'Filter by partial address:' %>
+  <%= form.text_field :partial_address_filter %>
+  <%= form.submit 'Filter' %>
+<% end %>

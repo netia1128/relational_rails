@@ -70,11 +70,23 @@ RSpec.describe B3Facility, type: :model do
         expect(B3Facility.sort_by_id.last).to eq(@facility1)
       end
     end
-
     describe '#count' do
       it 'counts the number of records in a table' do
 
         expect(B3Facility.all.count).to eq(2)
+      end
+    end
+    describe '#filter_and_sort' do
+      it 'determines how the class should be filtered and sorted' do
+        params1 = {}
+        params2 = {:exact_address_filter => '1311 E 27th ave denver co 80205'}
+        params3 = {:partial_address_filter => '201'}
+        expect(B3Facility.filter_and_sort(params1).first).to eq(@facility2)
+        expect(B3Facility.filter_and_sort(params1).last).to eq(@facility1)
+        expect(B3Facility.filter_and_sort(params2).count).to eq(1)
+        expect(B3Facility.filter_and_sort(params2).first).to eq(@facility1)
+        expect(B3Facility.filter_and_sort(params3).count).to eq(1)
+        expect(B3Facility.filter_and_sort(params3).first).to eq(@facility2)
       end
     end
   end

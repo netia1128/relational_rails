@@ -39,7 +39,7 @@ RSpec.describe 'facilities index page', type: :feature do
    )
   end
 
-  describe '#index page appearance' do
+  describe 'page appearance' do
     it 'can see all facility addresses' do
       visit '/facilities'
 
@@ -55,10 +55,11 @@ RSpec.describe 'facilities index page', type: :feature do
     it 'includes a count of the current number of facilities' do
       visit '/facilities'
 
-      expect(page).to have_content('Denver currently has 3 facilities:')
+      expect(page).to have_content('Showing 3 facilities:')
     end
   end
-  describe '#index page functionality' do
+
+  describe 'page functionality' do
     it 'allows me to add a new facility' do
       visit '/facilities'
       click_on 'Add New Facility'
@@ -83,6 +84,30 @@ RSpec.describe 'facilities index page', type: :feature do
 
       expect(current_path).to eq('/facilities')
       expect(page).to_not have_content('2930')
+    end
+    it 'allows you to filter facilities by an exact address match' do
+      visit '/facilities'
+
+      expect(page).to have_content("Filter by exact address")
+
+      page.fill_in 'exact_address_filter', with: '1311 e 27th ave denver co 80205'
+
+      click_button('Filter', match: :first)
+
+      expect(page).to_not have_content('2930')
+      expect(page).to have_content('1311')
+    end
+    it 'allows you to filter facilities by a partial address match' do
+      visit '/facilities'
+
+      expect(page).to have_content("Filter by partial address")
+
+      page.fill_in 'partial_address_filter', with: '201'
+
+      click_button('Filter', match: :first)
+
+      expect(page).to_not have_content('2930')
+      expect(page).to have_content('201')
     end
   end
 end

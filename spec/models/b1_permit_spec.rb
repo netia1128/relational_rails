@@ -50,11 +50,26 @@ RSpec.describe B1Permit, type: :model do
 
         expect(B1Permit.b1_permits_that_extract).to eq([@license1, @license3])
       end
-      
+
       it 'returns permits in id order by default' do
 
         expect(B1Permit.b1_permits_that_extract.first).to eq(@license1)
         expect(B1Permit.b1_permits_that_extract.last).to eq(@license3)
+      end
+    end
+  end
+  describe 'class methods' do
+    describe '#filter_and_sort' do
+      it 'determines how the class should be filtered and sorted' do
+        params1 = {}
+        params2 = {:exact_name_filter => "Panda's Pot Palace"}
+        params3 = {:partial_name_filter => 'Panda'}
+        expect(B1Permit.filter_and_sort(params1).first).to eq(@license1)
+        expect(B1Permit.filter_and_sort(params1).last).to eq(@license3)
+        expect(B1Permit.filter_and_sort(params2).count).to eq(1)
+        expect(B1Permit.filter_and_sort(params2).first).to eq(@license2)
+        expect(B1Permit.filter_and_sort(params3).count).to eq(1)
+        expect(B1Permit.filter_and_sort(params3).first).to eq(@license2)
       end
     end
   end

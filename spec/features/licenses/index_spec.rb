@@ -81,5 +81,29 @@ RSpec.describe 'facilities index page', type: :feature do
       expect(current_path).to eq('/licenses')
       expect(page).to_not have_content('201')
     end
+    it 'allows you to filter licenses by an exact business name match' do
+      visit '/licenses'
+
+      expect(page).to have_content("Filter by exact business name")
+
+      page.fill_in 'exact_name_filter', with: "Panda's Pot Palace"
+
+      click_button('Filter', match: :first)
+
+      expect(page).to_not have_content('Netia')
+      expect(page).to have_content('Panda')
+    end
+    it 'allows you to filter licenses by a partial business name match' do
+      visit '/licenses'
+
+      expect(page).to have_content("Filter by partial business name")
+
+      page.fill_in 'partial_name_filter', with: 'Panda'
+
+      click_button('Filter', match: :first)
+
+      expect(page).to_not have_content('Netia')
+      expect(page).to have_content('Panda')
+    end
   end
 end

@@ -26,6 +26,15 @@
       </tr>
       <% end %>
 </table>
-    <br><br>
+
+<h3>Filter Preference:</h3>
+<%= form_with url: "/licenses", method: :get, local: true do |form| %>
+  <%= form.label :exact_name_filter, 'Filter by exact business name:' %>
+  <%= form.text_field :exact_name_filter %>
+  <%= form.submit 'Filter' %><br><br>
+  <%= form.label :partial_name_filter, 'Filter by partial business name:' %>
+  <%= form.text_field :partial_name_filter %>
+  <%= form.submit 'Filter' %>
+<% end %>
 
 
