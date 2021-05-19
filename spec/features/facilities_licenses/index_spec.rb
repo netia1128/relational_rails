@@ -111,5 +111,16 @@ RSpec.describe 'facilities licenses index page', type: :feature do
 
       expect(page).to_not have_content("Netia's Weed House")
     end
+    it 'has links to delete each license' do
+      visit "/facilities/#{@facility1.id}/licenses"
+
+      expect(page).to have_content("Delete License")
+
+      click_link('Delete License', match: :first)
+
+      expect(current_path).to eq('/licenses')
+      expect(page).to_not have_content('201')
+
+    end
   end
 end
