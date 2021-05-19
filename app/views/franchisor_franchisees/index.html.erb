@@ -1,24 +1,53 @@
-<div style="text-align:right"><%= link_to "Franchisors Index", "/franchisors"%></div>
-<br>
-<div style="text-align:right"><%= link_to "Franchisees Index", "/franchisees"%></div>
+<html>
+<head>
+<div style="text-align:right; font-size:large"><%= link_to "Franchisors Index", "/franchisors"%></div><br>
+<div style="text-align:right; font-size:large"><%= link_to "Franchisees Index", "/franchisees"%></div>
 
 <h1><%= @franchisor.name %></h1>
+</head>
 
-<div><%= link_to "Create Franchisee", "/franchisors/#{@franchisor.id}/franchisees/new" %></div>
-<br>
-<div> <%= link_to "Sort Alphabetical", "/franchisors/#{@franchisor.id}/franchisees?sort_alphabetical=true" %></div>
-<br>
-<div>
+<body>
+<div style="font-size:large"><%= link_to "Create Franchisee", "/franchisors/#{@franchisor.id}/franchisees/new" %></div><br>
+<div style="font-size:large"> <%= link_to "Sort Alphabetical", "/franchisors/#{@franchisor.id}/franchisees?sort_alphabetical=true" %></div><br>
+
+<div style="font-size:large">
   <%= form_with url: "/franchisors/#{@franchisor.id}/franchisees", method: :get, local: true do |form| %>
     <%= form.label :annual_sales_filter, "Filter by annual sales higher than:" %>
     <%= form.number_field :annual_sales_filter %>
     <%= form.submit "Filter" %>
   <% end %>
-</div>
-<br>
-<p>   Name                      City                      State                       Independent                     Annual Sales                      Initial Fee                     Percent Fee to HQ           Date Created:                                       Date Updated: </p>
-<% @franchisees.each do |franchisee| %>
-  <p> <%= franchisee.name %>    <%= franchisee.city %>    <%= franchisee.state %>     <%= franchisee.independent %>   <%= franchisee.annual_sales %>    <%= franchisee.initial_fee %>   <%= franchisee.pct_fee %>   <%= franchisee.created_at.strftime('%Y-%m-%d') %>   <%= franchisee.updated_at.strftime('%Y-%m-%d') %>
-  <%= link_to "Update #{franchisee.name}", "/franchisees/#{franchisee.id}/edit", method: :get, id: "update_#{franchisee.id}" %>
-  <%= link_to "Delete #{franchisee.name}", "/franchisees/#{franchisee.id}", method: :delete, id: "delete_#{franchisee.id}" %></p>
-<% end %>
+</div><br>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Independent?</th>
+    <th>Annual Sales</th>
+    <th>Initial Fee to Franchisor</th>
+    <th>Annual Percent Fee to Franchisor</th>
+    <th>Date Created</th>
+    <th>Date Updated</th>
+    <th>Update</th>
+    <th>Delete</th>
+  </tr>
+  <% @franchisees.each do |franchisee| %>
+  <tr>
+    <td><%= franchisee.name %></td>
+    <td><%= franchisee.city %></td>
+    <td><%= franchisee.state %></td>
+    <td><%= franchisee.independent %></td>
+    <td><%= franchisee.annual_sales %></td>
+    <td><%= franchisee.initial_fee %></td>
+    <td><%= franchisee.pct_fee %></td>
+    <td><%= franchisee.created_at.strftime('%Y-%m-%d') %></td>
+    <td><%= franchisee.updated_at.strftime('%Y-%m-%d') %></td>
+    <td><%= link_to "Update #{franchisee.name}", "/franchisees/#{franchisee.id}/edit", method: :get, id: "update_#{franchisee.id}" %></td>
+    <td><%= link_to "Delete #{franchisee.name}", "/franchisees/#{franchisee.id}", method: :delete, id: "delete_#{franchisee.id}" %></td>
+  </tr>
+  <% end %>
+</table>
+
+</body>
+</html>

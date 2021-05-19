@@ -1,21 +1,23 @@
-<div style="text-align:right"><%= link_to "Franchisors Index", "/franchisors"%></div>
-<br>
-<div style="text-align:right"><%= link_to "Franchisees Index", "/franchisees"%></div>
+<html>
+<head>
+  <div style="text-align:right; font-size:large"><%= link_to "Franchisors Index", "/franchisors"%></div><br>
+  <div style="text-align:right; font-size:large"><%= link_to "Franchisees Index", "/franchisees"%></div>
+  
+  <h1><%= @franchisor.name %></h1>
+</head>
 
-<h1><%= @franchisor.name %></h1>
-<br>
-<p> <%= link_to "List of Franchisees", "/franchisors/#{@franchisor.id}/franchisees" %> </p>
-<br>
-<div>
-  <p>HQ City:                     <%= @franchisor.hq_city %> </p>
-  <p>HQ State:                    <%= @franchisor.hq_state %> </p>
-  <p>Quick Service Restaurant?    <%= @franchisor.quick_service %> </p>
-  <p>Franchisee Cost:             <%= @franchisor.franchisee_cost %> </p>
-  <p>Number of Franchisees:       <%= @franchisor.franchisees.count %> </p>
-  <p>Date Created at in Database: <%= @franchisor.created_at.strftime('%Y-%m-%d') %> </p>
-  <p>Date Updated at in Database: <%= @franchisor.updated_at.strftime('%Y-%m-%d') %> </p>
-</div>
-<br>
-<div><%= button_to "Edit #{@franchisor.name}", "/franchisors/#{@franchisor.id}/edit", method: :get %>
-  <%= button_to "Delete #{@franchisor.name}", "/franchisors/#{@franchisor.id}", method: :delete %>
-</div>
+<body>
+<div style="font-size:large"> <%= link_to "List of Franchisees", "/franchisors/#{@franchisor.id}/franchisees" %> </div><br>
+<table>
+    <tr><td>HQ City:</td><td><%= @franchisor.hq_city %></td></tr>
+    <tr><td>HQ State:</td><td><%= @franchisor.hq_state %></td></tr>
+    <tr><td>Quick Service Restaurant?</td><td><%= @franchisor.quick_service %></td></tr>
+    <tr><td>Franchisee Cost:</td><td><%= @franchisor.franchisee_cost %></td></tr>
+    <tr><td>Number of Franchisees:</td><td><%= @franchisor.franchisees.count %></td></tr>
+    <tr><td>Date Created at in Database:</td><td><%= @franchisor.created_at.strftime('%Y-%m-%d') %></td></tr>
+    <tr><td>Date Updated at in Database:</td><td><%= @franchisor.updated_at.strftime('%Y-%m-%d') %></td></tr>
+</table><br>
+  <div><%= button_to "Edit #{@franchisor.name}", "/franchisors/#{@franchisor.id}/edit", method: :get %></div><br>
+  <div><%= button_to "Delete #{@franchisor.name}", "/franchisors/#{@franchisor.id}", method: :delete %></div>
+</body>
+</html>

@@ -1,13 +1,29 @@
-<div style="text-align:right"><%= link_to "Franchisees Index", "/franchisees"%></div>
+<html>
+<head>
+<div style="text-align:right; font-size:large"><%= link_to "Franchisees Index", "/franchisees" %></div>
 
 <h1>Franchisors</h1>
+</head>
 
-<div><% @franchisors.each do |franchisor| %></div>
-  <p><%= franchisor.name %>
-    <%= franchisor.created_at %>
-    <%= button_to "Update #{franchisor.name}", "/franchisors/#{franchisor.id}/edit", method: :get %></p>
-    <%= button_to "Delete #{franchisor.name}", "/franchisors/#{franchisor.id}", method: :delete %></p>
-<div><% end %></div>
+<body>
+<div><%= link_to "New Franchisor", '/franchisors/new' %></div>
 <br>
 
-<div><%= link_to "New Franchisor", '/franchisors/new' %></div>
+<table>
+  <tr>
+    <th>Franchisor</th>
+    <th>Created At</th>
+    <th>Update</th>
+    <th>Delete</th>
+  </tr>
+  <% @franchisors.each do |franchisor| %>
+  <tr>
+    <td><%= franchisor.name %></td>
+    <td><%= franchisor.created_at %></td>
+    <td><%= button_to "Update #{franchisor.name}", "/franchisors/#{franchisor.id}/edit", method: :get %></td>
+    <td><%= button_to "Delete #{franchisor.name}", "/franchisors/#{franchisor.id}", method: :delete %></td>
+  </tr>
+  <% end %>
+</table>
+</body>
+</html>
