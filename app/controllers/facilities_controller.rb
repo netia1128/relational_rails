@@ -19,10 +19,13 @@ class FacilitiesController < ApplicationController
   end
 
   def index
-    @b3facilities = B3Facility.filter_and_sort(params)
-    # @b3facilities = B3Facility.sort_by_id
-    # @b3facilities = @b3_facilities.filtered_by_partial_address(params[:partial_address_filter], params[:order_by])
-    # @b3facilities = @b3_facilities.filtered_by_exact_address(params[:exact_address_filter], params[:order_by])
+    @b3facilities = if !params[:exact_address_filter].nil? && params[:exact_address_filter] != ''
+      B3Facility.filter_by_exact_address(params[:exact_address_filter])
+    elsif !params[:partial_address_filter].nil? && params[:partial_address_filter] != ''
+      B3Facility.filter_by_partial_address(params[:partial_address_filter])
+    else
+      B3Facility.default_sort
+    end
   end
 
   def new
