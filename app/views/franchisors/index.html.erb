@@ -13,15 +13,15 @@
   <tr>
     <th>Franchisor</th>
     <th>Created At</th>
-    <th>Showpage</th>
+    <th>Link to Franchisees List</th>
     <th>Update</th>
     <th>Delete</th>
   </tr>
   <% @franchisors.each do |franchisor| %>
   <tr>
-    <td><%= franchisor.name %></td>
+    <td><%= link_to franchisor.name, "/franchisors/#{franchisor.id}" %></td>
     <td><%= franchisor.created_at %></td>
-    <td><%= link_to "List of Franchisees", "/franchisors/#{franchisor.id}/franchisees" %></td>
+    <td><%= link_to "#{franchisor.name}'s Franchisees", "/franchisors/#{franchisor.id}/franchisees" %></td>
     <td><%= button_to "Update #{franchisor.name}", "/franchisors/#{franchisor.id}/edit", method: :get %></td>
     <td><%= button_to "Delete #{franchisor.name}", "/franchisors/#{franchisor.id}", method: :delete %></td>
   </tr>
