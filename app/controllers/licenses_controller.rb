@@ -14,7 +14,13 @@ class LicensesController < ApplicationController
   end
 
   def index
-    @b1permits = B1Permit.filter_and_sort(params)
+    @b1permits = if !params[:exact_name_filter].nil? && params[:exact_name_filter] != ''
+      B1Permit.exact_name_filter(params[:exact_name_filter])
+    elsif !params[:partial_name_filter].nil? && params[:partial_name_filter] != ''
+      B1Permit.partial_name_filter(params[:partial_name_filter])
+    else
+      B1Permit.b1_permits_that_extract
+  end
   end
 
   def show

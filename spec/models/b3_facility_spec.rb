@@ -76,17 +76,23 @@ RSpec.describe B3Facility, type: :model do
         expect(B3Facility.all.count).to eq(2)
       end
     end
-    describe '#filter_and_sort' do
-      it 'determines how the class should be filtered and sorted' do
-        params1 = {}
-        params2 = {:exact_address_filter => '1311 E 27th ave denver co 80205'}
-        params3 = {:partial_address_filter => '201'}
-        expect(B3Facility.filter_and_sort(params1).first).to eq(@facility2)
-        expect(B3Facility.filter_and_sort(params1).last).to eq(@facility1)
-        expect(B3Facility.filter_and_sort(params2).count).to eq(1)
-        expect(B3Facility.filter_and_sort(params2).first).to eq(@facility1)
-        expect(B3Facility.filter_and_sort(params3).count).to eq(1)
-        expect(B3Facility.filter_and_sort(params3).first).to eq(@facility2)
+    describe '#default_sort' do
+      it 'sorts the facilities by ID' do
+        expect(B3Facility.default_sort).to eq([@facility2, @facility1])
+      end
+    end
+    describe '#filter_by_exact_address' do
+      it 'sorts the facilities by ID' do
+        params2 = '1311 E 27th ave denver co 80205'
+        expect(B3Facility.filter_by_exact_address(params2).count).to eq(1)
+        expect(B3Facility.filter_by_exact_address(params2).first).to eq(@facility1)
+      end
+    end
+    describe '#default_sort' do
+      it 'filter_by_partial_address' do
+        params3 = '201'
+        expect(B3Facility.filter_by_partial_address(params3).count).to eq(1)
+        expect(B3Facility.filter_by_partial_address(params3).first).to eq(@facility2)
       end
     end
   end
