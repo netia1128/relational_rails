@@ -29,5 +29,11 @@ RSpec.describe Franchisee, type: :model do
         expect(@cfa.franchisees.sort_alphabetically).to eq([@cfa_lakewood, @cfa_littleton, @cfa_tacoma])
       end
     end
+
+    describe '#filter_annual_sales(sales)' do
+      it 'finds all that is filtered by annual sales input' do
+        expect(@cfa.franchisees.filter_annual_sales(450000.0)).to eq([@cfa_tacoma])
+      end
+    end
   end
 end

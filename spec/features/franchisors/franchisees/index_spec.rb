@@ -49,4 +49,19 @@ RSpec.describe 'Franchisor franchisees index' do
 
     expect(current_path).to eq("/franchisees/#{@cfa_lakewood.id}/edit")
   end
+
+  it 'can filter franchisees by annual sales' do
+    visit "/franchisors/#{@cfa.id}/franchisees"
+    expect(page.find('form')).to have_content("Filter by annual sales higher than:")
+    expect(page).to have_content("CFA Lakewood")
+    expect(page).to have_content("CFA Littleton")
+
+    page.fill_in('annual_sales_filter', with: 450000.0)
+    click_button('Filter')
+
+    expect(page).to_not have_content("CFA Lakeood")
+    expect(page).to_not have_content("CFA Littleton")
+    expect(page).to have_content("CFA Tacoma")
+    expect(page).to have_content("CFA Arvada")
+  end
 end

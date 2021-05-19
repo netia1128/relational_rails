@@ -15,7 +15,7 @@ RSpec.describe 'Destroy Franchisee' do
 
   it 'can delete the franchisee from show page' do
     visit "/franchisees/#{@applebees_tacoma.id}"
-    click_button "Delete #{@applebees_tacoma.name}"
+    click_on "Delete #{@applebees_tacoma.name}"
 
     expect(current_path).to eq("/franchisees")
     expect(page).to_not have_content('Applebees Tacoma')
@@ -23,7 +23,7 @@ RSpec.describe 'Destroy Franchisee' do
 
   it 'can delete the franchisee from index page' do
     visit "/franchisees"
-    click_button "Delete #{@applebees_tacoma.name}"
+    click_on "Delete #{@applebees_tacoma.name}"
 
     expect(current_path).to eq("/franchisees")
     expect(page).to_not have_content('Applebees Tacoma')

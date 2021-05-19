@@ -1,10 +1,15 @@
 class FranchisorFranchiseesController < ApplicationController
   def index
     @franchisor = Franchisor.find(params[:franchisor_id])
+
     if params[:sort_alphabetical] == "true"
       @franchisees = @franchisor.franchisees.sort_alphabetically
     else
       @franchisees = @franchisor.franchisees
+    end
+
+    if params[:annual_sales_filter]
+      @franchisees = @franchisor.franchisees.filter_annual_sales(params[:annual_sales_filter].to_f)
     end
   end
 
