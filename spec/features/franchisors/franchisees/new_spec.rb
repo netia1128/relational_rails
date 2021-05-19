@@ -35,7 +35,7 @@ RSpec.describe 'New Franchisee Creation' do
     expect(page).to have_content("false")
     expect(page).to have_content(468000.0)
     expect(page).to have_content(10000.0)
-    expect(page).to have_content(0.12)
+    expect(page).to have_content(12.0)
   end
 
   it 'can create a new franchisee that is independent' do

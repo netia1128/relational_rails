@@ -23,6 +23,12 @@ RSpec.describe Franchisee, type: :model do
       end
     end
 
+    describe '@convert_number' do
+      it 'converts number to percent' do
+        expect(@applebees_tacoma.convert_number).to eq(10.0)
+      end
+    end
+
     describe '#sort_alphabetically' do
       it 'alphabetizes the franchisor franchisees' do
         expect(@cfa.franchisees).to eq([@cfa_littleton, @cfa_lakewood, @cfa_tacoma])

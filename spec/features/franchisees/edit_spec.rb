@@ -21,7 +21,7 @@ RSpec.describe 'The Franchisee Edit' do
     expect(page).to have_content("true")
     expect(page).to have_content(397000.0)
     expect(page).to have_content(42000.0)
-    expect(page).to have_content(0.07 * 100)
+    expect(page).to have_content(7.0)
 
     click_button("Update #{@applebees_lakewood.name}")
     fill_in('Name', with: 'Applebees Nashville')
@@ -40,6 +40,6 @@ RSpec.describe 'The Franchisee Edit' do
     expect(page).to have_content('false')
     expect(page).to have_content(339000.0)
     expect(page).to have_content(30000.0)
-    expect(page).to have_content(0.09 * 100)
+    expect(page).to have_content(9.0)
   end
 end
