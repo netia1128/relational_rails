@@ -1,6 +1,10 @@
 class Franchisee < ApplicationRecord
   belongs_to :franchisor
 
+  def convert_number
+    self.pct_fee * 100
+  end
+
   def self.find_independent
     self.all.find_all do |franchisee|
       franchisee.independent == true

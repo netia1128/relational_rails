@@ -7,15 +7,13 @@
 </head>
 
 <body style="font-size:20px">
-  <table>
-    <%= form_with url: "/franchisors/#{@franchisor.id}", method: :patch, local: true do |form| %>
-      <tr><td><%= form.label :name, "Name:" %></td><td><%= form.text_field :name %></td></tr>
-      <tr><td><%= form.label :hq_city, "HQ City:" %></td><td><%= form.text_field :hq_city %></td></tr>
-      <tr><td><%= form.label :hq_state, "HQ State:" %></td><td><%= form.text_field :hq_state %></td></tr>
-      <tr><td><%= form.label :quick_service, "Quick Service Restaurant?" %></td><td><%= form.check_box :quick_service %></td></tr>
-      <tr><td><%= form.label :franchisee_cost, "Franchisee Cost:" %></td><td><%= form.number_field :franchisee_cost %></td></tr>
-  </table><br>
-      <div><%= form.submit "Update #{@franchisor.name}" %>
-    <% end %></div>
+  <%= form_with url: "/franchisors/#{@franchisor.id}", method: :patch, local: true do |form| %>
+    <div><%= form.label :name, "Name:" %> <%= form.text_field :name, value: @franchisor.name %></div>
+    <div><%= form.label :hq_city, "HQ City:" %> <%= form.text_field :hq_city, value: @franchisor.hq_city %></div>
+    <div><%= form.label :hq_state, "HQ State:" %> <%= form.text_field :hq_state, value: @franchisor.hq_state %></div>
+    <div><%= form.label :quick_service, "Quick Service Restaurant?" %> <%= form.check_box :quick_service %></div>
+    <div><%= form.label :franchisee_cost, "Franchisee Cost:" %> <%= form.number_field :franchisee_cost, value: @franchisor.franchisee_cost %></div><br>
+    <div><%= form.submit "Update #{@franchisor.name}" %></div>
+  <% end %>
 </body>
 </html>

@@ -13,7 +13,7 @@
     <tr><td>Independent?</td><td><%= @franchisee.independent %></td></tr>
     <tr><td>Annual Sales:</td><td>$<%= @franchisee.annual_sales %></td></tr>
     <tr><td>Initial Fee to Franchisor:</td><td>$<%= @franchisee.initial_fee %></td></tr>
-    <tr><td>Annual Percent Fee to Franchisor:</td><td><%= @franchisee.pct_fee * 100 %>%</td></tr>
+    <tr><td>Annual Percent Fee to Franchisor:</td><td><%= (@franchisee.pct_fee * 100).round(2) %>%</td></tr>
     <tr><td>Franchisor Name:</td><td><%= @franchisee.franchisor.name %></td></tr>
     <tr><td>Date Created at in Database:</td><td><%= @franchisee.created_at.strftime('%Y-%m-%d') %></td></tr>
     <tr><td>Date Updated at in Database:</td><td><%= @franchisee.updated_at.strftime('%Y-%m-%d') %></td></tr>

@@ -19,7 +19,7 @@ RSpec.describe 'The Franchisor Edit' do
     expect(page).to have_content("Applebees")
     expect(page).to have_content("Glendale")
     expect(page).to have_content("California")
-    expect(page).to have_content("Quick Service Restaurant? false")
+    expect(page).to have_content("false")
     expect(page).to have_content(30000.0)
 
     click_button("Edit #{@applebees.name}")
@@ -28,13 +28,13 @@ RSpec.describe 'The Franchisor Edit' do
     fill_in('HQ State:', with: 'Colorado')
     page.check('Quick Service Restaurant?')
     fill_in('Franchisee Cost:', with: 27000.0)
-    click_button("Update #{@applebees.name}")
+    click_on("Update #{@applebees.name}")
 
     expect(current_path).to eq("/franchisors/#{@applebees.id}")
     expect(page).to have_content('Applebees1')
     expect(page).to have_content('Denver')
     expect(page).to have_content('Colorado')
-    expect(page).to have_content('Quick Service Restaurant? true')
+    expect(page).to have_content('true')
     expect(page).to have_content(27000.0)
   end
 end
