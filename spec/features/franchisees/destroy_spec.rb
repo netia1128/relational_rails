@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Destroy Franchisor' do
+RSpec.describe 'Destroy Franchisee' do
   before :each do
     @cfa = Franchisor.create!(name: "CFA", hq_city: "Atlanta", hq_state: "Georgia", quick_service: true, franchisee_cost: 10000.0)
     @cfa_littleton = @cfa.franchisees.create!(name: "CFA Littleton", city: "Littleton", state: "Colorado", independent: false, annual_sales: 425000.0, initial_fee: 10000.0, pct_fee: 0.12)
@@ -15,6 +15,14 @@ RSpec.describe 'Destroy Franchisor' do
 
   it 'can delete the franchisee from show page' do
     visit "/franchisees/#{@applebees_tacoma.id}"
+    click_button "Delete #{@applebees_tacoma.name}"
+
+    expect(current_path).to eq("/franchisees")
+    expect(page).to_not have_content('Applebees Tacoma')
+  end
+
+  it 'can delete the franchisee from index page' do
+    visit "/franchisees"
     click_button "Delete #{@applebees_tacoma.name}"
 
     expect(current_path).to eq("/franchisees")
