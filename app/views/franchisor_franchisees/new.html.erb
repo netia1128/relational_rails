@@ -7,17 +7,15 @@
 </head>
 
 <body style="font-size:20px">
-  <table>
     <%= form_with url: "/franchisors/#{@franchisor.id}/franchisees", method: :post, local: true do |form| %>
-      <tr><td><%= form.label :name, "Name" %></td><td><%= form.text_field :name %></td></tr>
-      <tr><td><%= form.label :city, "City" %></td><td><%= form.text_field :city %></td></tr>
-      <tr><td><%= form.label :state, "State" %></td><td><%= form.text_field :state %></td></tr>
-      <tr><td><%= form.label :independent, "Independent?" %></td><td><%= form.check_box :independent %></td></tr>
-      <tr><td><%= form.label :annual_sales, "Annual Sales" %></td><td><%= form.number_field :annual_sales %></td></tr>
-      <tr><td><%= form.label :initial_fee, "Initial Fee to HQ" %></td><td><%= form.number_field :initial_fee %></td></tr>
-      <tr><td><%= form.label :pct_fee, "Annual Percent Fee to HQ" %></td><td><%= form.number_field :pct_fee %></td></tr>
-  </table><br>
-      <div><%= form.submit "Create Franchisee" %>
+      <div><%= form.label :name, "Name" %> <%= form.text_field :name %></div>
+      <div><%= form.label :city, "City" %> <%= form.text_field :city %></div>
+      <div><%= form.label :state, "State" %> <%= form.text_field :state %></div>
+      <div><%= form.label :independent, "Independent?" %> <%= form.check_box :independent %></div>
+      <div><%= form.label :annual_sales, "Annual Sales" %> <%= form.number_field :annual_sales %></div>
+      <div><%= form.label :initial_fee, "Initial Fee to HQ" %> <%= form.number_field :initial_fee %></div>
+      <div><%= form.label :pct_fee, "Annual Percent Fee to HQ" %> <%= form.number_field :pct_fee %></div><br>
+      <div><%= form.submit "Create Franchisee" %></div>
     <% end %>
   </body>
   </html>
