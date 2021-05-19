@@ -14,6 +14,7 @@
     <th>License Status</th>
     <th>License Expiration</th>
     <th>More Details</th>
+    <th>Delete License</th>
   </tr>
   <% @b1permits.each do |permit| %>
     <tr><td><%= permit.id%></td>
@@ -24,6 +25,7 @@
     <td><a href="/licenses/<%= permit.id %>">See More Info</a>
     /
     <%= link_to "Edit Info", "/licenses/#{permit.id}/edit" %>
+<td><%= link_to "Delete License", "/licenses/#{permit.id}", method: :delete %>
     </tr>
   <% end %>
   </table><br>
