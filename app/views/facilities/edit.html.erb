@@ -24,11 +24,11 @@
     <%= form.text_field :b3_square_footage, value: @b3_facility.b3_square_footage %><br><br>
     <%= form.label :b3_has_co, 'Has Certificate of Occupancy:' %><br>
     <% if @b3_facility.b3_has_co == true %>
-    <%= form.radio_button :b3_has_co, true, :checked => true %>Yes
-    <%= form.radio_button :b3_has_co, false %>No<br><br>
+      <%= form.radio_button :b3_has_co, true, :checked => true %>Yes
+      <%= form.radio_button :b3_has_co, false %>No<br><br>
     <% else %>
-    <%= form.radio_button :b3_has_co, true %>Yes
-    <%= form.radio_button :b3_has_co, false, :checked => true %>No<br><br>
+      <%= form.radio_button :b3_has_co, true %>Yes
+      <%= form.radio_button :b3_has_co, false, :checked => true %>No<br><br>
     <% end %>
     <%= form.submit 'Submit Edits' %>
   <% end %>
