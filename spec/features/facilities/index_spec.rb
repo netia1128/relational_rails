@@ -55,7 +55,7 @@ RSpec.describe 'facilities index page', type: :feature do
     it 'includes a count of the current number of facilities' do
       visit '/facilities'
 
-      expect(page).to have_content('Denver currently has 3 facilities:')
+      expect(page).to have_content('Showing 3 facilities:')
     end
   end
 
