@@ -52,4 +52,19 @@ RSpec.describe 'New Franchisee Creation' do
     click_button('Create Franchisee')
     expect(page).to have_content("true")
   end
+
+  it 'can identifies nil as 0' do
+    visit "franchisors/#{@cfa.id}/franchisees/new"
+
+    fill_in('Name', with: 'CFA Denver')
+    fill_in('City', with: 'Denver')
+    fill_in('State', with: 'Colorado')
+    check('Independent?')
+    fill_in('Annual Sales', with: 468000.0)
+    fill_in('Initial Fee to HQ', with: 10000)
+    fill_in('Annual Percent Fee to HQ', with: " ")
+
+    click_button('Create Franchisee')
+    expect(page).to have_content(0)
+  end
 end

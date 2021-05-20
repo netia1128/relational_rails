@@ -17,26 +17,33 @@ RSpec.describe Franchisee, type: :model do
       @applebees_steamboat = @applebees.franchisees.create!(name: "Applebees Steamboat", city: "Steamboat", state: "Colorado", independent: false, annual_sales: 336000.0, initial_fee: 30000.0, pct_fee: 0.09)
     end
 
-    describe '#independent?' do
+    describe '::independent?' do
       it 'only shows independent franchisees' do
         expect(Franchisee.find_independent).to eq([@applebees_lakewood, @applebees_nashville])
       end
     end
 
-    describe '@convert_number' do
+    describe '#convert_number' do
       it 'converts number to percent' do
         expect(@applebees_tacoma.convert_number).to eq(10.0)
       end
+
+      it 'conversts nil or null or spaces to 0' do
+        @applebees_fairplay = @applebees.franchisees.create!(name: "Applebees Fairplay", city: "Fairplay", state: "Colorado", independent: false, annual_sales: 336000.0, initial_fee: 30000.0, pct_fee: nil)
+        @applebees_durango = @applebees.franchisees.create!(name: "Applebees Durango", city: "Fairplay", state: "Colorado", independent: false, annual_sales: 336000.0, initial_fee: 30000.0, pct_fee: " ")
+        expect(@applebees_fairplay.convert_number).to eq(0)
+        expect(@applebees_durango.convert_number).to eq(0)
+      end
     end
 
-    describe '#sort_alphabetically' do
+    describe '::sort_alphabetically' do
       it 'alphabetizes the franchisor franchisees' do
         expect(@cfa.franchisees).to eq([@cfa_littleton, @cfa_lakewood, @cfa_tacoma])
         expect(@cfa.franchisees.sort_alphabetically).to eq([@cfa_lakewood, @cfa_littleton, @cfa_tacoma])
       end
     end
 
-    describe '#filter_annual_sales(sales)' do
+    describe '::filter_annual_sales(sales)' do
       it 'finds all that is filtered by annual sales input' do
         expect(@cfa.franchisees.filter_annual_sales(450000.0)).to eq([@cfa_tacoma])
       end

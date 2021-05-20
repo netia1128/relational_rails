@@ -2,7 +2,11 @@ class Franchisee < ApplicationRecord
   belongs_to :franchisor
 
   def convert_number
-    self.pct_fee * 100
+    if self.pct_fee.nil?
+      0
+    else
+      self.pct_fee * 100
+    end
   end
 
   def self.find_independent
