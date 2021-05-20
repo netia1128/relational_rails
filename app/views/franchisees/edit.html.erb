@@ -1,9 +1,6 @@
 <html>
 <head>
-  <div style="text-align:right; font-size:large"><%= link_to "Franchisors Index", "/franchisors"%></div><br>
-  <div style="text-align:right; font-size:large"><%= link_to "Franchisees Index", "/franchisees"%></div>
-
-<h1>Update <%= @franchisee.name %>'s Info</h1>
+  <h1>Update <%= @franchisee.name %>'s Info</h1>
 </head>
 
 <body style="font-size:20px">
@@ -11,7 +8,7 @@
     <div><%= form.label :name, "Name:" %> <%= form.text_field :name, value: @franchisee.name %></div>
     <div><%= form.label :city, "City:" %> <%= form.text_field :city, value: @franchisee.city %></div>
     <div><%= form.label :state, "State:" %> <%= form.text_field :state, value: @franchisee.state %></div>
-    <div><%= form.label :independent, "Independent?" %> <%= form.check_box :independent %></div>
+    <div><%= form.label :independent, "Independent?" %> <%= form.check_box :independent, checked: @franchisee.independent %></div>
     <div><%= form.label :annual_sales, "Annual Sales:" %> <%= form.number_field :annual_sales, value: @franchisee.annual_sales %></div>
     <div><%= form.label :initial_fee, "Initial Fee to Franchisor:" %> <%= form.number_field :initial_fee, value: @franchisee.initial_fee, :step => "0.01" %></div>
     <div><%= form.label :pct_fee, "Annual Percent Fee to Franchisor:" %> <%= form.number_field :pct_fee, value: @franchisee.pct_fee, :step => "0.01" %></div><br>
