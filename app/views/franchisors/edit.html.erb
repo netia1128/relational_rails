@@ -1,8 +1,5 @@
 <html>
 <head>
-  <div style="text-align:right; font-size:large"><%= link_to "Franchisors Index", "/franchisors"%></div><br>
-  <div style="text-align:right; font-size:large"><%= link_to "Franchisees Index", "/franchisees"%></div>
-
   <h1>Update <%= @franchisor.name %>'s Info</h1>
 </head>
 
@@ -11,7 +8,7 @@
     <div><%= form.label :name, "Name:" %> <%= form.text_field :name, value: @franchisor.name %></div>
     <div><%= form.label :hq_city, "HQ City:" %> <%= form.text_field :hq_city, value: @franchisor.hq_city %></div>
     <div><%= form.label :hq_state, "HQ State:" %> <%= form.text_field :hq_state, value: @franchisor.hq_state %></div>
-    <div><%= form.label :quick_service, "Quick Service Restaurant?" %> <%= form.check_box :quick_service %></div>
+    <div><%= form.label :quick_service, "Quick Service Restaurant?" %> <%= form.check_box :quick_service, checked: @franchisor.quick_service %></div>
     <div><%= form.label :franchisee_cost, "Franchisee Cost:" %> <%= form.number_field :franchisee_cost, value: @franchisor.franchisee_cost %></div><br>
     <div><%= form.submit "Update #{@franchisor.name}" %></div>
   <% end %>

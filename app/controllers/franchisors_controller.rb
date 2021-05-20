@@ -22,7 +22,6 @@ class FranchisorsController < ApplicationController
   def update
     @franchisor = Franchisor.find(params[:id])
     @franchisor.update(franchisor_params)
-    # binding pry
     redirect_to "/franchisors/#{@franchisor.id}"
   end
 
