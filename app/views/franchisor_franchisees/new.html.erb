@@ -11,7 +11,7 @@
       <div><%= form.label :independent, "Independent?" %> <%= form.check_box :independent %></div>
       <div><%= form.label :annual_sales, "Annual Sales" %> <%= form.number_field :annual_sales %></div>
       <div><%= form.label :initial_fee, "Initial Fee to HQ" %> <%= form.number_field :initial_fee, :step => "0.01" %></div>
-      <div><%= form.label :pct_fee, "Annual Percent Fee to HQ" %> <%= form.number_field :pct_fee, :step => "0.01" %></div><br>
+      <div><%= form.label :pct_fee, "Annual Percent Fee to HQ (enter between 0 and 1)" %> <%= form.number_field :pct_fee, :step => "0.01" %></div><br>
       <div><%= form.submit "Create Franchisee" %></div>
     <% end %>
   </body>

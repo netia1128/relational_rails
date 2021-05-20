@@ -30,7 +30,7 @@ RSpec.describe 'The Franchisee Edit' do
     uncheck('Independent?')
     fill_in('Annual Sales:', with: 339000.0)
     fill_in('Initial Fee to Franchisor:', with: 30000.0)
-    fill_in('Annual Percent Fee to Franchisor:', with: 0.09)
+    fill_in('Annual Percent Fee to Franchisor (enter between 0 and 1):', with: 0.09)
     click_on("Update #{@applebees_lakewood.name}")
 
     expect(current_path).to eq("/franchisees/#{@applebees_lakewood.id}")

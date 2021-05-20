@@ -24,7 +24,7 @@ RSpec.describe 'New Franchisee Creation' do
     uncheck('Independent?')
     fill_in('Annual Sales', with: 468000.0)
     fill_in('Initial Fee to HQ', with: 10000)
-    fill_in('Annual Percent Fee to HQ', with: 0.12)
+    fill_in('Annual Percent Fee to HQ (enter between 0 and 1)', with: 0.12)
 
     click_button('Create Franchisee')
 
@@ -47,7 +47,7 @@ RSpec.describe 'New Franchisee Creation' do
     check('Independent?')
     fill_in('Annual Sales', with: 468000.0)
     fill_in('Initial Fee to HQ', with: 10000)
-    fill_in('Annual Percent Fee to HQ', with: 0.12)
+    fill_in('Annual Percent Fee to HQ (enter between 0 and 1)', with: 0.12)
 
     click_button('Create Franchisee')
     expect(page).to have_content("true")
@@ -62,7 +62,7 @@ RSpec.describe 'New Franchisee Creation' do
     check('Independent?')
     fill_in('Annual Sales', with: 468000.0)
     fill_in('Initial Fee to HQ', with: 10000)
-    fill_in('Annual Percent Fee to HQ', with: " ")
+    fill_in('Annual Percent Fee to HQ (enter between 0 and 1)', with: " ")
 
     click_button('Create Franchisee')
     expect(page).to have_content(0)

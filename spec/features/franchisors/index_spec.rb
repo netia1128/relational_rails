@@ -25,7 +25,7 @@ RSpec.describe 'Franchisors name page' do
 
   it 'links to franchisees index page' do
     visit "/franchisors"
-    click_on "Franchisees Index"
+    click_on "Franchisees"
 
     expect(current_path).to eq("/franchisees")
   end
