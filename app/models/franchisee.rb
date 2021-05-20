@@ -6,9 +6,7 @@ class Franchisee < ApplicationRecord
   end
 
   def self.find_independent
-    self.all.find_all do |franchisee|
-      franchisee.independent == true
-    end
+    self.where('independent = true')
   end
 
   def self.sort_alphabetically
@@ -16,8 +14,6 @@ class Franchisee < ApplicationRecord
   end
 
   def self.filter_annual_sales(sales)
-    self.all.find_all do |franchisee|
-      franchisee.annual_sales > sales
-    end
+    self.where('annual_sales > ?', sales)
   end
 end
